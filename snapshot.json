@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-21T22:29:16.436Z",
+  "fetchedAt": "2026-03-21T22:29:48.922Z",
   "status": {
-    "raw": "[botctl] 状态: running\n96110 96069 SN   02:41:17 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-034758.log\n[botctl] 日志时间: 2026-03-22 06:28:33",
+    "raw": "[botctl] 状态: running\n96110 96069 SN   02:41:49 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-034758.log\n[botctl] 日志时间: 2026-03-22 06:28:33",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-034758.log",
@@ -10,12 +10,12 @@
       "pid": "96110",
       "ppid": "96069",
       "stat": "SN",
-      "etime": "02:41:17",
+      "etime": "02:41:49",
       "command": "node index.mjs auto"
     }
   },
   "health": {
-    "raw": "[Health] WARN\n[ok] process: 运行中 PID=96110\n[warn] signals: 暂无 signals.jsonl 记录\n[ok] trades: 最近交易日志 1 分钟前\n[ok] weather-cache: 缓存正常，条目=94，最近更新 5 分钟前",
+    "raw": "[Health] WARN\n[ok] process: 运行中 PID=96110\n[warn] signals: 暂无 signals.jsonl 记录\n[ok] trades: 最近交易日志 1 分钟前\n[ok] weather-cache: 缓存正常，条目=94，最近更新 6 分钟前",
     "level": "warn",
     "checks": [
       {
@@ -36,7 +36,7 @@
       {
         "level": "ok",
         "name": "weather-cache",
-        "message": "缓存正常，条目=94，最近更新 5 分钟前"
+        "message": "缓存正常，条目=94，最近更新 6 分钟前"
       }
     ]
   },
@@ -63,7 +63,7 @@
     }
   },
   "portfolio": {
-    "fetchedAt": "2026-03-21T22:29:16.433Z",
+    "fetchedAt": "2026-03-21T22:29:48.598Z",
     "balance": {
       "availableUSDC": 9.8827,
       "rawMinorUnits": "9882655"
@@ -202,7 +202,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-21T22:29:16.436Z",
+    "fetchedAt": "2026-03-21T22:29:48.922Z",
     "stats": {
       "total": 3,
       "open": 1,
