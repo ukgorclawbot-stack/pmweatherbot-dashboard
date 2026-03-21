@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-21T22:15:40.211Z",
+  "fetchedAt": "2026-03-21T22:16:13.514Z",
   "status": {
-    "raw": "[botctl] 状态: running\n96110 96069 SN   02:27:41 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-034758.log\n[botctl] 日志时间: 2026-03-22 06:13:56",
+    "raw": "[botctl] 状态: running\n96110 96069 SN   02:28:13 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-034758.log\n[botctl] 日志时间: 2026-03-22 06:13:56",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-034758.log",
@@ -10,7 +10,7 @@
       "pid": "96110",
       "ppid": "96069",
       "stat": "SN",
-      "etime": "02:27:41",
+      "etime": "02:28:13",
       "command": "node index.mjs auto"
     }
   },
@@ -63,7 +63,7 @@
     }
   },
   "portfolio": {
-    "fetchedAt": "2026-03-21T22:15:40.210Z",
+    "fetchedAt": "2026-03-21T22:16:13.511Z",
     "balance": {
       "availableUSDC": 9.8827,
       "rawMinorUnits": "9882655"
@@ -121,10 +121,10 @@
         "entryPrice": 0.18,
         "notional": 1.26,
         "costBasis": 1.26,
-        "currentPrice": 0.981,
-        "currentValue": 6.867,
-        "pnlAmount": 5.607,
-        "pnlRate": 4.45,
+        "currentPrice": 0.982,
+        "currentValue": 6.874,
+        "pnlAmount": 5.614,
+        "pnlRate": 4.4556,
         "status": "open",
         "openedAt": "03/22 03:58",
         "openedAtRaw": "2026-03-21T19:58:29.552Z",
@@ -160,14 +160,14 @@
     },
     "pnl": {
       "realizedPnl": 0,
-      "unrealizedPnl": 5.0692,
-      "totalPnl": 5.0692,
-      "pnlRate": 1.5034,
+      "unrealizedPnl": 5.0762,
+      "totalPnl": 5.0762,
+      "pnlRate": 1.5055,
       "deployedCapital": 3.3718,
-      "currentPositionValue": 8.441,
+      "currentPositionValue": 8.448,
       "openOrderValue": 1.116,
       "availableBalance": 9.8827,
-      "currentTotalValue": 18.3237,
+      "currentTotalValue": 18.3307,
       "baseBankroll": 20,
       "curve": [
         {
@@ -192,8 +192,8 @@
           "index": 3,
           "ts": "2026-03-21T19:58:29.552Z",
           "label": "Will the highest temperature in Atlanta be between 82-83°F on March 21?",
-          "pnlAmount": 5.0692,
-          "pnlRate": 1.5034,
+          "pnlAmount": 5.0762,
+          "pnlRate": 1.5055,
           "costBasis": 3.3718,
           "status": "open"
         }
@@ -202,7 +202,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-21T22:15:40.211Z",
+    "fetchedAt": "2026-03-21T22:16:13.514Z",
     "stats": {
       "total": 3,
       "open": 1,
@@ -265,8 +265,8 @@
         "statusLabel": "已到结算时点",
         "statusLevel": "warn",
         "orderRef": "0x074a0455253b9c826c7306129b664ba0c547f5c25ac24c9cd30e655c79f97a20",
-        "pnlAmount": 5.607,
-        "pnlRate": 4.45,
+        "pnlAmount": 5.614,
+        "pnlRate": 4.4556,
         "settlementTime": "03/21 20:00"
       }
     ]
