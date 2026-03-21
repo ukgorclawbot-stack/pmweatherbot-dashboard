@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-21T22:02:04.750Z",
+  "fetchedAt": "2026-03-21T22:02:37.611Z",
   "status": {
-    "raw": "[botctl] 状态: running\n96110 96069 SN   02:14:05 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-034758.log\n[botctl] 日志时间: 2026-03-22 05:58:33",
+    "raw": "[botctl] 状态: running\n96110 96069 SN   02:14:38 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-034758.log\n[botctl] 日志时间: 2026-03-22 05:58:33",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-034758.log",
@@ -10,12 +10,12 @@
       "pid": "96110",
       "ppid": "96069",
       "stat": "SN",
-      "etime": "02:14:05",
+      "etime": "02:14:38",
       "command": "node index.mjs auto"
     }
   },
   "health": {
-    "raw": "[Health] WARN\n[ok] process: 运行中 PID=96110\n[warn] signals: 暂无 signals.jsonl 记录\n[ok] trades: 最近交易日志 4 分钟前\n[ok] weather-cache: 缓存正常，条目=82，最近更新 8 分钟前",
+    "raw": "[Health] WARN\n[ok] process: 运行中 PID=96110\n[warn] signals: 暂无 signals.jsonl 记录\n[ok] trades: 最近交易日志 4 分钟前\n[ok] weather-cache: 缓存正常，条目=82，最近更新 9 分钟前",
     "level": "warn",
     "checks": [
       {
@@ -36,7 +36,7 @@
       {
         "level": "ok",
         "name": "weather-cache",
-        "message": "缓存正常，条目=82，最近更新 8 分钟前"
+        "message": "缓存正常，条目=82，最近更新 9 分钟前"
       }
     ]
   },
@@ -63,10 +63,10 @@
     }
   },
   "portfolio": {
-    "fetchedAt": "2026-03-21T22:02:04.706Z",
+    "fetchedAt": "2026-03-21T22:02:37.491Z",
     "balance": {
-      "availableUSDC": 3.0157,
-      "rawMinorUnits": "3015655"
+      "availableUSDC": 9.8827,
+      "rawMinorUnits": "9882655"
     },
     "positions": [
       {
@@ -77,10 +77,10 @@
         "entryPrice": 0.23,
         "notional": 1.15,
         "costBasis": 1.15,
-        "currentPrice": 0.02,
-        "currentValue": 0.1,
-        "pnlAmount": -1.05,
-        "pnlRate": -0.913,
+        "currentPrice": 0.04,
+        "currentValue": 0.2,
+        "pnlAmount": -0.95,
+        "pnlRate": -0.8261,
         "status": "open",
         "openedAt": "03/22 00:19",
         "openedAtRaw": "2026-03-21T16:19:13.789Z",
@@ -160,22 +160,22 @@
     },
     "pnl": {
       "realizedPnl": 0,
-      "unrealizedPnl": 4.9622,
-      "totalPnl": 4.9622,
-      "pnlRate": 1.4717,
+      "unrealizedPnl": 5.0622,
+      "totalPnl": 5.0622,
+      "pnlRate": 1.5013,
       "deployedCapital": 3.3718,
-      "currentPositionValue": 8.334,
+      "currentPositionValue": 8.434,
       "openOrderValue": 1.116,
-      "availableBalance": 3.0157,
-      "currentTotalValue": 11.3497,
+      "availableBalance": 9.8827,
+      "currentTotalValue": 18.3167,
       "baseBankroll": 20,
       "curve": [
         {
           "index": 1,
           "ts": "2026-03-21T16:19:13.789Z",
           "label": "Will the highest temperature in Atlanta be between 68-69°F on March 24?",
-          "pnlAmount": -1.05,
-          "pnlRate": -0.913,
+          "pnlAmount": -0.95,
+          "pnlRate": -0.8261,
           "costBasis": 1.15,
           "status": "open"
         },
@@ -183,8 +183,8 @@
           "index": 2,
           "ts": "2026-03-21T19:16:04.376Z",
           "label": "Will the highest temperature in Shanghai be 12°C on March 24?",
-          "pnlAmount": -0.6378,
-          "pnlRate": -0.302,
+          "pnlAmount": -0.5378,
+          "pnlRate": -0.2547,
           "costBasis": 2.1118,
           "status": "open"
         },
@@ -192,8 +192,8 @@
           "index": 3,
           "ts": "2026-03-21T19:58:29.552Z",
           "label": "Will the highest temperature in Atlanta be between 82-83°F on March 21?",
-          "pnlAmount": 4.9622,
-          "pnlRate": 1.4717,
+          "pnlAmount": 5.0622,
+          "pnlRate": 1.5013,
           "costBasis": 3.3718,
           "status": "open"
         }
@@ -202,7 +202,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-21T22:02:04.750Z",
+    "fetchedAt": "2026-03-21T22:02:37.611Z",
     "stats": {
       "total": 3,
       "open": 1,
