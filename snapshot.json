@@ -1,21 +1,21 @@
 {
-  "fetchedAt": "2026-03-21T22:03:10.617Z",
+  "fetchedAt": "2026-03-21T22:03:43.740Z",
   "status": {
-    "raw": "[botctl] 状态: running\n96110 96069 SN   02:15:11 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-034758.log\n[botctl] 日志时间: 2026-03-22 05:58:33",
+    "raw": "[botctl] 状态: running\n96110 96069 SN   02:15:43 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-034758.log\n[botctl] 日志时间: 2026-03-22 06:03:38",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-034758.log",
-    "latestLogTime": "2026-03-22 05:58:33",
+    "latestLogTime": "2026-03-22 06:03:38",
     "process": {
       "pid": "96110",
       "ppid": "96069",
       "stat": "SN",
-      "etime": "02:15:11",
+      "etime": "02:15:43",
       "command": "node index.mjs auto"
     }
   },
   "health": {
-    "raw": "[Health] WARN\n[ok] process: 运行中 PID=96110\n[warn] signals: 暂无 signals.jsonl 记录\n[ok] trades: 最近交易日志 5 分钟前\n[ok] weather-cache: 缓存正常，条目=82，最近更新 9 分钟前",
+    "raw": "[Health] WARN\n[ok] process: 运行中 PID=96110\n[warn] signals: 暂无 signals.jsonl 记录\n[ok] trades: 最近交易日志 5 分钟前\n[ok] weather-cache: 缓存正常，条目=86，最近更新 0 分钟前",
     "level": "warn",
     "checks": [
       {
@@ -36,25 +36,25 @@
       {
         "level": "ok",
         "name": "weather-cache",
-        "message": "缓存正常，条目=82，最近更新 9 分钟前"
+        "message": "缓存正常，条目=86，最近更新 0 分钟前"
       }
     ]
   },
   "recent": {
-    "raw": "[botctl] 最近概览\n[botctl] 日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-034758.log\n[botctl] 时间: 2026-03-22 05:58:33\n\n[botctl] 最近扫描摘要\n\n[botctl] 最近异常/提示\n\n[botctl] 自动撤单概览\n[Stale Report] auto-cancel=true threshold age>=360m gap>=0.020\n[Stale Report] history: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/stale-order-actions.jsonl\n[Stale Report] scans=27 24h-scans=27 24h-with-candidates=1\n[Stale Report] 24h candidates=1 cancelled=1 resolved=0 failed=0\n[Stale Report] latest-scan 2026-03-21T21:58:29.223Z candidates=0 cancelled=0 resolved=0 failed=0\n[Stale Report] recent actions\n  2026-03-21T21:48:29.215Z cancelled rem=1.13 @ $0.140 bid=$0.200 age=477.72m gap=0.060 | Will the highest temperature in Shanghai be 12°C on March 24?\ncmd_recent:14: command not found: rg\ncmd_recent:20: command not found: rg",
+    "raw": "[botctl] 最近概览\n[botctl] 日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-034758.log\n[botctl] 时间: 2026-03-22 06:03:38\n\n[botctl] 最近扫描摘要\n\n[botctl] 最近异常/提示\n\n[botctl] 自动撤单概览\n[Stale Report] auto-cancel=true threshold age>=360m gap>=0.020\n[Stale Report] history: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/stale-order-actions.jsonl\n[Stale Report] scans=28 24h-scans=28 24h-with-candidates=1\n[Stale Report] 24h candidates=1 cancelled=1 resolved=0 failed=0\n[Stale Report] latest-scan 2026-03-21T22:03:29.171Z candidates=0 cancelled=0 resolved=0 failed=0\n[Stale Report] recent actions\n  2026-03-21T21:48:29.215Z cancelled rem=1.13 @ $0.140 bid=$0.200 age=477.72m gap=0.060 | Will the highest temperature in Shanghai be 12°C on March 24?\ncmd_recent:14: command not found: rg\ncmd_recent:20: command not found: rg",
     "sections": {
       "overview": [
         "[botctl] 日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-034758.log",
-        "[botctl] 时间: 2026-03-22 05:58:33"
+        "[botctl] 时间: 2026-03-22 06:03:38"
       ],
       "scanSummary": [],
       "issues": [],
       "stale": [
         "[Stale Report] auto-cancel=true threshold age>=360m gap>=0.020",
         "[Stale Report] history: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/stale-order-actions.jsonl",
-        "[Stale Report] scans=27 24h-scans=27 24h-with-candidates=1",
+        "[Stale Report] scans=28 24h-scans=28 24h-with-candidates=1",
         "[Stale Report] 24h candidates=1 cancelled=1 resolved=0 failed=0",
-        "[Stale Report] latest-scan 2026-03-21T21:58:29.223Z candidates=0 cancelled=0 resolved=0 failed=0",
+        "[Stale Report] latest-scan 2026-03-21T22:03:29.171Z candidates=0 cancelled=0 resolved=0 failed=0",
         "[Stale Report] recent actions",
         "  2026-03-21T21:48:29.215Z cancelled rem=1.13 @ $0.140 bid=$0.200 age=477.72m gap=0.060 | Will the highest temperature in Shanghai be 12°C on March 24?",
         "cmd_recent:14: command not found: rg",
@@ -63,7 +63,7 @@
     }
   },
   "portfolio": {
-    "fetchedAt": "2026-03-21T22:03:10.372Z",
+    "fetchedAt": "2026-03-21T22:03:42.776Z",
     "balance": {
       "availableUSDC": 9.8827,
       "rawMinorUnits": "9882655"
@@ -121,10 +121,10 @@
         "entryPrice": 0.18,
         "notional": 1.26,
         "costBasis": 1.26,
-        "currentPrice": 0.98,
-        "currentValue": 6.86,
-        "pnlAmount": 5.6,
-        "pnlRate": 4.4444,
+        "currentPrice": 0.981,
+        "currentValue": 6.867,
+        "pnlAmount": 5.607,
+        "pnlRate": 4.45,
         "status": "open",
         "openedAt": "03/22 03:58",
         "openedAtRaw": "2026-03-21T19:58:29.552Z",
@@ -160,14 +160,14 @@
     },
     "pnl": {
       "realizedPnl": 0,
-      "unrealizedPnl": 5.0622,
-      "totalPnl": 5.0622,
-      "pnlRate": 1.5013,
+      "unrealizedPnl": 5.0692,
+      "totalPnl": 5.0692,
+      "pnlRate": 1.5034,
       "deployedCapital": 3.3718,
-      "currentPositionValue": 8.434,
+      "currentPositionValue": 8.441,
       "openOrderValue": 1.116,
       "availableBalance": 9.8827,
-      "currentTotalValue": 18.3167,
+      "currentTotalValue": 18.3237,
       "baseBankroll": 20,
       "curve": [
         {
@@ -192,8 +192,8 @@
           "index": 3,
           "ts": "2026-03-21T19:58:29.552Z",
           "label": "Will the highest temperature in Atlanta be between 82-83°F on March 21?",
-          "pnlAmount": 5.0622,
-          "pnlRate": 1.5013,
+          "pnlAmount": 5.0692,
+          "pnlRate": 1.5034,
           "costBasis": 3.3718,
           "status": "open"
         }
@@ -202,7 +202,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-21T22:03:10.617Z",
+    "fetchedAt": "2026-03-21T22:03:43.740Z",
     "stats": {
       "total": 3,
       "open": 1,
@@ -265,8 +265,8 @@
         "statusLabel": "已到结算时点",
         "statusLevel": "warn",
         "orderRef": "0x074a0455253b9c826c7306129b664ba0c547f5c25ac24c9cd30e655c79f97a20",
-        "pnlAmount": 5.6,
-        "pnlRate": 4.4444,
+        "pnlAmount": 5.607,
+        "pnlRate": 4.45,
         "settlementTime": "03/21 20:00"
       }
     ]
