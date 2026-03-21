@@ -1,0 +1,330 @@
+{
+  "fetchedAt": "2026-03-21T21:46:25.604Z",
+  "status": {
+    "raw": "[botctl] 状态: running\n96110 96069 SN   01:58:25 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-034758.log\n[botctl] 日志时间: 2026-03-22 05:43:55",
+    "state": "running",
+    "cron": "enabled",
+    "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-034758.log",
+    "latestLogTime": "2026-03-22 05:43:55",
+    "process": {
+      "pid": "96110",
+      "ppid": "96069",
+      "stat": "SN",
+      "etime": "01:58:25",
+      "command": "node index.mjs auto"
+    }
+  },
+  "health": {
+    "raw": "[Health] WARN\n[ok] process: 运行中 PID=96110\n[warn] signals: 暂无 signals.jsonl 记录\n[ok] trades: 最近交易日志 2 分钟前\n[ok] weather-cache: 缓存正常，条目=80，最近更新 3 分钟前",
+    "level": "warn",
+    "checks": [
+      {
+        "level": "ok",
+        "name": "process",
+        "message": "运行中 PID=96110"
+      },
+      {
+        "level": "warn",
+        "name": "signals",
+        "message": "暂无 signals.jsonl 记录"
+      },
+      {
+        "level": "ok",
+        "name": "trades",
+        "message": "最近交易日志 2 分钟前"
+      },
+      {
+        "level": "ok",
+        "name": "weather-cache",
+        "message": "缓存正常，条目=80，最近更新 3 分钟前"
+      }
+    ]
+  },
+  "recent": {
+    "raw": "[botctl] 最近概览\n[botctl] 日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-034758.log\n[botctl] 时间: 2026-03-22 05:43:55\n\n[botctl] 最近扫描摘要\n1202:[Weather] 使用 fallback fallback:forecast+gfs dallas|2026-03-21: Open-Meteo cooldown active\n1203:[Weather] 使用 fallback fallback:forecast+gfs dallas|2026-03-22: Open-Meteo cooldown active\n1204:[Weather] 使用 fallback fallback:forecast+gfs dallas|2026-03-23: Open-Meteo cooldown active\n1205:[Weather] 使用 fallback fallback:forecast+gfs dallas|2026-03-24: Open-Meteo cooldown active\n1206:[Weather] 使用 fallback fallback:forecast+gfs atlanta|2026-03-24: Open-Meteo cooldown active\n1207:[Weather] 使用 fallback fallback:cma+forecast+gfs shanghai|2026-03-24: Open-Meteo cooldown active\n1208:[Weather] 使用 fallback fallback:forecast+gfs atlanta|2026-03-21: Open-Meteo cooldown active\n1211:[2026-03-21T21:43:53.790Z] 扫描结果: 25 个市场\n1245:[Batch] groups=5/96 markets=25 start=19 next=24 group-limit=5 market-limit=5\n1246:[Weather] fresh-cache=0 stale-cache=0 inflight=0 api-req=0 api-ok=0 api-fail=0 retries=0 fb-req=17 fb-ok=8 fb-fail=0 fb-used=8 cooldown-skip=8 cooldown=on writes=8 cache-size=80\n1247:[Bankroll] base=$20.00 realized=$0.00 factor=1.00 max-bet=$1.00 exposure-cap=$5.00\n1248:[Risk] open-orders=2 open-positions=3 exposure=$4.65 allowed-new=0/3\n\n[botctl] 最近异常/提示\n1101:[Weather] 使用 fallback fallback:forecast+gfs atlanta|2026-03-21: Open-Meteo cooldown active\n1144:[Execution] accepted=0 rejected=0 failed=1\n1196:[Execution] accepted=0 rejected=0 failed=1\n1201:[Weather] 使用 fallback fallback:forecast+gfs chicago|2026-03-25: Open-Meteo cooldown active\n1202:[Weather] 使用 fallback fallback:forecast+gfs dallas|2026-03-21: Open-Meteo cooldown active\n1203:[Weather] 使用 fallback fallback:forecast+gfs dallas|2026-03-22: Open-Meteo cooldown active\n1204:[Weather] 使用 fallback fallback:forecast+gfs dallas|2026-03-23: Open-Meteo cooldown active\n1205:[Weather] 使用 fallback fallback:forecast+gfs dallas|2026-03-24: Open-Meteo cooldown active\n1206:[Weather] 使用 fallback fallback:forecast+gfs atlanta|2026-03-24: Open-Meteo cooldown active\n1207:[Weather] 使用 fallback fallback:cma+forecast+gfs shanghai|2026-03-24: Open-Meteo cooldown active\n1208:[Weather] 使用 fallback fallback:forecast+gfs atlanta|2026-03-21: Open-Meteo cooldown active\n1253:[Execution] accepted=0 rejected=0 failed=1\n\n[botctl] 自动撤单概览\n[Stale Report] auto-cancel=true threshold age>=360m gap>=0.020\n[Stale Report] history: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/stale-order-actions.jsonl\n[Stale Report] scans=24 24h-scans=24 24h-with-candidates=0\n[Stale Report] 24h candidates=0 cancelled=0 resolved=0 failed=0\n[Stale Report] latest-scan 2026-03-21T21:43:29.134Z candidates=0 cancelled=0 resolved=0 failed=0\n[Stale Report] recent actions\n[Stale Report] 暂无撤单动作记录",
+    "sections": {
+      "overview": [
+        "[botctl] 日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-034758.log",
+        "[botctl] 时间: 2026-03-22 05:43:55"
+      ],
+      "scanSummary": [
+        "1202:[Weather] 使用 fallback fallback:forecast+gfs dallas|2026-03-21: Open-Meteo cooldown active",
+        "1203:[Weather] 使用 fallback fallback:forecast+gfs dallas|2026-03-22: Open-Meteo cooldown active",
+        "1204:[Weather] 使用 fallback fallback:forecast+gfs dallas|2026-03-23: Open-Meteo cooldown active",
+        "1205:[Weather] 使用 fallback fallback:forecast+gfs dallas|2026-03-24: Open-Meteo cooldown active",
+        "1206:[Weather] 使用 fallback fallback:forecast+gfs atlanta|2026-03-24: Open-Meteo cooldown active",
+        "1207:[Weather] 使用 fallback fallback:cma+forecast+gfs shanghai|2026-03-24: Open-Meteo cooldown active",
+        "1208:[Weather] 使用 fallback fallback:forecast+gfs atlanta|2026-03-21: Open-Meteo cooldown active",
+        "1211:[2026-03-21T21:43:53.790Z] 扫描结果: 25 个市场",
+        "1245:[Batch] groups=5/96 markets=25 start=19 next=24 group-limit=5 market-limit=5",
+        "1246:[Weather] fresh-cache=0 stale-cache=0 inflight=0 api-req=0 api-ok=0 api-fail=0 retries=0 fb-req=17 fb-ok=8 fb-fail=0 fb-used=8 cooldown-skip=8 cooldown=on writes=8 cache-size=80",
+        "1247:[Bankroll] base=$20.00 realized=$0.00 factor=1.00 max-bet=$1.00 exposure-cap=$5.00",
+        "1248:[Risk] open-orders=2 open-positions=3 exposure=$4.65 allowed-new=0/3"
+      ],
+      "issues": [
+        "1101:[Weather] 使用 fallback fallback:forecast+gfs atlanta|2026-03-21: Open-Meteo cooldown active",
+        "1144:[Execution] accepted=0 rejected=0 failed=1",
+        "1196:[Execution] accepted=0 rejected=0 failed=1",
+        "1201:[Weather] 使用 fallback fallback:forecast+gfs chicago|2026-03-25: Open-Meteo cooldown active",
+        "1202:[Weather] 使用 fallback fallback:forecast+gfs dallas|2026-03-21: Open-Meteo cooldown active",
+        "1203:[Weather] 使用 fallback fallback:forecast+gfs dallas|2026-03-22: Open-Meteo cooldown active",
+        "1204:[Weather] 使用 fallback fallback:forecast+gfs dallas|2026-03-23: Open-Meteo cooldown active",
+        "1205:[Weather] 使用 fallback fallback:forecast+gfs dallas|2026-03-24: Open-Meteo cooldown active",
+        "1206:[Weather] 使用 fallback fallback:forecast+gfs atlanta|2026-03-24: Open-Meteo cooldown active",
+        "1207:[Weather] 使用 fallback fallback:cma+forecast+gfs shanghai|2026-03-24: Open-Meteo cooldown active",
+        "1208:[Weather] 使用 fallback fallback:forecast+gfs atlanta|2026-03-21: Open-Meteo cooldown active",
+        "1253:[Execution] accepted=0 rejected=0 failed=1"
+      ],
+      "stale": [
+        "[Stale Report] auto-cancel=true threshold age>=360m gap>=0.020",
+        "[Stale Report] history: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/stale-order-actions.jsonl",
+        "[Stale Report] scans=24 24h-scans=24 24h-with-candidates=0",
+        "[Stale Report] 24h candidates=0 cancelled=0 resolved=0 failed=0",
+        "[Stale Report] latest-scan 2026-03-21T21:43:29.134Z candidates=0 cancelled=0 resolved=0 failed=0",
+        "[Stale Report] recent actions",
+        "[Stale Report] 暂无撤单动作记录"
+      ]
+    }
+  },
+  "portfolio": {
+    "fetchedAt": "2026-03-21T21:46:25.602Z",
+    "balance": {
+      "availableUSDC": 3.0157,
+      "rawMinorUnits": "3015655"
+    },
+    "positions": [
+      {
+        "positionID": "0x5615a4958d3a7f004c39a2aa8d73252950b88f2f820ec017ca64cb6866434422",
+        "question": "Will the highest temperature in Atlanta be between 68-69°F on March 24?",
+        "side": "YES",
+        "shares": 5,
+        "entryPrice": 0.23,
+        "notional": 1.15,
+        "costBasis": 1.15,
+        "currentPrice": 0.05,
+        "currentValue": 0.25,
+        "pnlAmount": -0.9,
+        "pnlRate": -0.7826,
+        "status": "open",
+        "openedAt": "03/22 00:19",
+        "openedAtRaw": "2026-03-21T16:19:13.789Z",
+        "closedAt": "未知",
+        "closedAtRaw": null,
+        "settlementTime": "03/24 20:00",
+        "settlementRaw": "2026-03-24T12:00:00Z",
+        "city": "atlanta",
+        "date": "2026-03-24"
+      },
+      {
+        "positionID": "0x57f03fec7bea4ea6524ebd10e9f8bdd94b59dd00eb466c3d93647f3f17c698c0",
+        "question": "Will the highest temperature in Shanghai be 12°C on March 24?",
+        "side": "YES",
+        "shares": 6.87,
+        "entryPrice": 0.14,
+        "notional": 0.9618,
+        "costBasis": 0.9618,
+        "currentPrice": 0.15,
+        "currentValue": 1.0305,
+        "pnlAmount": 0.0687,
+        "pnlRate": 0.0714,
+        "status": "open",
+        "openedAt": "03/22 03:16",
+        "openedAtRaw": "2026-03-21T19:16:04.376Z",
+        "closedAt": "未知",
+        "closedAtRaw": null,
+        "settlementTime": "03/24 20:00",
+        "settlementRaw": "2026-03-24T12:00:00Z",
+        "city": "shanghai",
+        "date": "2026-03-24"
+      },
+      {
+        "positionID": "0x074a0455253b9c826c7306129b664ba0c547f5c25ac24c9cd30e655c79f97a20",
+        "question": "Will the highest temperature in Atlanta be between 82-83°F on March 21?",
+        "side": "YES",
+        "shares": 7,
+        "entryPrice": 0.18,
+        "notional": 1.26,
+        "costBasis": 1.26,
+        "currentPrice": 0.72,
+        "currentValue": 5.04,
+        "pnlAmount": 3.78,
+        "pnlRate": 3,
+        "status": "open",
+        "openedAt": "03/22 03:58",
+        "openedAtRaw": "2026-03-21T19:58:29.552Z",
+        "closedAt": "未知",
+        "closedAtRaw": null,
+        "settlementTime": "03/21 20:00",
+        "settlementRaw": "2026-03-21T12:00:00Z",
+        "city": "atlanta",
+        "date": "2026-03-21"
+      }
+    ],
+    "orders": [
+      {
+        "question": "Will the highest temperature in Shanghai be 12°C on March 24?",
+        "side": "YES",
+        "remainingShares": 1.13,
+        "limitPrice": 0.14,
+        "openValue": 0.1582,
+        "placedAt": "03/21 21:50",
+        "remoteStatus": "live",
+        "settlementTime": "03/24 20:00",
+        "settlementRaw": "2026-03-24T12:00:00Z",
+        "city": "shanghai",
+        "date": "2026-03-24"
+      },
+      {
+        "question": "Will the highest temperature in Chicago be between 66-67°F on March 22?",
+        "side": "YES",
+        "remainingShares": 18,
+        "limitPrice": 0.062,
+        "openValue": 1.116,
+        "placedAt": "03/22 00:34",
+        "remoteStatus": "live",
+        "settlementTime": "03/22 20:00",
+        "settlementRaw": "2026-03-22T12:00:00Z",
+        "city": "chicago",
+        "date": "2026-03-22"
+      }
+    ],
+    "risk": {
+      "openOrders": 2,
+      "openPositions": 3,
+      "totalExposure": 4.65,
+      "openOrderExposure": 1.27,
+      "openPositionExposure": 3.37
+    },
+    "pnl": {
+      "realizedPnl": 0,
+      "unrealizedPnl": 2.9487,
+      "totalPnl": 2.9487,
+      "pnlRate": 0.8745,
+      "deployedCapital": 3.3718,
+      "currentPositionValue": 6.3205,
+      "openOrderValue": 1.2742,
+      "availableBalance": 3.0157,
+      "currentTotalValue": 9.3362,
+      "baseBankroll": 20,
+      "curve": [
+        {
+          "index": 1,
+          "ts": "2026-03-21T16:19:13.789Z",
+          "label": "Will the highest temperature in Atlanta be between 68-69°F on March 24?",
+          "pnlAmount": -0.9,
+          "pnlRate": -0.7826,
+          "costBasis": 1.15,
+          "status": "open"
+        },
+        {
+          "index": 2,
+          "ts": "2026-03-21T19:16:04.376Z",
+          "label": "Will the highest temperature in Shanghai be 12°C on March 24?",
+          "pnlAmount": -0.8313,
+          "pnlRate": -0.3936,
+          "costBasis": 2.1118,
+          "status": "open"
+        },
+        {
+          "index": 3,
+          "ts": "2026-03-21T19:58:29.552Z",
+          "label": "Will the highest temperature in Atlanta be between 82-83°F on March 21?",
+          "pnlAmount": 2.9487,
+          "pnlRate": 0.8745,
+          "costBasis": 3.3718,
+          "status": "open"
+        }
+      ],
+      "methodology": "mark-to-market-by-entry-sequence"
+    }
+  },
+  "history": {
+    "fetchedAt": "2026-03-21T21:46:25.604Z",
+    "stats": {
+      "total": 4,
+      "open": 2,
+      "holding": 1,
+      "settled": 0,
+      "closed": 0,
+      "pendingSettlement": 1
+    },
+    "trades": [
+      {
+        "ts": "03/21 19:56",
+        "tsRaw": "2026-03-21T11:56:36.033Z",
+        "question": "Will the highest temperature in Atlanta be between 68-69°F on March 24?",
+        "city": "atlanta",
+        "date": "2026-03-24",
+        "side": "YES",
+        "price": 0.23,
+        "size": 1,
+        "shares": 5,
+        "edgePct": 44.1667,
+        "status": "holding",
+        "statusLabel": "已成交持仓",
+        "statusLevel": "ok",
+        "orderRef": "0x5615a4958d3a7f004c39a2aa8d73252950b88f2f820ec017ca64cb6866434422",
+        "pnlAmount": null,
+        "pnlRate": null,
+        "settlementTime": "03/24 20:00"
+      },
+      {
+        "ts": "03/21 21:50",
+        "tsRaw": "2026-03-21T13:50:45.448Z",
+        "question": "Will the highest temperature in Shanghai be 12°C on March 24?",
+        "city": "shanghai",
+        "date": "2026-03-24",
+        "side": "YES",
+        "price": 0.14,
+        "size": 1,
+        "shares": 6.87,
+        "edgePct": 30.4444,
+        "status": "partial-open",
+        "statusLabel": "部分成交挂单中",
+        "statusLevel": "warn",
+        "orderRef": "0x57f03fec7bea4ea6524ebd10e9f8bdd94b59dd00eb466c3d93647f3f17c698c0",
+        "pnlAmount": null,
+        "pnlRate": null,
+        "settlementTime": "03/24 20:00"
+      },
+      {
+        "ts": "03/22 00:34",
+        "tsRaw": "2026-03-21T16:34:55.219Z",
+        "question": "Will the highest temperature in Chicago be between 66-67°F on March 22?",
+        "city": "chicago",
+        "date": "2026-03-22",
+        "side": "YES",
+        "price": 0.062,
+        "size": 1,
+        "shares": 18,
+        "edgePct": 27.1333,
+        "status": "open",
+        "statusLabel": "挂单中",
+        "statusLevel": "warn",
+        "orderRef": "0x53da0507dc6ad2e4d79017203d445cd58344c620bdc12b301abb7c44a6b6838a",
+        "pnlAmount": null,
+        "pnlRate": null,
+        "settlementTime": "03/22 20:00"
+      },
+      {
+        "ts": "03/22 03:48",
+        "tsRaw": "2026-03-21T19:48:27.935Z",
+        "question": "Will the highest temperature in Atlanta be between 82-83°F on March 21?",
+        "city": "atlanta",
+        "date": "2026-03-21",
+        "side": "YES",
+        "price": 0.18,
+        "size": 1.26,
+        "shares": 7,
+        "edgePct": 48.6667,
+        "status": "pending-settlement-sync",
+        "statusLabel": "已到结算时点",
+        "statusLevel": "warn",
+        "orderRef": "0x074a0455253b9c826c7306129b664ba0c547f5c25ac24c9cd30e655c79f97a20",
+        "pnlAmount": 3.78,
+        "pnlRate": 3,
+        "settlementTime": "03/21 20:00"
+      }
+    ]
+  }
+}
