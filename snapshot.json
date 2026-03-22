@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-22T18:54:58.205Z",
+  "fetchedAt": "2026-03-22T18:55:31.683Z",
   "status": {
-    "raw": "[botctl] 状态: running\n26785 26744 SN   01:17:57 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log\n[botctl] 日志时间: 2026-03-23 02:52:42",
+    "raw": "[botctl] 状态: running\n26785 26744 SN   01:18:30 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log\n[botctl] 日志时间: 2026-03-23 02:52:42",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log",
@@ -10,12 +10,12 @@
       "pid": "26785",
       "ppid": "26744",
       "stat": "SN",
-      "etime": "01:17:57",
+      "etime": "01:18:30",
       "command": "node index.mjs auto"
     }
   },
   "health": {
-    "raw": "[Health] WARN\n[ok] process: 运行中 PID=26785\n[warn] signals: 暂无 signals.jsonl 记录\n[ok] trades: 最近交易日志 2 分钟前\n[ok] weather-cache: 缓存正常，条目=116，最近更新 2 分钟前",
+    "raw": "[Health] WARN\n[ok] process: 运行中 PID=26785\n[warn] signals: 暂无 signals.jsonl 记录\n[ok] trades: 最近交易日志 3 分钟前\n[ok] weather-cache: 缓存正常，条目=116，最近更新 3 分钟前",
     "level": "warn",
     "checks": [
       {
@@ -31,12 +31,12 @@
       {
         "level": "ok",
         "name": "trades",
-        "message": "最近交易日志 2 分钟前"
+        "message": "最近交易日志 3 分钟前"
       },
       {
         "level": "ok",
         "name": "weather-cache",
-        "message": "缓存正常，条目=116，最近更新 2 分钟前"
+        "message": "缓存正常，条目=116，最近更新 3 分钟前"
       }
     ]
   },
@@ -291,10 +291,10 @@
     ]
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T18:54:57.563Z",
+    "fetchedAt": "2026-03-22T18:55:30.445Z",
     "balance": {
-      "availableUSDC": 1.0023,
-      "rawMinorUnits": "1002265"
+      "availableUSDC": 1.5423,
+      "rawMinorUnits": "1542265"
     },
     "positions": [
       {
@@ -565,14 +565,14 @@
         "positionID": "80782677627167489696476565911125920305467998392295266162029087332535405409203",
         "question": "Will the highest temperature in Seattle be between 54-55°F on March 23?",
         "side": "YES",
-        "shares": 16,
+        "shares": 10,
         "entryPrice": 0.07,
-        "notional": 1.12,
-        "costBasis": 1.12,
+        "notional": 0.7,
+        "costBasis": 0.7,
         "currentPrice": 0.085,
-        "currentValue": 1.36,
-        "pnlAmount": 0.24,
-        "pnlRate": 0.2143,
+        "currentValue": 0.85,
+        "pnlAmount": 0.27,
+        "pnlRate": 0.3857,
         "status": "open",
         "openedAt": "官方接口未提供",
         "openedAtRaw": null,
@@ -1126,16 +1126,16 @@
       "openPositionExposure": 7.51
     },
     "pnl": {
-      "asOf": "2026-03-22T18:54:57.521Z",
-      "realizedPnl": 41.0435,
-      "unrealizedPnl": -29.4318,
-      "totalPnl": 11.6117,
-      "pnlRate": 0.1736,
-      "deployedCapital": 66.8716,
-      "currentPositionValue": 25.4817,
+      "asOf": "2026-03-22T18:55:30.417Z",
+      "realizedPnl": 41.1635,
+      "unrealizedPnl": -29.5218,
+      "totalPnl": 11.6417,
+      "pnlRate": 0.1752,
+      "deployedCapital": 66.4516,
+      "currentPositionValue": 24.9717,
       "openOrderValue": 6.041,
-      "availableBalance": 1.0023,
-      "currentTotalValue": 26.484,
+      "availableBalance": 1.5423,
+      "currentTotalValue": 26.514,
       "baseBankroll": 20,
       "openPositionCount": 61,
       "closedPositionCount": 10,
@@ -11401,6 +11401,15 @@
           "pnlRate": 0.1736,
           "currentTotalValue": 26.484,
           "status": "official-wallet"
+        },
+        {
+          "index": 1141,
+          "ts": "2026-03-22T18:55:30.417Z",
+          "label": "03/23 02:55",
+          "pnlAmount": 11.6417,
+          "pnlRate": 0.1752,
+          "currentTotalValue": 26.514,
+          "status": "official-wallet"
         }
       ],
       "curveStartedAt": "2026-03-22T09:01:12.179Z",
@@ -11408,7 +11417,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T18:54:58.205Z",
+    "fetchedAt": "2026-03-22T18:55:31.683Z",
     "stats": {
       "total": 17,
       "open": 0,
