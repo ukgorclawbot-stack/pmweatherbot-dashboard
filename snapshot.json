@@ -1,21 +1,21 @@
 {
-  "fetchedAt": "2026-03-22T08:20:15.716Z",
+  "fetchedAt": "2026-03-22T08:20:49.296Z",
   "status": {
-    "raw": "[botctl] 状态: running\n21797 21756 SN   00:07 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-162006.log\n[botctl] 日志时间: 2026-03-22 16:20:10",
+    "raw": "[botctl] 状态: running\n21797 21756 SN   00:41 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-162006.log\n[botctl] 日志时间: 2026-03-22 16:20:16",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-162006.log",
-    "latestLogTime": "2026-03-22 16:20:10",
+    "latestLogTime": "2026-03-22 16:20:16",
     "process": {
       "pid": "21797",
       "ppid": "21756",
       "stat": "SN",
-      "etime": "00:07",
+      "etime": "00:41",
       "command": "node index.mjs auto"
     }
   },
   "health": {
-    "raw": "[Health] CRITICAL\n[ok] process: 运行中 PID=21797\n[warn] signals: 暂无 signals.jsonl 记录\n[critical] trades: 最近交易日志 73 分钟未更新\n[ok] weather-cache: 缓存正常，条目=99，最近更新 0 分钟前",
+    "raw": "[Health] CRITICAL\n[ok] process: 运行中 PID=21797\n[warn] signals: 暂无 signals.jsonl 记录\n[critical] trades: 最近交易日志 73 分钟未更新\n[ok] weather-cache: 缓存正常，条目=99，最近更新 1 分钟前",
     "level": "critical",
     "checks": [
       {
@@ -36,16 +36,16 @@
       {
         "level": "ok",
         "name": "weather-cache",
-        "message": "缓存正常，条目=99，最近更新 0 分钟前"
+        "message": "缓存正常，条目=99，最近更新 1 分钟前"
       }
     ]
   },
   "recent": {
-    "raw": "[botctl] 最近概览\n[botctl] 日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-162006.log\n[botctl] 时间: 2026-03-22 16:20:10\n\n[botctl] 最近扫描摘要\n\n[botctl] 最近异常/提示\n\n[botctl] 自动撤单概览\n[Stale Report] auto-cancel=true threshold age>=360m gap>=0.020\n[Stale Report] history: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/stale-order-actions.jsonl\n[Stale Report] scans=152 24h-scans=152 24h-with-candidates=2\n[Stale Report] 24h candidates=2 cancelled=2 resolved=0 failed=0\n[Stale Report] latest-scan 2026-03-22T08:20:10.974Z candidates=0 cancelled=0 resolved=0 failed=0\n[Stale Report] recent actions\n  2026-03-21T21:48:29.215Z cancelled rem=1.13 @ $0.140 bid=$0.200 age=477.72m gap=0.060 | Will the highest temperature in Shanghai be 12°C on March 24?\n  2026-03-21T22:38:29.240Z cancelled rem=18.00 @ $0.062 bid=$0.099 age=363.56m gap=0.037 | Will the highest temperature in Chicago be between 66-67°F on March 22?\ncmd_recent:14: command not found: rg\ncmd_recent:20: command not found: rg",
+    "raw": "[botctl] 最近概览\n[botctl] 日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-162006.log\n[botctl] 时间: 2026-03-22 16:20:16\n\n[botctl] 最近扫描摘要\n\n[botctl] 最近异常/提示\n\n[botctl] 自动撤单概览\n[Stale Report] auto-cancel=true threshold age>=360m gap>=0.020\n[Stale Report] history: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/stale-order-actions.jsonl\n[Stale Report] scans=152 24h-scans=152 24h-with-candidates=2\n[Stale Report] 24h candidates=2 cancelled=2 resolved=0 failed=0\n[Stale Report] latest-scan 2026-03-22T08:20:10.974Z candidates=0 cancelled=0 resolved=0 failed=0\n[Stale Report] recent actions\n  2026-03-21T21:48:29.215Z cancelled rem=1.13 @ $0.140 bid=$0.200 age=477.72m gap=0.060 | Will the highest temperature in Shanghai be 12°C on March 24?\n  2026-03-21T22:38:29.240Z cancelled rem=18.00 @ $0.062 bid=$0.099 age=363.56m gap=0.037 | Will the highest temperature in Chicago be between 66-67°F on March 22?\ncmd_recent:14: command not found: rg\ncmd_recent:20: command not found: rg",
     "sections": {
       "overview": [
         "[botctl] 日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-162006.log",
-        "[botctl] 时间: 2026-03-22 16:20:10"
+        "[botctl] 时间: 2026-03-22 16:20:16"
       ],
       "scanSummary": [],
       "issues": [],
@@ -64,7 +64,7 @@
     }
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T08:20:14.218Z",
+    "fetchedAt": "2026-03-22T08:20:48.842Z",
     "balance": {
       "availableUSDC": 13.1353,
       "rawMinorUnits": "13135265"
@@ -100,10 +100,10 @@
         "entryPrice": 0.06,
         "notional": 1.1988,
         "costBasis": 1.1988,
-        "currentPrice": 0.01,
-        "currentValue": 0.1998,
-        "pnlAmount": -0.999,
-        "pnlRate": -0.8333,
+        "currentPrice": 0.02,
+        "currentValue": 0.3996,
+        "pnlAmount": -0.7992,
+        "pnlRate": -0.6667,
         "status": "open",
         "openedAt": "03/22 16:14",
         "openedAtRaw": "2026-03-22T08:14:13.570Z",
@@ -161,14 +161,14 @@
     },
     "pnl": {
       "realizedPnl": -0.0191,
-      "unrealizedPnl": -1.489,
-      "totalPnl": -1.5081,
-      "pnlRate": -0.221,
+      "unrealizedPnl": -1.2892,
+      "totalPnl": -1.3083,
+      "pnlRate": -0.1917,
       "deployedCapital": 6.8246,
-      "currentPositionValue": 1.9638,
+      "currentPositionValue": 2.1636,
       "openOrderValue": 1.19,
       "availableBalance": 13.1353,
-      "currentTotalValue": 15.0991,
+      "currentTotalValue": 15.2989,
       "baseBankroll": 20,
       "curve": [
         {
@@ -211,8 +211,8 @@
           "index": 5,
           "ts": "2026-03-22T08:14:13.570Z",
           "label": "Will the highest temperature in Los Angeles be between 80-81°F on March 24?",
-          "pnlAmount": -1.5081,
-          "pnlRate": -0.2644,
+          "pnlAmount": -1.3083,
+          "pnlRate": -0.2293,
           "costBasis": 5.7046,
           "status": "open"
         },
@@ -220,8 +220,8 @@
           "index": 6,
           "ts": "2026-03-22T08:20:09.302Z",
           "label": "Will the highest temperature in Atlanta be between 72-73°F on March 23?",
-          "pnlAmount": -1.5081,
-          "pnlRate": -0.221,
+          "pnlAmount": -1.3083,
+          "pnlRate": -0.1917,
           "costBasis": 6.8246,
           "status": "open"
         }
@@ -230,7 +230,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T08:20:15.715Z",
+    "fetchedAt": "2026-03-22T08:20:49.296Z",
     "stats": {
       "total": 7,
       "open": 1,
