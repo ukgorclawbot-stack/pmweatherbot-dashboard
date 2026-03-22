@@ -338,6 +338,31 @@
         background: linear-gradient(90deg, #0f766e 0%, #b9770e 100%);
       }
 
+      .trend-list {
+        display: grid;
+        gap: 10px;
+      }
+
+      .trend-item {
+        border-radius: 14px;
+        border: 1px solid var(--border);
+        background: var(--panel-strong);
+        padding: 12px;
+      }
+
+      .trend-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 6px;
+      }
+
+      .trend-time {
+        font-size: 12px;
+        color: var(--muted);
+      }
+
       .positive {
         color: var(--ok);
       }
@@ -803,6 +828,20 @@
         return `${a}/${b}`;
       }
 
+      function blockerChipClass(state) {
+        if (state === "accepted") return "";
+        if (state === "risk-blocked" || state === "partially-blocked") return "warn";
+        return "critical";
+      }
+
+      function blockerStateLabel(state) {
+        if (state === "accepted") return "有新单";
+        if (state === "risk-blocked") return "风控挡住";
+        if (state === "partially-blocked") return "部分放行";
+        if (state === "no-signal") return "无新信号";
+        return "观察中";
+      }
+
       function renderBlockers(blockers) {
         const node = document.getElementById("entry-blockers");
         if (!node) return;
@@ -817,6 +856,7 @@
         const risk = blockers.risk || {};
         const allowed = blockers.allowedNew || {};
         const topReasons = (blockers.reasonBuckets || []).slice(0, 3);
+        const recentScans = (blockers.recentScans || []).slice(0, 5);
         const skipBase = Math.max(Number(blockers.skippedCount || 0), 1);
 
         node.innerHTML = `
@@ -853,6 +893,17 @@
                   </div>
                 `;
               }).join("") || `<div class="hint">本轮没有跳过原因可展示。</div>`}
+            </div>
+            <div class="trend-list">
+              ${recentScans.map(item => `
+                <div class="trend-item">
+                  <div class="trend-head">
+                    <strong>${escapeHtml(item.scanTimeLabel || "-")}</strong>
+                    <span class="table-chip ${blockerChipClass(item.state)}">${escapeHtml(blockerStateLabel(item.state))}</span>
+                  </div>
+                  <div class="hint">${escapeHtml(item.topBlocker || "无")} · signals ${item.tradeSignals} · allowed ${formatCountRatio(item.allowed, item.total)}</div>
+                </div>
+              `).join("") || `<div class="hint">暂无最近扫描趋势。</div>`}
             </div>
             <div class="hint">最近扫描 ${escapeHtml(blockers.scanTimeLabel || "-")} · 已扫描 ${escapeHtml(String(blockers.marketsScanned || 0))} 个市场 · 持仓 ${escapeHtml(String(risk.openPositions || 0))} · 挂单 ${escapeHtml(String(risk.openOrders || 0))}</div>
           </div>
