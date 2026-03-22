@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-22T08:09:10.227Z",
+  "fetchedAt": "2026-03-22T08:09:43.082Z",
   "status": {
-    "raw": "[botctl] 状态: running\n83761 83720 SN   01:27:05 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log\n[botctl] 日志时间: 2026-03-22 16:07:24",
+    "raw": "[botctl] 状态: running\n83761 83720 SN   01:27:38 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log\n[botctl] 日志时间: 2026-03-22 16:07:24",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log",
@@ -10,7 +10,7 @@
       "pid": "83761",
       "ppid": "83720",
       "stat": "SN",
-      "etime": "01:27:05",
+      "etime": "01:27:38",
       "command": "node index.mjs auto"
     }
   },
@@ -64,7 +64,7 @@
     }
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T08:09:09.511Z",
+    "fetchedAt": "2026-03-22T08:09:42.796Z",
     "balance": {
       "availableUSDC": 14.8041,
       "rawMinorUnits": "14804065"
@@ -78,10 +78,10 @@
         "entryPrice": 0.081,
         "notional": 1.134,
         "costBasis": 1.134,
-        "currentPrice": 0.021,
-        "currentValue": 0.294,
-        "pnlAmount": -0.84,
-        "pnlRate": -0.7407,
+        "currentPrice": 0.052,
+        "currentValue": 0.728,
+        "pnlAmount": -0.406,
+        "pnlRate": -0.358,
         "status": "open",
         "openedAt": "03/22 15:02",
         "openedAtRaw": "2026-03-22T07:02:16.007Z",
@@ -143,14 +143,14 @@
     },
     "pnl": {
       "realizedPnl": 0.4809,
-      "unrealizedPnl": -1.74,
-      "totalPnl": -1.2591,
-      "pnlRate": -0.2794,
+      "unrealizedPnl": -1.306,
+      "totalPnl": -0.8251,
+      "pnlRate": -0.1831,
       "deployedCapital": 4.5058,
-      "currentPositionValue": 0.544,
+      "currentPositionValue": 0.978,
       "openOrderValue": 3.51,
       "availableBalance": 14.8041,
-      "currentTotalValue": 15.3481,
+      "currentTotalValue": 15.7821,
       "baseBankroll": 20,
       "curve": [
         {
@@ -184,8 +184,8 @@
           "index": 4,
           "ts": "2026-03-22T07:02:16.007Z",
           "label": "Will the highest temperature in Chicago be between 68-69°F on March 22?",
-          "pnlAmount": -1.2591,
-          "pnlRate": -0.2794,
+          "pnlAmount": -0.8251,
+          "pnlRate": -0.1831,
           "costBasis": 4.5058,
           "status": "open"
         }
@@ -194,7 +194,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T08:09:10.227Z",
+    "fetchedAt": "2026-03-22T08:09:43.082Z",
     "stats": {
       "total": 7,
       "open": 3,
