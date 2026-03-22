@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-22T17:44:59.144Z",
+  "fetchedAt": "2026-03-22T17:45:09.522Z",
   "status": {
-    "raw": "[botctl] 状态: running\n26785 26744 SN   07:57 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log\n[botctl] 日志时间: 2026-03-23 01:42:31",
+    "raw": "[botctl] 状态: running\n26785 26744 SN   08:08 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log\n[botctl] 日志时间: 2026-03-23 01:42:31",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log",
@@ -10,12 +10,12 @@
       "pid": "26785",
       "ppid": "26744",
       "stat": "SN",
-      "etime": "07:57",
+      "etime": "08:08",
       "command": "node index.mjs auto"
     }
   },
   "health": {
-    "raw": "[Health] WARN\n[ok] process: 运行中 PID=26785\n[warn] signals: 暂无 signals.jsonl 记录\n[ok] trades: 最近交易日志 8 分钟前\n[ok] weather-cache: 缓存正常，条目=115，最近更新 2 分钟前",
+    "raw": "[Health] WARN\n[ok] process: 运行中 PID=26785\n[warn] signals: 暂无 signals.jsonl 记录\n[ok] trades: 最近交易日志 8 分钟前\n[ok] weather-cache: 缓存正常，条目=115，最近更新 3 分钟前",
     "level": "warn",
     "checks": [
       {
@@ -36,7 +36,7 @@
       {
         "level": "ok",
         "name": "weather-cache",
-        "message": "缓存正常，条目=115，最近更新 2 分钟前"
+        "message": "缓存正常，条目=115，最近更新 3 分钟前"
       }
     ]
   },
@@ -199,7 +199,7 @@
     ]
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T17:44:57.715Z",
+    "fetchedAt": "2026-03-22T17:45:08.998Z",
     "balance": {
       "availableUSDC": 5.3893,
       "rawMinorUnits": "5389265"
@@ -962,7 +962,7 @@
       "openPositionExposure": 5.91
     },
     "pnl": {
-      "asOf": "2026-03-22T17:44:57.668Z",
+      "asOf": "2026-03-22T17:45:08.960Z",
       "realizedPnl": 41.0435,
       "unrealizedPnl": -26.1527,
       "totalPnl": 14.8908,
@@ -10067,6 +10067,24 @@
           "pnlRate": 0.235,
           "currentTotalValue": 30.6472,
           "status": "official-wallet"
+        },
+        {
+          "index": 1011,
+          "ts": "2026-03-22T17:45:01.464Z",
+          "label": "03/23 01:45",
+          "pnlAmount": 14.8908,
+          "pnlRate": 0.235,
+          "currentTotalValue": 30.6472,
+          "status": "official-wallet"
+        },
+        {
+          "index": 1012,
+          "ts": "2026-03-22T17:45:08.960Z",
+          "label": "03/23 01:45",
+          "pnlAmount": 14.8908,
+          "pnlRate": 0.235,
+          "currentTotalValue": 30.6472,
+          "status": "official-wallet"
         }
       ],
       "curveStartedAt": "2026-03-22T09:01:12.179Z",
@@ -10074,14 +10092,14 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T17:44:59.144Z",
+    "fetchedAt": "2026-03-22T17:45:09.521Z",
     "stats": {
       "total": 13,
       "open": 0,
-      "holding": 6,
+      "holding": 10,
       "settled": 0,
       "closed": 3,
-      "pendingSettlement": 4
+      "pendingSettlement": 0
     },
     "trades": [
       {
@@ -10098,6 +10116,8 @@
         "status": "holding",
         "statusLabel": "已成交持仓",
         "statusLevel": "ok",
+        "exitReason": null,
+        "exitReasonLabel": null,
         "orderRef": "0x760cb28cdf15594fb35f18261961afe05ef7455afb074dcc19a5157b543f12db",
         "pnlAmount": null,
         "pnlRate": null,
@@ -10117,6 +10137,8 @@
         "status": "holding",
         "statusLabel": "已成交持仓",
         "statusLevel": "ok",
+        "exitReason": null,
+        "exitReasonLabel": null,
         "orderRef": "0x69d12983d23911be0b7f86efd5dcc838293d27680261ea24e05b7a315adc7f74",
         "pnlAmount": null,
         "pnlRate": null,
@@ -10136,6 +10158,8 @@
         "status": "holding",
         "statusLabel": "已成交持仓",
         "statusLevel": "ok",
+        "exitReason": null,
+        "exitReasonLabel": null,
         "orderRef": "0x37547f0e97619cc22ffa3ded29d6012bb5e4013e4ee9e3418052f2a9bc3f5332",
         "pnlAmount": null,
         "pnlRate": null,
@@ -10152,12 +10176,14 @@
         "size": 1.1495,
         "shares": 19,
         "edgePct": 17.2833,
-        "status": "pending-settlement-sync",
-        "statusLabel": "已到结算时点",
+        "status": "closing",
+        "statusLabel": "退出挂单中",
         "statusLevel": "warn",
+        "exitReason": "near_settlement",
+        "exitReasonLabel": "临近结算时间减仓",
         "orderRef": "0x29bbe4790387ee10b75fc2987170b347ca61ee20509baeb4b5b9d46f694be221",
-        "pnlAmount": -0.608,
-        "pnlRate": -0.5246,
+        "pnlAmount": null,
+        "pnlRate": null,
         "settlementTime": "03/22 20:00"
       },
       {
@@ -10171,12 +10197,14 @@
         "size": 1.15,
         "shares": 10,
         "edgePct": 41.8333,
-        "status": "pending-settlement-sync",
-        "statusLabel": "已到结算时点",
+        "status": "closing",
+        "statusLabel": "退出挂单中",
         "statusLevel": "warn",
+        "exitReason": "near_settlement",
+        "exitReasonLabel": "临近结算时间减仓",
         "orderRef": "0x045be9931867acaed45f76451cdcfc5f443b09f4255b79638b7176d885516439",
-        "pnlAmount": -0.3,
-        "pnlRate": -0.25,
+        "pnlAmount": null,
+        "pnlRate": null,
         "settlementTime": "03/22 20:00"
       },
       {
@@ -10190,12 +10218,14 @@
         "size": 1.155,
         "shares": 7,
         "edgePct": 80.5,
-        "status": "pending-settlement-sync",
-        "statusLabel": "已到结算时点",
+        "status": "closing",
+        "statusLabel": "退出挂单中",
         "statusLevel": "warn",
+        "exitReason": "near_settlement",
+        "exitReasonLabel": "临近结算时间减仓",
         "orderRef": "0xeea050e0aad7e4a55ccbfbe2b6e82e8bfbb7306f37b2f35ab694c3fb8adc4ba9",
-        "pnlAmount": -1.176,
-        "pnlRate": -0.9882,
+        "pnlAmount": null,
+        "pnlRate": null,
         "settlementTime": "03/22 20:00"
       },
       {
@@ -10212,6 +10242,8 @@
         "status": "holding",
         "statusLabel": "已成交持仓",
         "statusLevel": "ok",
+        "exitReason": null,
+        "exitReasonLabel": null,
         "orderRef": "0x54e29d6af20c9e44536b8efde9e7839b6f07c55edbec9c7b790d216e40edc20d",
         "pnlAmount": null,
         "pnlRate": null,
@@ -10228,9 +10260,11 @@
         "size": 1.1,
         "shares": 19.98,
         "edgePct": 14.5,
-        "status": "holding",
-        "statusLabel": "已成交持仓",
-        "statusLevel": "ok",
+        "status": "closing",
+        "statusLabel": "退出挂单中",
+        "statusLevel": "warn",
+        "exitReason": "edge_floor",
+        "exitReasonLabel": "Edge 低于退出下限",
         "orderRef": "0xec7a60f643d4f9c775ae35e6656abccc58e136985f3c05e176559b66c58083ea",
         "pnlAmount": null,
         "pnlRate": null,
@@ -10247,12 +10281,14 @@
         "size": 1.134,
         "shares": 14,
         "edgePct": 65.2333,
-        "status": "pending-settlement-sync",
-        "statusLabel": "已到结算时点",
+        "status": "closing",
+        "statusLabel": "退出挂单中",
         "statusLevel": "warn",
+        "exitReason": "near_settlement",
+        "exitReasonLabel": "临近结算时间减仓",
         "orderRef": "0x3c7c1930c8a5ccb6debd9202a0830d3e0c9f76ed9d680c94c4719e150d7d38cc",
-        "pnlAmount": -1.106,
-        "pnlRate": -0.9753,
+        "pnlAmount": null,
+        "pnlRate": null,
         "settlementTime": "03/22 20:00"
       },
       {
@@ -10269,6 +10305,8 @@
         "status": "holding",
         "statusLabel": "已成交持仓",
         "statusLevel": "ok",
+        "exitReason": null,
+        "exitReasonLabel": null,
         "orderRef": "0x23f7450ce07bcd3ad1050496643bb7245ec1e914e3f2e338b5959a786ed719b2",
         "pnlAmount": null,
         "pnlRate": null,
@@ -10288,6 +10326,8 @@
         "status": "closed",
         "statusLabel": "已平仓",
         "statusLevel": "critical",
+        "exitReason": "portfolio missing",
+        "exitReasonLabel": "组合对账后未发现该仓位",
         "orderRef": "0x074a0455253b9c826c7306129b664ba0c547f5c25ac24c9cd30e655c79f97a20",
         "pnlAmount": -1.26,
         "pnlRate": -1,
@@ -10307,6 +10347,8 @@
         "status": "closed",
         "statusLabel": "已平仓",
         "statusLevel": "ok",
+        "exitReason": "edge_decay",
+        "exitReasonLabel": "Edge 衰减后减仓",
         "orderRef": "0x57f03fec7bea4ea6524ebd10e9f8bdd94b59dd00eb466c3d93647f3f17c698c0",
         "pnlAmount": 0.4809,
         "pnlRate": 0.5,
@@ -10326,6 +10368,8 @@
         "status": "closed",
         "statusLabel": "已平仓",
         "statusLevel": "critical",
+        "exitReason": "edge_floor",
+        "exitReasonLabel": "Edge 低于退出下限",
         "orderRef": "0x5615a4958d3a7f004c39a2aa8d73252950b88f2f820ec017ca64cb6866434422",
         "pnlAmount": -0.5,
         "pnlRate": -0.4348,
