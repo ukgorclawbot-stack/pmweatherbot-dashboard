@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-22T14:30:00.215Z",
+  "fetchedAt": "2026-03-22T14:30:13.917Z",
   "status": {
-    "raw": "[botctl] 状态: running\n 4519  4474 SN   01:45:28 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-204430.log\n[botctl] 日志时间: 2026-03-22 22:29:53",
+    "raw": "[botctl] 状态: running\n 4519  4474 SN   01:45:40 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-204430.log\n[botctl] 日志时间: 2026-03-22 22:29:53",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-204430.log",
@@ -115,6 +115,63 @@
         "count": 1
       }
     ],
+    "recentScans": [
+      {
+        "scanTime": "2026-03-22T14:29:53.788Z",
+        "scanTimeLabel": "03/22 22:29",
+        "headline": "结论: 本轮没有合格新信号，主因是“Edge 不足”。",
+        "topBlocker": "Edge 不足",
+        "tradeSignals": 0,
+        "allowed": 0,
+        "total": 0,
+        "accepted": 0,
+        "state": "no-signal"
+      },
+      {
+        "scanTime": "2026-03-22T14:24:46.132Z",
+        "scanTimeLabel": "03/22 22:24",
+        "headline": "结论: 本轮有 2 个交易信号，但风控放行 0/2，当前是被风控挡住。",
+        "topBlocker": "Edge 不足",
+        "tradeSignals": 2,
+        "allowed": 0,
+        "total": 2,
+        "accepted": 0,
+        "state": "risk-blocked"
+      },
+      {
+        "scanTime": "2026-03-22T14:19:55.816Z",
+        "scanTimeLabel": "03/22 22:19",
+        "headline": "结论: 本轮没有合格新信号，主因是“Edge 不足”。",
+        "topBlocker": "Edge 不足",
+        "tradeSignals": 0,
+        "allowed": 0,
+        "total": 0,
+        "accepted": 0,
+        "state": "no-signal"
+      },
+      {
+        "scanTime": "2026-03-22T14:14:43.002Z",
+        "scanTimeLabel": "03/22 22:14",
+        "headline": "结论: 本轮有 3 个交易信号，但风控放行 0/3，当前是被风控挡住。",
+        "topBlocker": "Edge 不足",
+        "tradeSignals": 3,
+        "allowed": 0,
+        "total": 3,
+        "accepted": 0,
+        "state": "risk-blocked"
+      },
+      {
+        "scanTime": "2026-03-22T14:09:56.032Z",
+        "scanTimeLabel": "03/22 22:09",
+        "headline": "结论: 本轮没有合格新信号，主因是“Edge 不足”。",
+        "topBlocker": "Edge 不足",
+        "tradeSignals": 0,
+        "allowed": 0,
+        "total": 0,
+        "accepted": 0,
+        "state": "no-signal"
+      }
+    ],
     "summaryLines": [
       "本轮扫描: 03/22 22:29 | 市场=25",
       "结论: 本轮没有合格新信号，主因是“Edge 不足”。",
@@ -133,7 +190,7 @@
     ]
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T14:30:00.090Z",
+    "fetchedAt": "2026-03-22T14:30:13.915Z",
     "balance": {
       "availableUSDC": 8.9288,
       "rawMinorUnits": "8928795"
@@ -846,7 +903,7 @@
       "openPositionExposure": 6.46
     },
     "pnl": {
-      "asOf": "2026-03-22T14:30:00.072Z",
+      "asOf": "2026-03-22T14:30:13.889Z",
       "realizedPnl": 41.0435,
       "unrealizedPnl": -26.9072,
       "totalPnl": 14.1363,
@@ -6747,6 +6804,15 @@
           "pnlRate": 0.2295,
           "currentTotalValue": 31.6485,
           "status": "official-wallet"
+        },
+        {
+          "index": 655,
+          "ts": "2026-03-22T14:30:13.889Z",
+          "label": "03/22 22:30",
+          "pnlAmount": 14.1363,
+          "pnlRate": 0.2295,
+          "currentTotalValue": 31.6485,
+          "status": "official-wallet"
         }
       ],
       "curveStartedAt": "2026-03-22T09:01:12.179Z",
@@ -6754,7 +6820,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T14:30:00.215Z",
+    "fetchedAt": "2026-03-22T14:30:13.917Z",
     "stats": {
       "total": 10,
       "open": 1,
@@ -6798,8 +6864,8 @@
         "statusLabel": "已到结算时点",
         "statusLevel": "warn",
         "orderRef": "0x045be9931867acaed45f76451cdcfc5f443b09f4255b79638b7176d885516439",
-        "pnlAmount": 0.1,
-        "pnlRate": 0.0833,
+        "pnlAmount": -0.6,
+        "pnlRate": -0.5,
         "settlementTime": "03/22 20:00"
       },
       {
@@ -6817,8 +6883,8 @@
         "statusLabel": "已到结算时点",
         "statusLevel": "warn",
         "orderRef": "0xeea050e0aad7e4a55ccbfbe2b6e82e8bfbb7306f37b2f35ab694c3fb8adc4ba9",
-        "pnlAmount": -0.14,
-        "pnlRate": -0.1176,
+        "pnlAmount": -0.21,
+        "pnlRate": -0.1765,
         "settlementTime": "03/22 20:00"
       },
       {
@@ -6874,8 +6940,8 @@
         "statusLabel": "已到结算时点",
         "statusLevel": "warn",
         "orderRef": "0x3c7c1930c8a5ccb6debd9202a0830d3e0c9f76ed9d680c94c4719e150d7d38cc",
-        "pnlAmount": -0.98,
-        "pnlRate": -0.8642,
+        "pnlAmount": -0.994,
+        "pnlRate": -0.8765,
         "settlementTime": "03/22 20:00"
       },
       {
