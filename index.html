@@ -947,7 +947,7 @@
           `<td>$${trade.price ?? "-"}</td>`,
           `<td>$${trade.size ?? "-"}</td>`,
           `<td>${escapeHtml(trade.settlementTime || "-")}</td>`,
-          `<td><span class="table-chip ${badgeClass(trade.statusLevel)}">${escapeHtml(trade.statusLabel || "-")}</span><span class="hint">${escapeHtml(trade.exitReasonLabel || "")}</span></td>`,
+          `<td><span class="table-chip ${badgeClass(trade.statusLevel)}">${escapeHtml(trade.statusLabel || "-")}</span>${trade.exitReasonLabel ? `<span class="hint">${escapeHtml(trade.exitReasonLabel)}</span>` : ""}</td>`,
           `<td><strong>${trade.pnlAmount == null ? "-" : escapeHtml(formatMoney(trade.pnlAmount))}</strong><span class="hint">${trade.pnlRate == null ? "" : escapeHtml(formatPercent(trade.pnlRate))}</span></td>`,
           `<td><strong>${escapeHtml(shortRef(trade.orderRef))}</strong></td>`,
           `</tr>`,
