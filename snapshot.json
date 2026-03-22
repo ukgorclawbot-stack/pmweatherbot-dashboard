@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-22T08:14:08.721Z",
+  "fetchedAt": "2026-03-22T08:14:42.096Z",
   "status": {
-    "raw": "[botctl] 状态: running\n83761 83720 SN   01:32:03 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log\n[botctl] 日志时间: 2026-03-22 16:12:17",
+    "raw": "[botctl] 状态: running\n83761 83720 SN   01:32:37 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log\n[botctl] 日志时间: 2026-03-22 16:12:17",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log",
@@ -10,7 +10,7 @@
       "pid": "83761",
       "ppid": "83720",
       "stat": "SN",
-      "etime": "01:32:03",
+      "etime": "01:32:37",
       "command": "node index.mjs auto"
     }
   },
@@ -64,7 +64,7 @@
     }
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T08:14:07.921Z",
+    "fetchedAt": "2026-03-22T08:14:40.928Z",
     "balance": {
       "availableUSDC": 13.6053,
       "rawMinorUnits": "13605265"
@@ -91,6 +91,28 @@
         "settlementRaw": "2026-03-22T12:00:00Z",
         "city": "chicago",
         "date": "2026-03-22"
+      },
+      {
+        "positionID": "0xec7a60f643d4f9c775ae35e6656abccc58e136985f3c05e176559b66c58083ea",
+        "question": "Will the highest temperature in Los Angeles be between 80-81°F on March 24?",
+        "side": "YES",
+        "shares": 19.98,
+        "entryPrice": 0.06,
+        "notional": 1.1988,
+        "costBasis": 1.1988,
+        "currentPrice": 0.06,
+        "currentValue": 1.1988,
+        "pnlAmount": 0,
+        "pnlRate": 0,
+        "status": "open",
+        "openedAt": "03/22 16:14",
+        "openedAtRaw": "2026-03-22T08:14:13.570Z",
+        "closedAt": "未知",
+        "closedAtRaw": null,
+        "settlementTime": "03/24 20:00",
+        "settlementRaw": "2026-03-24T12:00:00Z",
+        "city": "los angeles",
+        "date": "2026-03-24"
       }
     ],
     "orders": [
@@ -108,19 +130,6 @@
         "date": "2026-03-23"
       },
       {
-        "question": "Will the highest temperature in Los Angeles be between 80-81°F on March 24?",
-        "side": "YES",
-        "remainingShares": 20,
-        "limitPrice": 0.06,
-        "openValue": 1.2,
-        "placedAt": "03/22 15:07",
-        "remoteStatus": "live",
-        "settlementTime": "03/24 20:00",
-        "settlementRaw": "2026-03-24T12:00:00Z",
-        "city": "los angeles",
-        "date": "2026-03-24"
-      },
-      {
         "question": "Will the highest temperature in Los Angeles be between 82-83°F on March 24?",
         "side": "YES",
         "remainingShares": 17,
@@ -135,22 +144,22 @@
       }
     ],
     "risk": {
-      "openOrders": 3,
-      "openPositions": 1,
+      "openOrders": 2,
+      "openPositions": 2,
       "totalExposure": 4.64,
-      "openOrderExposure": 3.51,
-      "openPositionExposure": 1.13
+      "openOrderExposure": 2.31,
+      "openPositionExposure": 2.33
     },
     "pnl": {
       "realizedPnl": 0.4809,
       "unrealizedPnl": -1.306,
       "totalPnl": -0.8251,
-      "pnlRate": -0.1831,
-      "deployedCapital": 4.5058,
-      "currentPositionValue": 0.978,
-      "openOrderValue": 3.51,
+      "pnlRate": -0.1446,
+      "deployedCapital": 5.7046,
+      "currentPositionValue": 2.1768,
+      "openOrderValue": 2.31,
       "availableBalance": 13.6053,
-      "currentTotalValue": 14.5833,
+      "currentTotalValue": 15.7821,
       "baseBankroll": 20,
       "curve": [
         {
@@ -188,17 +197,26 @@
           "pnlRate": -0.1831,
           "costBasis": 4.5058,
           "status": "open"
+        },
+        {
+          "index": 5,
+          "ts": "2026-03-22T08:14:13.570Z",
+          "label": "Will the highest temperature in Los Angeles be between 80-81°F on March 24?",
+          "pnlAmount": -0.8251,
+          "pnlRate": -0.1446,
+          "costBasis": 5.7046,
+          "status": "open"
         }
       ],
       "methodology": "mark-to-market-by-entry-sequence"
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T08:14:08.721Z",
+    "fetchedAt": "2026-03-22T08:14:42.095Z",
     "stats": {
       "total": 7,
-      "open": 3,
-      "holding": 2,
+      "open": 2,
+      "holding": 3,
       "settled": 0,
       "closed": 2,
       "pendingSettlement": 0
@@ -308,11 +326,11 @@
         "side": "YES",
         "price": 0.06,
         "size": 1.1,
-        "shares": 20,
+        "shares": 19.98,
         "edgePct": 14.5,
-        "status": "open",
-        "statusLabel": "挂单中",
-        "statusLevel": "warn",
+        "status": "holding",
+        "statusLabel": "已成交持仓",
+        "statusLevel": "ok",
         "orderRef": "0xec7a60f643d4f9c775ae35e6656abccc58e136985f3c05e176559b66c58083ea",
         "pnlAmount": null,
         "pnlRate": null,
