@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-22T03:26:26.872Z",
+  "fetchedAt": "2026-03-22T03:26:59.337Z",
   "status": {
-    "raw": "[botctl] 状态: running\n96110 96069 SN   07:38:27 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-034758.log\n[botctl] 日志时间: 2026-03-22 11:23:42",
+    "raw": "[botctl] 状态: running\n96110 96069 SN   07:39:00 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-034758.log\n[botctl] 日志时间: 2026-03-22 11:23:42",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-034758.log",
@@ -10,7 +10,7 @@
       "pid": "96110",
       "ppid": "96069",
       "stat": "SN",
-      "etime": "07:38:27",
+      "etime": "07:39:00",
       "command": "node index.mjs auto"
     }
   },
@@ -64,7 +64,7 @@
     }
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T03:26:26.871Z",
+    "fetchedAt": "2026-03-22T03:26:59.124Z",
     "balance": {
       "availableUSDC": 9.8827,
       "rawMinorUnits": "9882655"
@@ -189,7 +189,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T03:26:26.872Z",
+    "fetchedAt": "2026-03-22T03:26:59.337Z",
     "stats": {
       "total": 2,
       "open": 0,
