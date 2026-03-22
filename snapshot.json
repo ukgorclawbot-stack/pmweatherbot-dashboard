@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-22T06:57:30.149Z",
+  "fetchedAt": "2026-03-22T06:58:02.948Z",
   "status": {
-    "raw": "[botctl] 状态: running\n83761 83720 SN   15:25 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log\n[botctl] 日志时间: 2026-03-22 14:57:24",
+    "raw": "[botctl] 状态: running\n83761 83720 SN   15:58 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log\n[botctl] 日志时间: 2026-03-22 14:57:24",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log",
@@ -10,12 +10,12 @@
       "pid": "83761",
       "ppid": "83720",
       "stat": "SN",
-      "etime": "15:25",
+      "etime": "15:58",
       "command": "node index.mjs auto"
     }
   },
   "health": {
-    "raw": "[Health] WARN\n[ok] process: 运行中 PID=83761\n[warn] signals: 暂无 signals.jsonl 记录\n[ok] trades: 最近交易日志 0 分钟前\n[ok] weather-cache: 缓存正常，条目=99，最近更新 0 分钟前",
+    "raw": "[Health] WARN\n[ok] process: 运行中 PID=83761\n[warn] signals: 暂无 signals.jsonl 记录\n[ok] trades: 最近交易日志 1 分钟前\n[ok] weather-cache: 缓存正常，条目=99，最近更新 1 分钟前",
     "level": "warn",
     "checks": [
       {
@@ -31,12 +31,12 @@
       {
         "level": "ok",
         "name": "trades",
-        "message": "最近交易日志 0 分钟前"
+        "message": "最近交易日志 1 分钟前"
       },
       {
         "level": "ok",
         "name": "weather-cache",
-        "message": "缓存正常，条目=99，最近更新 0 分钟前"
+        "message": "缓存正常，条目=99，最近更新 1 分钟前"
       }
     ]
   },
@@ -64,10 +64,10 @@
     }
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T06:57:29.372Z",
+    "fetchedAt": "2026-03-22T06:58:02.356Z",
     "balance": {
-      "availableUSDC": 9.8827,
-      "rawMinorUnits": "9882655"
+      "availableUSDC": 8.9587,
+      "rawMinorUnits": "8958655"
     },
     "positions": [],
     "orders": [
@@ -113,8 +113,8 @@
       "deployedCapital": 3.3718,
       "currentPositionValue": 1.3679,
       "openOrderValue": 2.254,
-      "availableBalance": 9.8827,
-      "currentTotalValue": 11.2506,
+      "availableBalance": 8.9587,
+      "currentTotalValue": 10.3266,
       "baseBankroll": 20,
       "curve": [
         {
@@ -149,7 +149,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T06:57:30.149Z",
+    "fetchedAt": "2026-03-22T06:58:02.948Z",
     "stats": {
       "total": 4,
       "open": 2,
