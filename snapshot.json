@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-22T05:11:09.537Z",
+  "fetchedAt": "2026-03-22T05:11:42.326Z",
   "status": {
-    "raw": "[botctl] 状态: running\n96110 96069 SN   09:23:10 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-034758.log\n[botctl] 日志时间: 2026-03-22 13:08:35",
+    "raw": "[botctl] 状态: running\n96110 96069 SN   09:23:42 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-034758.log\n[botctl] 日志时间: 2026-03-22 13:08:35",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-034758.log",
@@ -10,12 +10,12 @@
       "pid": "96110",
       "ppid": "96069",
       "stat": "SN",
-      "etime": "09:23:10",
+      "etime": "09:23:42",
       "command": "node index.mjs auto"
     }
   },
   "health": {
-    "raw": "[Health] WARN\n[ok] process: 运行中 PID=96110\n[warn] signals: 暂无 signals.jsonl 记录\n[ok] trades: 最近交易日志 3 分钟前\n[ok] weather-cache: 缓存正常，条目=99，最近更新 7 分钟前",
+    "raw": "[Health] WARN\n[ok] process: 运行中 PID=96110\n[warn] signals: 暂无 signals.jsonl 记录\n[ok] trades: 最近交易日志 3 分钟前\n[ok] weather-cache: 缓存正常，条目=99，最近更新 8 分钟前",
     "level": "warn",
     "checks": [
       {
@@ -36,7 +36,7 @@
       {
         "level": "ok",
         "name": "weather-cache",
-        "message": "缓存正常，条目=99，最近更新 7 分钟前"
+        "message": "缓存正常，条目=99，最近更新 8 分钟前"
       }
     ]
   },
@@ -64,7 +64,7 @@
     }
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T05:11:09.473Z",
+    "fetchedAt": "2026-03-22T05:11:41.858Z",
     "balance": {
       "availableUSDC": 9.8827,
       "rawMinorUnits": "9882655"
@@ -78,10 +78,10 @@
         "entryPrice": 0.23,
         "notional": 1.15,
         "costBasis": 1.15,
-        "currentPrice": 0.07,
-        "currentValue": 0.35,
-        "pnlAmount": -0.8,
-        "pnlRate": -0.6957,
+        "currentPrice": 0.04,
+        "currentValue": 0.2,
+        "pnlAmount": -0.95,
+        "pnlRate": -0.8261,
         "status": "open",
         "openedAt": "03/22 00:19",
         "openedAtRaw": "2026-03-21T16:19:13.789Z",
@@ -147,22 +147,22 @@
     },
     "pnl": {
       "realizedPnl": 0,
-      "unrealizedPnl": 5.2765,
-      "totalPnl": 5.2765,
-      "pnlRate": 1.5649,
+      "unrealizedPnl": 5.1265,
+      "totalPnl": 5.1265,
+      "pnlRate": 1.5204,
       "deployedCapital": 3.3718,
-      "currentPositionValue": 8.6483,
+      "currentPositionValue": 8.4983,
       "openOrderValue": 0,
       "availableBalance": 9.8827,
-      "currentTotalValue": 18.531,
+      "currentTotalValue": 18.381,
       "baseBankroll": 20,
       "curve": [
         {
           "index": 1,
           "ts": "2026-03-21T16:19:13.789Z",
           "label": "Will the highest temperature in Atlanta be between 68-69°F on March 24?",
-          "pnlAmount": -0.8,
-          "pnlRate": -0.6957,
+          "pnlAmount": -0.95,
+          "pnlRate": -0.8261,
           "costBasis": 1.15,
           "status": "open"
         },
@@ -170,8 +170,8 @@
           "index": 2,
           "ts": "2026-03-21T19:16:04.376Z",
           "label": "Will the highest temperature in Shanghai be 12°C on March 24?",
-          "pnlAmount": -0.4565,
-          "pnlRate": -0.2162,
+          "pnlAmount": -0.6065,
+          "pnlRate": -0.2872,
           "costBasis": 2.1118,
           "status": "open"
         },
@@ -179,8 +179,8 @@
           "index": 3,
           "ts": "2026-03-21T19:58:29.552Z",
           "label": "Will the highest temperature in Atlanta be between 82-83°F on March 21?",
-          "pnlAmount": 5.2765,
-          "pnlRate": 1.5649,
+          "pnlAmount": 5.1265,
+          "pnlRate": 1.5204,
           "costBasis": 3.3718,
           "status": "open"
         }
@@ -189,7 +189,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T05:11:09.537Z",
+    "fetchedAt": "2026-03-22T05:11:42.326Z",
     "stats": {
       "total": 2,
       "open": 0,
