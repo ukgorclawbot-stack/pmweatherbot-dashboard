@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-22T17:28:04.478Z",
+  "fetchedAt": "2026-03-22T17:28:38.396Z",
   "status": {
-    "raw": "[botctl] 状态: running\n 4519  4474 SN   04:43:32 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-204430.log\n[botctl] 日志时间: 2026-03-23 01:24:44",
+    "raw": "[botctl] 状态: running\n 4519  4474 SN   04:44:05 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-204430.log\n[botctl] 日志时间: 2026-03-23 01:24:44",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-204430.log",
@@ -9,7 +9,7 @@
     "process": null
   },
   "health": {
-    "raw": "[Health] WARN\n[ok] process: 运行中 PID=4519\n[warn] signals: 暂无 signals.jsonl 记录\n[warn] trades: 最近交易日志 58 分钟未更新\n[ok] weather-cache: 缓存正常，条目=115，最近更新 8 分钟前",
+    "raw": "[Health] WARN\n[ok] process: 运行中 PID=4519\n[warn] signals: 暂无 signals.jsonl 记录\n[warn] trades: 最近交易日志 59 分钟未更新\n[ok] weather-cache: 缓存正常，条目=115，最近更新 9 分钟前",
     "level": "warn",
     "checks": [
       {
@@ -25,12 +25,12 @@
       {
         "level": "warn",
         "name": "trades",
-        "message": "最近交易日志 58 分钟未更新"
+        "message": "最近交易日志 59 分钟未更新"
       },
       {
         "level": "ok",
         "name": "weather-cache",
-        "message": "缓存正常，条目=115，最近更新 8 分钟前"
+        "message": "缓存正常，条目=115，最近更新 9 分钟前"
       }
     ]
   },
@@ -280,7 +280,7 @@
     ]
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T17:28:03.396Z",
+    "fetchedAt": "2026-03-22T17:28:38.111Z",
     "balance": {
       "availableUSDC": 4.7963,
       "rawMinorUnits": "4796265"
@@ -514,10 +514,10 @@
         "entryPrice": 0.06,
         "notional": 1.2,
         "costBasis": 1.2,
-        "currentPrice": 0.13,
-        "currentValue": 2.6,
-        "pnlAmount": 1.4,
-        "pnlRate": 1.1667,
+        "currentPrice": 0.125,
+        "currentValue": 2.5,
+        "pnlAmount": 1.3,
+        "pnlRate": 1.0833,
         "status": "open",
         "openedAt": "官方接口未提供",
         "openedAtRaw": null,
@@ -580,10 +580,10 @@
         "entryPrice": 0.12,
         "notional": 1.2,
         "costBasis": 1.2,
-        "currentPrice": 0.125,
-        "currentValue": 1.25,
-        "pnlAmount": 0.05,
-        "pnlRate": 0.0417,
+        "currentPrice": 0.13,
+        "currentValue": 1.3,
+        "pnlAmount": 0.1,
+        "pnlRate": 0.0833,
         "status": "open",
         "openedAt": "官方接口未提供",
         "openedAtRaw": null,
@@ -1073,16 +1073,16 @@
       "openPositionExposure": 10.59
     },
     "pnl": {
-      "asOf": "2026-03-22T17:28:03.370Z",
+      "asOf": "2026-03-22T17:28:38.038Z",
       "realizedPnl": 41.0435,
-      "unrealizedPnl": -29.0414,
-      "totalPnl": 12.0021,
-      "pnlRate": 0.1826,
+      "unrealizedPnl": -29.0914,
+      "totalPnl": 11.9521,
+      "pnlRate": 0.1819,
       "deployedCapital": 65.7176,
-      "currentPositionValue": 24.7182,
+      "currentPositionValue": 24.6682,
       "openOrderValue": 2.256,
       "availableBalance": 4.7963,
-      "currentTotalValue": 29.5145,
+      "currentTotalValue": 29.4645,
       "baseBankroll": 20,
       "openPositionCount": 61,
       "closedPositionCount": 10,
@@ -9908,6 +9908,15 @@
           "pnlRate": 0.1826,
           "currentTotalValue": 29.5145,
           "status": "official-wallet"
+        },
+        {
+          "index": 981,
+          "ts": "2026-03-22T17:28:38.038Z",
+          "label": "03/23 01:28",
+          "pnlAmount": 11.9521,
+          "pnlRate": 0.1819,
+          "currentTotalValue": 29.4645,
+          "status": "official-wallet"
         }
       ],
       "curveStartedAt": "2026-03-22T09:01:12.179Z",
@@ -9915,7 +9924,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T17:28:04.478Z",
+    "fetchedAt": "2026-03-22T17:28:38.396Z",
     "stats": {
       "total": 13,
       "open": 0,
