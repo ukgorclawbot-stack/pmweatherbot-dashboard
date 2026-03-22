@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-03-22T13:44:34.810Z",
+  "fetchedAt": "2026-03-22T13:45:07.002Z",
   "status": {
-    "raw": "[botctl] 状态: running\n 4519  4474 SN   01:00:03 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-204430.log\n[botctl] 日志时间: 2026-03-22 21:39:55",
+    "raw": "[botctl] 状态: running\n 4519  4474 SN   01:00:36 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-204430.log\n[botctl] 日志时间: 2026-03-22 21:44:43",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-204430.log",
-    "latestLogTime": "2026-03-22 21:39:55",
+    "latestLogTime": "2026-03-22 21:44:43",
     "process": null
   },
   "health": {
@@ -35,20 +35,20 @@
     ]
   },
   "recent": {
-    "raw": "[botctl] 最近概览\n[botctl] 日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-204430.log\n[botctl] 时间: 2026-03-22 21:39:55\n\n[botctl] 最近扫描摘要\n\n[botctl] 最近异常/提示\n\n[botctl] 自动撤单概览\n[Stale Report] auto-cancel=true threshold age>=360m gap>=0.020\n[Stale Report] history: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/stale-order-actions.jsonl\n[Stale Report] scans=217 24h-scans=217 24h-with-candidates=2\n[Stale Report] 24h candidates=2 cancelled=2 resolved=0 failed=0\n[Stale Report] latest-scan 2026-03-22T13:39:38.542Z candidates=0 cancelled=0 resolved=0 failed=0\n[Stale Report] recent actions\n  2026-03-21T21:48:29.215Z cancelled rem=1.13 @ $0.140 bid=$0.200 age=477.72m gap=0.060 | Will the highest temperature in Shanghai be 12°C on March 24?\n  2026-03-21T22:38:29.240Z cancelled rem=18.00 @ $0.062 bid=$0.099 age=363.56m gap=0.037 | Will the highest temperature in Chicago be between 66-67°F on March 22?\ncmd_recent:14: command not found: rg\ncmd_recent:20: command not found: rg",
+    "raw": "[botctl] 最近概览\n[botctl] 日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-204430.log\n[botctl] 时间: 2026-03-22 21:44:43\n\n[botctl] 最近扫描摘要\n\n[botctl] 最近异常/提示\n\n[botctl] 自动撤单概览\n[Stale Report] auto-cancel=true threshold age>=360m gap>=0.020\n[Stale Report] history: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/stale-order-actions.jsonl\n[Stale Report] scans=218 24h-scans=218 24h-with-candidates=2\n[Stale Report] 24h candidates=2 cancelled=2 resolved=0 failed=0\n[Stale Report] latest-scan 2026-03-22T13:44:38.535Z candidates=0 cancelled=0 resolved=0 failed=0\n[Stale Report] recent actions\n  2026-03-21T21:48:29.215Z cancelled rem=1.13 @ $0.140 bid=$0.200 age=477.72m gap=0.060 | Will the highest temperature in Shanghai be 12°C on March 24?\n  2026-03-21T22:38:29.240Z cancelled rem=18.00 @ $0.062 bid=$0.099 age=363.56m gap=0.037 | Will the highest temperature in Chicago be between 66-67°F on March 22?\ncmd_recent:14: command not found: rg\ncmd_recent:20: command not found: rg",
     "sections": {
       "overview": [
         "[botctl] 日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-204430.log",
-        "[botctl] 时间: 2026-03-22 21:39:55"
+        "[botctl] 时间: 2026-03-22 21:44:43"
       ],
       "scanSummary": [],
       "issues": [],
       "stale": [
         "[Stale Report] auto-cancel=true threshold age>=360m gap>=0.020",
         "[Stale Report] history: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/stale-order-actions.jsonl",
-        "[Stale Report] scans=217 24h-scans=217 24h-with-candidates=2",
+        "[Stale Report] scans=218 24h-scans=218 24h-with-candidates=2",
         "[Stale Report] 24h candidates=2 cancelled=2 resolved=0 failed=0",
-        "[Stale Report] latest-scan 2026-03-22T13:39:38.542Z candidates=0 cancelled=0 resolved=0 failed=0",
+        "[Stale Report] latest-scan 2026-03-22T13:44:38.535Z candidates=0 cancelled=0 resolved=0 failed=0",
         "[Stale Report] recent actions",
         "  2026-03-21T21:48:29.215Z cancelled rem=1.13 @ $0.140 bid=$0.200 age=477.72m gap=0.060 | Will the highest temperature in Shanghai be 12°C on March 24?",
         "  2026-03-21T22:38:29.240Z cancelled rem=18.00 @ $0.062 bid=$0.099 age=363.56m gap=0.037 | Will the highest temperature in Chicago be between 66-67°F on March 22?",
@@ -59,14 +59,14 @@
   },
   "blockers": {
     "available": true,
-    "scanTime": "2026-03-22T13:39:55.161Z",
-    "scanTimeLabel": "03/22 21:39",
+    "scanTime": "2026-03-22T13:44:43.724Z",
+    "scanTimeLabel": "03/22 21:44",
     "marketsScanned": 25,
-    "tradeSignals": 0,
-    "skippedCount": 25,
+    "tradeSignals": 3,
+    "skippedCount": 22,
     "allowedNew": {
       "allowed": 0,
-      "total": 0
+      "total": 3
     },
     "risk": {
       "openOrders": 2,
@@ -86,54 +86,54 @@
     "reasonBuckets": [
       {
         "label": "Edge 不足",
-        "count": 17
+        "count": 18
       },
       {
         "label": "价格超出范围",
-        "count": 8
+        "count": 4
       }
     ],
     "topReasons": [
       {
-        "label": "Edge 2.5% < 12%",
-        "count": 3
+        "label": "Edge 2.6% < 12%",
+        "count": 2
+      },
+      {
+        "label": "Edge 2.7% < 12%",
+        "count": 2
+      },
+      {
+        "label": "Edge 2.8% < 12%",
+        "count": 2
       },
       {
         "label": "Edge 2.9% < 12%",
-        "count": 3
-      },
-      {
-        "label": "价格 $0.805 超出范围",
         "count": 2
       },
       {
-        "label": "Edge 0.5% < 12%",
-        "count": 2
-      },
-      {
-        "label": "Edge 2.6% < 12%",
-        "count": 2
+        "label": "价格 $0.012 超出范围",
+        "count": 1
       }
     ],
     "summaryLines": [
-      "本轮扫描: 03/22 21:39 | 市场=25",
-      "结论: 本轮没有合格新信号，主因是“Edge 不足”。",
-      "交易信号=0 | 风控放行=0/0 | 执行 accepted=0 failed=0",
+      "本轮扫描: 03/22 21:44 | 市场=25",
+      "结论: 本轮有 3 个交易信号，但风控放行 0/3，当前是被风控挡住。",
+      "交易信号=3 | 风控放行=0/3 | 执行 accepted=0 failed=0",
       "风险占用: 挂单=2 | 持仓=6 | exposure=$6.99",
       "退出判断: exit=0 | hold=6 | positions=6",
       "",
       "跳过主因:",
-      "- Edge 不足: 17",
-      "- 价格超出范围: 8",
+      "- Edge 不足: 18",
+      "- 价格超出范围: 4",
       "",
       "高频原始原因:",
-      "- Edge 2.5% < 12%: 3",
-      "- Edge 2.9% < 12%: 3",
-      "- 价格 $0.805 超出范围: 2"
+      "- Edge 2.6% < 12%: 2",
+      "- Edge 2.7% < 12%: 2",
+      "- Edge 2.8% < 12%: 2"
     ]
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T13:44:34.808Z",
+    "fetchedAt": "2026-03-22T13:45:07.001Z",
     "balance": {
       "availableUSDC": 9.4088,
       "rawMinorUnits": "9408795"
@@ -860,7 +860,7 @@
       "openPositionExposure": 5.98
     },
     "pnl": {
-      "asOf": "2026-03-22T13:44:34.796Z",
+      "asOf": "2026-03-22T13:45:06.988Z",
       "realizedPnl": 41.0435,
       "unrealizedPnl": -26.2003,
       "totalPnl": 14.8432,
@@ -5978,6 +5978,24 @@
           "pnlRate": 0.2429,
           "currentTotalValue": 32.3554,
           "status": "official-wallet"
+        },
+        {
+          "index": 568,
+          "ts": "2026-03-22T13:44:59.129Z",
+          "label": "03/22 21:44",
+          "pnlAmount": 14.8432,
+          "pnlRate": 0.2429,
+          "currentTotalValue": 32.3554,
+          "status": "official-wallet"
+        },
+        {
+          "index": 569,
+          "ts": "2026-03-22T13:45:06.988Z",
+          "label": "03/22 21:45",
+          "pnlAmount": 14.8432,
+          "pnlRate": 0.2429,
+          "currentTotalValue": 32.3554,
+          "status": "official-wallet"
         }
       ],
       "curveStartedAt": "2026-03-22T09:01:12.179Z",
@@ -5985,7 +6003,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T13:44:34.809Z",
+    "fetchedAt": "2026-03-22T13:45:07.002Z",
     "stats": {
       "total": 10,
       "open": 2,
