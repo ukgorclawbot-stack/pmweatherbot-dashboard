@@ -809,7 +809,10 @@
 
       async function refreshDashboard() {
         try {
-          const response = await fetch(dashboardApi, { cache: "no-store" });
+          const requestUrl = staticMode
+            ? `${dashboardApi}${dashboardApi.includes("?") ? "&" : "?"}ts=${Date.now()}`
+            : dashboardApi;
+          const response = await fetch(requestUrl, { cache: "no-store" });
           const payload = await response.json();
 
           setText("bot-state", payload.status.state || "unknown");
