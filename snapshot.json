@@ -1,21 +1,21 @@
 {
-  "fetchedAt": "2026-03-22T18:16:52.671Z",
+  "fetchedAt": "2026-03-22T18:17:26.270Z",
   "status": {
-    "raw": "[botctl] 状态: running\n26785 26744 SN   39:51 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log\n[botctl] 日志时间: 2026-03-23 02:12:35",
+    "raw": "[botctl] 状态: running\n26785 26744 SN   40:25 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log\n[botctl] 日志时间: 2026-03-23 02:17:20",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log",
-    "latestLogTime": "2026-03-23 02:12:35",
+    "latestLogTime": "2026-03-23 02:17:20",
     "process": {
       "pid": "26785",
       "ppid": "26744",
       "stat": "SN",
-      "etime": "39:51",
+      "etime": "40:25",
       "command": "node index.mjs auto"
     }
   },
   "health": {
-    "raw": "[Health] WARN\n[ok] process: 运行中 PID=26785\n[warn] signals: 暂无 signals.jsonl 记录\n[ok] trades: 最近交易日志 4 分钟前\n[ok] weather-cache: 缓存正常，条目=116，最近更新 4 分钟前",
+    "raw": "[Health] WARN\n[ok] process: 运行中 PID=26785\n[warn] signals: 暂无 signals.jsonl 记录\n[ok] trades: 最近交易日志 5 分钟前\n[ok] weather-cache: 缓存正常，条目=116，最近更新 0 分钟前",
     "level": "warn",
     "checks": [
       {
@@ -31,30 +31,30 @@
       {
         "level": "ok",
         "name": "trades",
-        "message": "最近交易日志 4 分钟前"
+        "message": "最近交易日志 5 分钟前"
       },
       {
         "level": "ok",
         "name": "weather-cache",
-        "message": "缓存正常，条目=116，最近更新 4 分钟前"
+        "message": "缓存正常，条目=116，最近更新 0 分钟前"
       }
     ]
   },
   "recent": {
-    "raw": "[botctl] 最近概览\n[botctl] 日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log\n[botctl] 时间: 2026-03-23 02:12:35\n\n[botctl] 最近扫描摘要\n\n[botctl] 最近异常/提示\n\n[botctl] 自动撤单概览\n[Stale Report] auto-cancel=true threshold age>=360m gap>=0.020\n[Stale Report] history: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/stale-order-actions.jsonl\n[Stale Report] scans=272 24h-scans=272 24h-with-candidates=2\n[Stale Report] 24h candidates=2 cancelled=2 resolved=0 failed=0\n[Stale Report] latest-scan 2026-03-22T18:12:18.615Z candidates=0 cancelled=0 resolved=0 failed=0\n[Stale Report] recent actions\n  2026-03-21T21:48:29.215Z cancelled rem=1.13 @ $0.140 bid=$0.200 age=477.72m gap=0.060 | Will the highest temperature in Shanghai be 12°C on March 24?\n  2026-03-21T22:38:29.240Z cancelled rem=18.00 @ $0.062 bid=$0.099 age=363.56m gap=0.037 | Will the highest temperature in Chicago be between 66-67°F on March 22?\ncmd_recent:14: command not found: rg\ncmd_recent:20: command not found: rg",
+    "raw": "[botctl] 最近概览\n[botctl] 日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log\n[botctl] 时间: 2026-03-23 02:17:20\n\n[botctl] 最近扫描摘要\n\n[botctl] 最近异常/提示\n\n[botctl] 自动撤单概览\n[Stale Report] auto-cancel=true threshold age>=360m gap>=0.020\n[Stale Report] history: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/stale-order-actions.jsonl\n[Stale Report] scans=273 24h-scans=273 24h-with-candidates=2\n[Stale Report] 24h candidates=2 cancelled=2 resolved=0 failed=0\n[Stale Report] latest-scan 2026-03-22T18:17:18.797Z candidates=0 cancelled=0 resolved=0 failed=0\n[Stale Report] recent actions\n  2026-03-21T21:48:29.215Z cancelled rem=1.13 @ $0.140 bid=$0.200 age=477.72m gap=0.060 | Will the highest temperature in Shanghai be 12°C on March 24?\n  2026-03-21T22:38:29.240Z cancelled rem=18.00 @ $0.062 bid=$0.099 age=363.56m gap=0.037 | Will the highest temperature in Chicago be between 66-67°F on March 22?\ncmd_recent:14: command not found: rg\ncmd_recent:20: command not found: rg",
     "sections": {
       "overview": [
         "[botctl] 日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log",
-        "[botctl] 时间: 2026-03-23 02:12:35"
+        "[botctl] 时间: 2026-03-23 02:17:20"
       ],
       "scanSummary": [],
       "issues": [],
       "stale": [
         "[Stale Report] auto-cancel=true threshold age>=360m gap>=0.020",
         "[Stale Report] history: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/stale-order-actions.jsonl",
-        "[Stale Report] scans=272 24h-scans=272 24h-with-candidates=2",
+        "[Stale Report] scans=273 24h-scans=273 24h-with-candidates=2",
         "[Stale Report] 24h candidates=2 cancelled=2 resolved=0 failed=0",
-        "[Stale Report] latest-scan 2026-03-22T18:12:18.615Z candidates=0 cancelled=0 resolved=0 failed=0",
+        "[Stale Report] latest-scan 2026-03-22T18:17:18.797Z candidates=0 cancelled=0 resolved=0 failed=0",
         "[Stale Report] recent actions",
         "  2026-03-21T21:48:29.215Z cancelled rem=1.13 @ $0.140 bid=$0.200 age=477.72m gap=0.060 | Will the highest temperature in Shanghai be 12°C on March 24?",
         "  2026-03-21T22:38:29.240Z cancelled rem=18.00 @ $0.062 bid=$0.099 age=363.56m gap=0.037 | Will the highest temperature in Chicago be between 66-67°F on March 22?",
@@ -65,63 +65,92 @@
   },
   "blockers": {
     "available": true,
-    "scanTime": "2026-03-22T18:12:33.626Z",
-    "scanTimeLabel": "03/23 02:12",
+    "scanTime": "2026-03-22T18:17:24.413Z",
+    "scanTimeLabel": "03/23 02:17",
     "marketsScanned": 25,
-    "tradeSignals": 1,
-    "skippedCount": 24,
+    "tradeSignals": 5,
+    "skippedCount": 20,
     "allowedNew": {
       "allowed": 1,
-      "total": 1
+      "total": 5
     },
     "risk": {
-      "openOrders": 3,
+      "openOrders": 4,
       "openPositions": 5,
-      "exposure": 9.29
+      "exposure": 10.41
     },
     "exit": {
-      "positions": 5,
+      "positions": 6,
       "exit": 0,
-      "hold": 5
+      "hold": 6
     },
     "execution": {
-      "accepted": 1,
+      "accepted": 0,
       "rejected": 0,
       "failed": 0
     },
     "reasonBuckets": [
       {
         "label": "Edge 不足",
-        "count": 20
+        "count": 13
       },
       {
         "label": "价格超出范围",
-        "count": 4
+        "count": 7
       }
     ],
     "topReasons": [
       {
         "label": "Edge 2.6% < 12%",
-        "count": 3
+        "count": 4
       },
       {
-        "label": "Edge 2.3% < 12%",
+        "label": "价格 $0.770 超出范围",
         "count": 2
       },
       {
-        "label": "Edge 2.7% < 12%",
+        "label": "价格 $0.835 超出范围",
         "count": 2
       },
       {
-        "label": "价格 $0.004 超出范围",
-        "count": 1
+        "label": "Edge 1.5% < 12%",
+        "count": 2
       },
       {
-        "label": "价格 $0.006 超出范围",
-        "count": 1
+        "label": "Edge 2.8% < 12%",
+        "count": 2
       }
     ],
     "recentScans": [
+      {
+        "scanTime": "2026-03-22T18:17:24.413Z",
+        "scanTimeLabel": "03/23 02:17",
+        "headline": "结论: 本轮有 5 个交易信号，风控只放行 1/5。",
+        "topBlocker": "Edge 不足",
+        "tradeSignals": 5,
+        "allowed": 1,
+        "total": 5,
+        "accepted": 0,
+        "failed": 0,
+        "marketsScanned": 25,
+        "skippedCount": 20,
+        "openOrders": 4,
+        "openPositions": 5,
+        "exposure": 10.41,
+        "exitCount": 0,
+        "holdCount": 6,
+        "topReasons": [
+          {
+            "label": "Edge 2.6% < 12%",
+            "count": 4
+          },
+          {
+            "label": "价格 $0.770 超出范围",
+            "count": 2
+          }
+        ],
+        "state": "partially-blocked"
+      },
       {
         "scanTime": "2026-03-22T18:12:33.626Z",
         "scanTimeLabel": "03/23 02:12",
@@ -237,56 +266,27 @@
           }
         ],
         "state": "risk-blocked"
-      },
-      {
-        "scanTime": "2026-03-22T17:52:31.314Z",
-        "scanTimeLabel": "03/23 01:52",
-        "headline": "结论: 本轮没有合格新信号，主因是“Edge 不足”。",
-        "topBlocker": "Edge 不足",
-        "tradeSignals": 0,
-        "allowed": 0,
-        "total": 0,
-        "accepted": 0,
-        "failed": 0,
-        "marketsScanned": 25,
-        "skippedCount": 25,
-        "openOrders": 3,
-        "openPositions": 5,
-        "exposure": 9.29,
-        "exitCount": 0,
-        "holdCount": 5,
-        "topReasons": [
-          {
-            "label": "Edge 2.6% < 12%",
-            "count": 5
-          },
-          {
-            "label": "Edge 2.3% < 12%",
-            "count": 3
-          }
-        ],
-        "state": "no-signal"
       }
     ],
     "summaryLines": [
-      "本轮扫描: 03/23 02:12 | 市场=25",
-      "结论: 本轮已有 1 笔新单成功接入。",
-      "交易信号=1 | 风控放行=1/1 | 执行 accepted=1 failed=0",
-      "风险占用: 挂单=3 | 持仓=5 | exposure=$9.29",
-      "退出判断: exit=0 | hold=5 | positions=5",
+      "本轮扫描: 03/23 02:17 | 市场=25",
+      "结论: 本轮有 5 个交易信号，风控只放行 1/5。",
+      "交易信号=5 | 风控放行=1/5 | 执行 accepted=0 failed=0",
+      "风险占用: 挂单=4 | 持仓=5 | exposure=$10.41",
+      "退出判断: exit=0 | hold=6 | positions=6",
       "",
       "跳过主因:",
-      "- Edge 不足: 20",
-      "- 价格超出范围: 4",
+      "- Edge 不足: 13",
+      "- 价格超出范围: 7",
       "",
       "高频原始原因:",
-      "- Edge 2.6% < 12%: 3",
-      "- Edge 2.3% < 12%: 2",
-      "- Edge 2.7% < 12%: 2"
+      "- Edge 2.6% < 12%: 4",
+      "- 价格 $0.770 超出范围: 2",
+      "- 价格 $0.835 超出范围: 2"
     ]
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T18:16:51.345Z",
+    "fetchedAt": "2026-03-22T18:17:25.024Z",
     "balance": {
       "availableUSDC": 5.6373,
       "rawMinorUnits": "5637265"
@@ -984,25 +984,11 @@
         "openValue": 1.122,
         "placedAt": "03/23 02:12",
         "placedAtRaw": "2026-03-22T18:12:35.995Z",
-        "remoteStatus": "open",
+        "remoteStatus": "live",
         "settlementTime": "03/23 20:00",
         "settlementRaw": "2026-03-23T12:00:00Z",
         "city": "miami",
         "date": "2026-03-23"
-      },
-      {
-        "question": "Will the highest temperature in Tel Aviv be 21°C or higher on March 26?",
-        "side": "YES",
-        "remainingShares": 17,
-        "limitPrice": 0.066,
-        "openValue": 1.122,
-        "placedAt": "03/23 01:30",
-        "placedAtRaw": "2026-03-22T17:30:02.271Z",
-        "remoteStatus": "live",
-        "settlementTime": "03/26 20:00",
-        "settlementRaw": "2026-03-26T12:00:00Z",
-        "city": "tel aviv",
-        "date": "2026-03-26"
       },
       {
         "question": "Will the highest temperature in Dallas be between 84-85°F on March 25?",
@@ -1034,21 +1020,21 @@
       }
     ],
     "risk": {
-      "openOrders": 4,
-      "openPositions": 5,
+      "openOrders": 3,
+      "openPositions": 6,
       "totalExposure": 10.41,
-      "openOrderExposure": 4.5,
-      "openPositionExposure": 5.91
+      "openOrderExposure": 3.38,
+      "openPositionExposure": 7.03
     },
     "pnl": {
-      "asOf": "2026-03-22T18:16:51.319Z",
+      "asOf": "2026-03-22T18:17:24.986Z",
       "realizedPnl": 41.0435,
       "unrealizedPnl": -26.1019,
       "totalPnl": 14.9416,
       "pnlRate": 0.2396,
       "deployedCapital": 62.3666,
       "currentPositionValue": 24.3066,
-      "openOrderValue": 4.5,
+      "openOrderValue": 3.378,
       "availableBalance": 5.6373,
       "currentTotalValue": 29.9439,
       "baseBankroll": 20,
@@ -10704,6 +10690,15 @@
           "pnlRate": 0.2396,
           "currentTotalValue": 29.9439,
           "status": "official-wallet"
+        },
+        {
+          "index": 1073,
+          "ts": "2026-03-22T18:17:24.986Z",
+          "label": "03/23 02:17",
+          "pnlAmount": 14.9416,
+          "pnlRate": 0.2396,
+          "currentTotalValue": 29.9439,
+          "status": "official-wallet"
         }
       ],
       "curveStartedAt": "2026-03-22T09:01:12.179Z",
@@ -10711,16 +10706,37 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T18:16:52.670Z",
+    "fetchedAt": "2026-03-22T18:17:26.270Z",
     "stats": {
-      "total": 13,
+      "total": 14,
       "open": 0,
-      "holding": 6,
+      "holding": 7,
       "settled": 0,
       "closed": 7,
       "pendingSettlement": 0
     },
     "trades": [
+      {
+        "ts": "03/23 01:30",
+        "tsRaw": "2026-03-22T17:30:02.271Z",
+        "question": "Will the highest temperature in Tel Aviv be 21°C or higher on March 26?",
+        "city": "tel aviv",
+        "date": "2026-03-26",
+        "side": "YES",
+        "price": 0.066,
+        "size": 1.122,
+        "shares": 17,
+        "edgePct": 90.4,
+        "status": "holding",
+        "statusLabel": "已成交持仓",
+        "statusLevel": "ok",
+        "exitReason": null,
+        "exitReasonLabel": null,
+        "orderRef": "0xc2f070f1b8c0cfb7ffee9a1e9d9623d70f59b8665a4c04528b582e338c18a87a",
+        "pnlAmount": null,
+        "pnlRate": null,
+        "settlementTime": "03/26 20:00"
+      },
       {
         "ts": "03/22 23:30",
         "tsRaw": "2026-03-22T15:30:00.528Z",
