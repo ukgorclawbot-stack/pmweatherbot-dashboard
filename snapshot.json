@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-22T06:43:51.155Z",
+  "fetchedAt": "2026-03-22T06:44:24.269Z",
   "status": {
-    "raw": "[botctl] 状态: running\n83761 83720 SN   01:46 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log\n[botctl] 日志时间: 2026-03-22 14:42:14",
+    "raw": "[botctl] 状态: running\n83761 83720 SN   02:19 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log\n[botctl] 日志时间: 2026-03-22 14:42:14",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log",
@@ -10,12 +10,12 @@
       "pid": "83761",
       "ppid": "83720",
       "stat": "SN",
-      "etime": "01:46",
+      "etime": "02:19",
       "command": "node index.mjs auto"
     }
   },
   "health": {
-    "raw": "[Health] WARN\n[ok] process: 运行中 PID=83761\n[warn] signals: 暂无 signals.jsonl 记录\n[ok] trades: 最近交易日志 6 分钟前\n[ok] weather-cache: 缓存正常，条目=99，最近更新 2 分钟前",
+    "raw": "[Health] WARN\n[ok] process: 运行中 PID=83761\n[warn] signals: 暂无 signals.jsonl 记录\n[ok] trades: 最近交易日志 7 分钟前\n[ok] weather-cache: 缓存正常，条目=99，最近更新 2 分钟前",
     "level": "warn",
     "checks": [
       {
@@ -31,7 +31,7 @@
       {
         "level": "ok",
         "name": "trades",
-        "message": "最近交易日志 6 分钟前"
+        "message": "最近交易日志 7 分钟前"
       },
       {
         "level": "ok",
@@ -64,7 +64,7 @@
     }
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T06:43:50.327Z",
+    "fetchedAt": "2026-03-22T06:44:24.182Z",
     "balance": {
       "availableUSDC": 9.8827,
       "rawMinorUnits": "9882655"
@@ -80,22 +80,22 @@
     },
     "pnl": {
       "realizedPnl": 5.733,
-      "unrealizedPnl": -0.6439,
-      "totalPnl": 5.0891,
-      "pnlRate": 1.5093,
+      "unrealizedPnl": -0.7439,
+      "totalPnl": 4.9891,
+      "pnlRate": 1.4797,
       "deployedCapital": 3.3718,
-      "currentPositionValue": 1.4679,
+      "currentPositionValue": 1.3679,
       "openOrderValue": 0,
       "availableBalance": 9.8827,
-      "currentTotalValue": 11.3506,
+      "currentTotalValue": 11.2506,
       "baseBankroll": 20,
       "curve": [
         {
           "index": 1,
           "ts": "2026-03-21T16:19:13.789Z",
           "label": "Will the highest temperature in Atlanta be between 68-69°F on March 24?",
-          "pnlAmount": -0.85,
-          "pnlRate": -0.7391,
+          "pnlAmount": -0.95,
+          "pnlRate": -0.8261,
           "costBasis": 1.15,
           "status": "closing"
         },
@@ -103,8 +103,8 @@
           "index": 2,
           "ts": "2026-03-21T19:16:04.376Z",
           "label": "Will the highest temperature in Shanghai be 12°C on March 24?",
-          "pnlAmount": -0.6439,
-          "pnlRate": -0.3049,
+          "pnlAmount": -0.7439,
+          "pnlRate": -0.3523,
           "costBasis": 2.1118,
           "status": "closing"
         },
@@ -112,8 +112,8 @@
           "index": 3,
           "ts": "2026-03-22T06:42:06.031Z",
           "label": "Will the highest temperature in Atlanta be between 82-83°F on March 21?",
-          "pnlAmount": 5.0891,
-          "pnlRate": 1.5093,
+          "pnlAmount": 4.9891,
+          "pnlRate": 1.4797,
           "costBasis": 3.3718,
           "status": "closed"
         }
@@ -122,7 +122,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T06:43:51.155Z",
+    "fetchedAt": "2026-03-22T06:44:24.269Z",
     "stats": {
       "total": 2,
       "open": 0,
