@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-22T13:33:32.585Z",
+  "fetchedAt": "2026-03-22T13:34:05.418Z",
   "status": {
-    "raw": "[botctl] 状态: running\n 4519  4474 SN   49:01 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-204430.log\n[botctl] 日志时间: 2026-03-22 21:29:56",
+    "raw": "[botctl] 状态: running\n 4519  4474 SN   49:33 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-204430.log\n[botctl] 日志时间: 2026-03-22 21:29:56",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-204430.log",
@@ -58,10 +58,10 @@
     }
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T13:33:32.583Z",
+    "fetchedAt": "2026-03-22T13:34:05.361Z",
     "balance": {
-      "availableUSDC": 9.7303,
-      "rawMinorUnits": "9730265"
+      "availableUSDC": 9.4088,
+      "rawMinorUnits": "9408795"
     },
     "positions": [
       {
@@ -266,14 +266,14 @@
         "positionID": "81372614697778871729389948043579005152499358225647379792207897555348240358862",
         "question": "Will the highest temperature in New York City be between 64-65°F on March 22?",
         "side": "YES",
-        "shares": 5,
+        "shares": 10.27,
         "entryPrice": 0.061,
-        "notional": 0.305,
-        "costBasis": 0.305,
+        "notional": 0.6265,
+        "costBasis": 0.6265,
         "currentPrice": 0.0645,
-        "currentValue": 0.3225,
-        "pnlAmount": 0.0175,
-        "pnlRate": 0.0574,
+        "currentValue": 0.6624,
+        "pnlAmount": 0.0359,
+        "pnlRate": 0.0573,
         "status": "open",
         "openedAt": "官方接口未提供",
         "openedAtRaw": null,
@@ -799,16 +799,16 @@
       "openPositionExposure": 5.01
     },
     "pnl": {
-      "asOf": "2026-03-22T13:33:32.568Z",
+      "asOf": "2026-03-22T13:34:05.345Z",
       "realizedPnl": 41.0435,
-      "unrealizedPnl": -26.366,
-      "totalPnl": 14.6775,
-      "pnlRate": 0.2415,
-      "deployedCapital": 60.7836,
-      "currentPositionValue": 22.4595,
+      "unrealizedPnl": -26.3475,
+      "totalPnl": 14.696,
+      "pnlRate": 0.2405,
+      "deployedCapital": 61.1051,
+      "currentPositionValue": 22.7995,
       "openOrderValue": 1.9695,
-      "availableBalance": 9.7303,
-      "currentTotalValue": 32.1898,
+      "availableBalance": 9.4088,
+      "currentTotalValue": 32.2083,
       "baseBankroll": 20,
       "openPositionCount": 58,
       "closedPositionCount": 10,
@@ -5710,6 +5710,15 @@
           "pnlRate": 0.2415,
           "currentTotalValue": 32.1898,
           "status": "official-wallet"
+        },
+        {
+          "index": 545,
+          "ts": "2026-03-22T13:34:05.345Z",
+          "label": "03/22 21:34",
+          "pnlAmount": 14.696,
+          "pnlRate": 0.2405,
+          "currentTotalValue": 32.2083,
+          "status": "official-wallet"
         }
       ],
       "curveStartedAt": "2026-03-22T09:01:12.179Z",
@@ -5717,7 +5726,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T13:33:32.585Z",
+    "fetchedAt": "2026-03-22T13:34:05.418Z",
     "stats": {
       "total": 9,
       "open": 2,
