@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-22T07:46:34.068Z",
+  "fetchedAt": "2026-03-22T07:47:06.772Z",
   "status": {
-    "raw": "[botctl] 状态: running\n83761 83720 SN   01:04:30 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log\n[botctl] 日志时间: 2026-03-22 15:42:17",
+    "raw": "[botctl] 状态: running\n83761 83720 SN   01:05:02 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log\n[botctl] 日志时间: 2026-03-22 15:42:17",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log",
@@ -10,12 +10,12 @@
       "pid": "83761",
       "ppid": "83720",
       "stat": "SN",
-      "etime": "01:04:30",
+      "etime": "01:05:02",
       "command": "node index.mjs auto"
     }
   },
   "health": {
-    "raw": "[Health] WARN\n[ok] process: 运行中 PID=83761\n[warn] signals: 暂无 signals.jsonl 记录\n[warn] trades: 最近交易日志 39 分钟未更新\n[ok] weather-cache: 缓存正常，条目=99，最近更新 9 分钟前",
+    "raw": "[Health] WARN\n[ok] process: 运行中 PID=83761\n[warn] signals: 暂无 signals.jsonl 记录\n[warn] trades: 最近交易日志 40 分钟未更新\n[ok] weather-cache: 缓存正常，条目=99，最近更新 10 分钟前",
     "level": "warn",
     "checks": [
       {
@@ -31,12 +31,12 @@
       {
         "level": "warn",
         "name": "trades",
-        "message": "最近交易日志 39 分钟未更新"
+        "message": "最近交易日志 40 分钟未更新"
       },
       {
         "level": "ok",
         "name": "weather-cache",
-        "message": "缓存正常，条目=99，最近更新 9 分钟前"
+        "message": "缓存正常，条目=99，最近更新 10 分钟前"
       }
     ]
   },
@@ -64,7 +64,7 @@
     }
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T07:46:34.055Z",
+    "fetchedAt": "2026-03-22T07:47:06.424Z",
     "balance": {
       "availableUSDC": 10.2187,
       "rawMinorUnits": "10218655"
@@ -194,7 +194,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T07:46:34.068Z",
+    "fetchedAt": "2026-03-22T07:47:06.772Z",
     "stats": {
       "total": 7,
       "open": 3,
