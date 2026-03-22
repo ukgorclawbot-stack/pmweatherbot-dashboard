@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-22T07:19:21.168Z",
+  "fetchedAt": "2026-03-22T07:19:54.046Z",
   "status": {
-    "raw": "[botctl] 状态: running\n83761 83720 SN   37:16 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log\n[botctl] 日志时间: 2026-03-22 15:17:23",
+    "raw": "[botctl] 状态: running\n83761 83720 SN   37:49 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log\n[botctl] 日志时间: 2026-03-22 15:17:23",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log",
@@ -10,12 +10,12 @@
       "pid": "83761",
       "ppid": "83720",
       "stat": "SN",
-      "etime": "37:16",
+      "etime": "37:49",
       "command": "node index.mjs auto"
     }
   },
   "health": {
-    "raw": "[Health] WARN\n[ok] process: 运行中 PID=83761\n[warn] signals: 暂无 signals.jsonl 记录\n[ok] trades: 最近交易日志 12 分钟前\n[ok] weather-cache: 缓存正常，条目=99，最近更新 2 分钟前",
+    "raw": "[Health] WARN\n[ok] process: 运行中 PID=83761\n[warn] signals: 暂无 signals.jsonl 记录\n[ok] trades: 最近交易日志 12 分钟前\n[ok] weather-cache: 缓存正常，条目=99，最近更新 3 分钟前",
     "level": "warn",
     "checks": [
       {
@@ -36,7 +36,7 @@
       {
         "level": "ok",
         "name": "weather-cache",
-        "message": "缓存正常，条目=99，最近更新 2 分钟前"
+        "message": "缓存正常，条目=99，最近更新 3 分钟前"
       }
     ]
   },
@@ -64,7 +64,7 @@
     }
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T07:19:20.930Z",
+    "fetchedAt": "2026-03-22T07:19:53.976Z",
     "balance": {
       "availableUSDC": 8.9587,
       "rawMinorUnits": "8958655"
@@ -78,10 +78,10 @@
         "entryPrice": 0.081,
         "notional": 1.134,
         "costBasis": 1.134,
-        "currentPrice": 0.042,
-        "currentValue": 0.588,
-        "pnlAmount": -0.546,
-        "pnlRate": -0.4815,
+        "currentPrice": 0.041,
+        "currentValue": 0.574,
+        "pnlAmount": -0.56,
+        "pnlRate": -0.4938,
         "status": "open",
         "openedAt": "03/22 15:02",
         "openedAtRaw": "2026-03-22T07:02:16.007Z",
@@ -143,14 +143,14 @@
     },
     "pnl": {
       "realizedPnl": 0,
-      "unrealizedPnl": -1.1712,
-      "totalPnl": -1.1712,
-      "pnlRate": -0.2599,
+      "unrealizedPnl": -1.1852,
+      "totalPnl": -1.1852,
+      "pnlRate": -0.263,
       "deployedCapital": 4.5058,
-      "currentPositionValue": 2.0746,
+      "currentPositionValue": 2.0606,
       "openOrderValue": 3.51,
       "availableBalance": 8.9587,
-      "currentTotalValue": 11.0333,
+      "currentTotalValue": 11.0193,
       "baseBankroll": 20,
       "curve": [
         {
@@ -184,8 +184,8 @@
           "index": 4,
           "ts": "2026-03-22T07:02:16.007Z",
           "label": "Will the highest temperature in Chicago be between 68-69°F on March 22?",
-          "pnlAmount": -1.1712,
-          "pnlRate": -0.2599,
+          "pnlAmount": -1.1852,
+          "pnlRate": -0.263,
           "costBasis": 4.5058,
           "status": "open"
         }
@@ -194,7 +194,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T07:19:21.168Z",
+    "fetchedAt": "2026-03-22T07:19:54.046Z",
     "stats": {
       "total": 6,
       "open": 3,
