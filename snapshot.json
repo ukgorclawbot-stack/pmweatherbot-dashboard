@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-22T15:00:31.575Z",
+  "fetchedAt": "2026-03-22T15:01:04.751Z",
   "status": {
-    "raw": "[botctl] 状态: running\n 4519  4474 SN   02:15:59 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-204430.log\n[botctl] 日志时间: 2026-03-22 22:59:55",
+    "raw": "[botctl] 状态: running\n 4519  4474 SN   02:16:33 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-204430.log\n[botctl] 日志时间: 2026-03-22 22:59:55",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-204430.log",
@@ -190,12 +190,34 @@
     ]
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T15:00:30.712Z",
+    "fetchedAt": "2026-03-22T15:01:03.987Z",
     "balance": {
-      "availableUSDC": 7.1963,
-      "rawMinorUnits": "7196265"
+      "availableUSDC": 6.2443,
+      "rawMinorUnits": "6244265"
     },
     "positions": [
+      {
+        "positionID": "103511993939925144092348083614695040055492087548955299383298800511542616555808",
+        "question": "Will the highest temperature in Buenos Aires be 32°C or higher on March 26?",
+        "side": "YES",
+        "shares": 5.95,
+        "entryPrice": 0,
+        "notional": 0,
+        "costBasis": 0,
+        "currentPrice": 0.225,
+        "currentValue": 1.3388,
+        "pnlAmount": 1.3388,
+        "pnlRate": 22.5,
+        "status": "open",
+        "openedAt": "官方接口未提供",
+        "openedAtRaw": null,
+        "closedAt": null,
+        "closedAtRaw": null,
+        "settlementTime": "03/26 20:00",
+        "settlementRaw": "2026-03-26T12:00:00Z",
+        "city": "buenos aires",
+        "date": "2026-03-26"
+      },
       {
         "positionID": "59855865462510065469162935796026736664650596352112997654569826582768986970700",
         "question": "Will the highest temperature in Paris be 17°C or higher on March 25?",
@@ -377,13 +399,13 @@
         "question": "Will the highest temperature in Lucknow be 31°C or below on March 23?",
         "side": "NO",
         "shares": 20,
-        "entryPrice": 0,
-        "notional": 0,
-        "costBasis": 0,
+        "entryPrice": 0.06,
+        "notional": 1.2,
+        "costBasis": 1.2,
         "currentPrice": 0.055,
         "currentValue": 1.1,
-        "pnlAmount": 1.1,
-        "pnlRate": 5.5,
+        "pnlAmount": -0.1,
+        "pnlRate": -0.0833,
         "status": "open",
         "openedAt": "官方接口未提供",
         "openedAtRaw": null,
@@ -939,18 +961,18 @@
       "openPositionExposure": 6.99
     },
     "pnl": {
-      "asOf": "2026-03-22T15:00:30.644Z",
+      "asOf": "2026-03-22T15:01:03.964Z",
       "realizedPnl": 41.0435,
-      "unrealizedPnl": -24.597,
-      "totalPnl": 16.4465,
-      "pnlRate": 0.2648,
-      "deployedCapital": 62.1176,
-      "currentPositionValue": 25.5625,
+      "unrealizedPnl": -24.4583,
+      "totalPnl": 16.5852,
+      "pnlRate": 0.2619,
+      "deployedCapital": 63.3176,
+      "currentPositionValue": 26.9012,
       "openOrderValue": 2.38,
-      "availableBalance": 7.1963,
-      "currentTotalValue": 32.7588,
+      "availableBalance": 6.2443,
+      "currentTotalValue": 33.1455,
       "baseBankroll": 20,
-      "openPositionCount": 59,
+      "openPositionCount": 60,
       "closedPositionCount": 10,
       "methodology": "official-wallet-pnl-from-polymarket-data-api",
       "source": "polymarket-data-api",
@@ -7353,6 +7375,15 @@
           "pnlRate": 0.2648,
           "currentTotalValue": 32.7588,
           "status": "official-wallet"
+        },
+        {
+          "index": 712,
+          "ts": "2026-03-22T15:01:03.964Z",
+          "label": "03/22 23:01",
+          "pnlAmount": 16.5852,
+          "pnlRate": 0.2619,
+          "currentTotalValue": 33.1455,
+          "status": "official-wallet"
         }
       ],
       "curveStartedAt": "2026-03-22T09:01:12.179Z",
@@ -7360,7 +7391,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T15:00:31.575Z",
+    "fetchedAt": "2026-03-22T15:01:04.751Z",
     "stats": {
       "total": 10,
       "open": 0,
