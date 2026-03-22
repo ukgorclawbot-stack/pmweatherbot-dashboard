@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-22T13:24:53.359Z",
+  "fetchedAt": "2026-03-22T13:25:25.881Z",
   "status": {
-    "raw": "[botctl] 状态: running\n 4519  4474 SN   40:22 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-204430.log\n[botctl] 日志时间: 2026-03-22 21:24:42",
+    "raw": "[botctl] 状态: running\n 4519  4474 SN   40:54 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-204430.log\n[botctl] 日志时间: 2026-03-22 21:24:42",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-204430.log",
@@ -9,7 +9,7 @@
     "process": null
   },
   "health": {
-    "raw": "[Health] WARN\n[ok] process: 运行中 PID=4519\n[warn] signals: 暂无 signals.jsonl 记录\n[ok] trades: 最近交易日志 5 分钟前\n[ok] weather-cache: 缓存正常，条目=108，最近更新 5 分钟前",
+    "raw": "[Health] WARN\n[ok] process: 运行中 PID=4519\n[warn] signals: 暂无 signals.jsonl 记录\n[ok] trades: 最近交易日志 6 分钟前\n[ok] weather-cache: 缓存正常，条目=108，最近更新 6 分钟前",
     "level": "warn",
     "checks": [
       {
@@ -25,12 +25,12 @@
       {
         "level": "ok",
         "name": "trades",
-        "message": "最近交易日志 5 分钟前"
+        "message": "最近交易日志 6 分钟前"
       },
       {
         "level": "ok",
         "name": "weather-cache",
-        "message": "缓存正常，条目=108，最近更新 5 分钟前"
+        "message": "缓存正常，条目=108，最近更新 6 分钟前"
       }
     ]
   },
@@ -58,7 +58,7 @@
     }
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T13:24:53.358Z",
+    "fetchedAt": "2026-03-22T13:25:25.879Z",
     "balance": {
       "availableUSDC": 10.3753,
       "rawMinorUnits": "10375265"
@@ -160,10 +160,10 @@
         "entryPrice": 0.07,
         "notional": 1.19,
         "costBasis": 1.19,
-        "currentPrice": 0.08,
-        "currentValue": 1.36,
-        "pnlAmount": 0.17,
-        "pnlRate": 0.1429,
+        "currentPrice": 0.075,
+        "currentValue": 1.275,
+        "pnlAmount": 0.085,
+        "pnlRate": 0.0714,
         "status": "open",
         "openedAt": "官方接口未提供",
         "openedAtRaw": null,
@@ -292,10 +292,10 @@
         "entryPrice": 0.17,
         "notional": 0.85,
         "costBasis": 0.85,
-        "currentPrice": 0.245,
-        "currentValue": 1.225,
-        "pnlAmount": 0.375,
-        "pnlRate": 0.4412,
+        "currentPrice": 0.295,
+        "currentValue": 1.475,
+        "pnlAmount": 0.625,
+        "pnlRate": 0.7353,
         "status": "open",
         "openedAt": "官方接口未提供",
         "openedAtRaw": null,
@@ -763,16 +763,16 @@
       "openPositionExposure": 5.01
     },
     "pnl": {
-      "asOf": "2026-03-22T13:24:53.331Z",
+      "asOf": "2026-03-22T13:25:25.841Z",
       "realizedPnl": 41.0435,
-      "unrealizedPnl": -27.2602,
-      "totalPnl": 13.7833,
-      "pnlRate": 0.2292,
+      "unrealizedPnl": -27.0952,
+      "totalPnl": 13.9483,
+      "pnlRate": 0.2319,
       "deployedCapital": 60.1386,
-      "currentPositionValue": 20.9203,
+      "currentPositionValue": 21.0853,
       "openOrderValue": 0.82,
       "availableBalance": 10.3753,
-      "currentTotalValue": 31.2956,
+      "currentTotalValue": 31.4606,
       "baseBankroll": 20,
       "openPositionCount": 57,
       "closedPositionCount": 10,
@@ -5530,6 +5530,15 @@
           "pnlRate": 0.2292,
           "currentTotalValue": 31.2956,
           "status": "official-wallet"
+        },
+        {
+          "index": 529,
+          "ts": "2026-03-22T13:25:25.841Z",
+          "label": "03/22 21:25",
+          "pnlAmount": 13.9483,
+          "pnlRate": 0.2319,
+          "currentTotalValue": 31.4606,
+          "status": "official-wallet"
         }
       ],
       "curveStartedAt": "2026-03-22T09:01:12.179Z",
@@ -5537,7 +5546,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T13:24:53.359Z",
+    "fetchedAt": "2026-03-22T13:25:25.881Z",
     "stats": {
       "total": 9,
       "open": 2,
