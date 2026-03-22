@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-22T09:57:09.887Z",
+  "fetchedAt": "2026-03-22T09:57:42.669Z",
   "status": {
-    "raw": "[botctl] 状态: running\n39362 39320 SN   01:12:55 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-164414.log\n[botctl] 日志时间: 2026-03-22 17:54:31",
+    "raw": "[botctl] 状态: running\n39362 39320 SN   01:13:27 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-164414.log\n[botctl] 日志时间: 2026-03-22 17:54:31",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-164414.log",
@@ -10,7 +10,7 @@
       "pid": "39362",
       "ppid": "39320",
       "stat": "SN",
-      "etime": "01:12:55",
+      "etime": "01:13:27",
       "command": "node index.mjs auto"
     }
   },
@@ -64,7 +64,7 @@
     }
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T09:57:09.840Z",
+    "fetchedAt": "2026-03-22T09:57:42.492Z",
     "balance": {
       "availableUSDC": 13.1353,
       "rawMinorUnits": "13135265"
@@ -100,10 +100,10 @@
         "entryPrice": 0.2931,
         "notional": 4.719,
         "costBasis": 4.719,
-        "currentPrice": 0.05,
-        "currentValue": 0.805,
-        "pnlAmount": -3.914,
-        "pnlRate": -0.8294,
+        "currentPrice": 0.055,
+        "currentValue": 0.8855,
+        "pnlAmount": -3.8335,
+        "pnlRate": -0.8124,
         "status": "open",
         "openedAt": "官方接口未提供",
         "openedAtRaw": null,
@@ -122,10 +122,10 @@
         "entryPrice": 0.1508,
         "notional": 1.3358,
         "costBasis": 1.3358,
-        "currentPrice": 0.205,
-        "currentValue": 1.8165,
-        "pnlAmount": 0.8362,
-        "pnlRate": 0.626,
+        "currentPrice": 0.2,
+        "currentValue": 1.7722,
+        "pnlAmount": 0.7919,
+        "pnlRate": 0.5928,
         "status": "open",
         "openedAt": "官方接口未提供",
         "openedAtRaw": null,
@@ -188,10 +188,10 @@
         "entryPrice": 0.2378,
         "notional": 4.2809,
         "costBasis": 4.2809,
-        "currentPrice": 0.165,
-        "currentValue": 2.97,
-        "pnlAmount": -1.85,
-        "pnlRate": -0.4322,
+        "currentPrice": 0.11,
+        "currentValue": 1.98,
+        "pnlAmount": -2.84,
+        "pnlRate": -0.6634,
         "status": "open",
         "openedAt": "官方接口未提供",
         "openedAtRaw": null,
@@ -254,10 +254,10 @@
         "entryPrice": 0.066,
         "notional": 0.924,
         "costBasis": 0.924,
-        "currentPrice": 0.0055,
-        "currentValue": 0.077,
-        "pnlAmount": -0.847,
-        "pnlRate": -0.9167,
+        "currentPrice": 0.006,
+        "currentValue": 0.084,
+        "pnlAmount": -0.84,
+        "pnlRate": -0.9091,
         "status": "open",
         "openedAt": "官方接口未提供",
         "openedAtRaw": null,
@@ -689,16 +689,16 @@
       "openPositionExposure": 3.45
     },
     "pnl": {
-      "asOf": "2026-03-22T09:57:09.836Z",
+      "asOf": "2026-03-22T09:57:42.487Z",
       "realizedPnl": 41.0435,
-      "unrealizedPnl": -24.2839,
-      "totalPnl": 16.7596,
-      "pnlRate": 0.2921,
+      "unrealizedPnl": -25.2307,
+      "totalPnl": 15.8128,
+      "pnlRate": 0.2756,
       "deployedCapital": 57.3786,
-      "currentPositionValue": 21.1366,
+      "currentPositionValue": 20.1898,
       "openOrderValue": 1.19,
       "availableBalance": 13.1353,
-      "currentTotalValue": 34.2719,
+      "currentTotalValue": 33.3251,
       "baseBankroll": 20,
       "openPositionCount": 54,
       "closedPositionCount": 10,
@@ -1685,6 +1685,15 @@
           "pnlRate": 0.2921,
           "currentTotalValue": 34.2719,
           "status": "official-wallet"
+        },
+        {
+          "index": 110,
+          "ts": "2026-03-22T09:57:42.487Z",
+          "label": "03/22 17:57",
+          "pnlAmount": 15.8128,
+          "pnlRate": 0.2756,
+          "currentTotalValue": 33.3251,
+          "status": "official-wallet"
         }
       ],
       "curveStartedAt": "2026-03-22T09:01:12.179Z",
@@ -1692,7 +1701,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T09:57:09.887Z",
+    "fetchedAt": "2026-03-22T09:57:42.669Z",
     "stats": {
       "total": 6,
       "open": 0,
