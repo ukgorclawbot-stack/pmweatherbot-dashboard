@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-22T22:23:05.960Z",
+  "fetchedAt": "2026-03-22T22:23:39.377Z",
   "status": {
-    "raw": "[botctl] 状态: running\n26785 26744 SN   04:46:04 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log\n[botctl] 日志时间: 2026-03-23 06:22:38",
+    "raw": "[botctl] 状态: running\n26785 26744 SN   04:46:38 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log\n[botctl] 日志时间: 2026-03-23 06:22:38",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log",
@@ -10,12 +10,12 @@
       "pid": "26785",
       "ppid": "26744",
       "stat": "SN",
-      "etime": "04:46:04",
+      "etime": "04:46:38",
       "command": "node index.mjs auto"
     }
   },
   "health": {
-    "raw": "[Health] WARN\n[ok] process: 运行中 PID=26785\n[warn] signals: 暂无 signals.jsonl 记录\n[ok] trades: 最近交易日志 0 分钟前\n[ok] weather-cache: 缓存正常，条目=119，最近更新 1 分钟前",
+    "raw": "[Health] WARN\n[ok] process: 运行中 PID=26785\n[warn] signals: 暂无 signals.jsonl 记录\n[ok] trades: 最近交易日志 1 分钟前\n[ok] weather-cache: 缓存正常，条目=119，最近更新 1 分钟前",
     "level": "warn",
     "checks": [
       {
@@ -31,7 +31,7 @@
       {
         "level": "ok",
         "name": "trades",
-        "message": "最近交易日志 0 分钟前"
+        "message": "最近交易日志 1 分钟前"
       },
       {
         "level": "ok",
@@ -41,7 +41,7 @@
     ]
   },
   "recent": {
-    "raw": "[botctl] 最近概览\n[botctl] 日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log\n[botctl] 时间: 2026-03-23 06:22:38\n\n[botctl] 最近扫描摘要\n\n[botctl] 最近异常/提示\n\n[botctl] 自动撤单概览\n[Stale Report] auto-cancel=true threshold age>=360m gap>=0.020\n[Stale Report] history: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/stale-order-actions.jsonl\n[Stale Report] scans=322 24h-scans=291 24h-with-candidates=1\n[Stale Report] 24h candidates=1 cancelled=1 resolved=0 failed=0\n[Stale Report] latest-scan 2026-03-22T22:22:18.749Z candidates=0 cancelled=0 resolved=0 failed=0\n[Stale Report] recent actions\n  2026-03-21T21:48:29.215Z cancelled rem=1.13 @ $0.140 bid=$0.200 age=477.72m gap=0.060 | Will the highest temperature in Shanghai be 12°C on March 24?\n  2026-03-21T22:38:29.240Z cancelled rem=18.00 @ $0.062 bid=$0.099 age=363.56m gap=0.037 | Will the highest temperature in Chicago be between 66-67°F on March 22?\ncmd_recent:14: command not found: rg\ncmd_recent:20: command not found: rg",
+    "raw": "[botctl] 最近概览\n[botctl] 日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log\n[botctl] 时间: 2026-03-23 06:22:38\n\n[botctl] 最近扫描摘要\n\n[botctl] 最近异常/提示\n\n[botctl] 自动撤单概览\n[Stale Report] auto-cancel=true threshold age>=360m gap>=0.020\n[Stale Report] history: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/stale-order-actions.jsonl\n[Stale Report] scans=322 24h-scans=290 24h-with-candidates=1\n[Stale Report] 24h candidates=1 cancelled=1 resolved=0 failed=0\n[Stale Report] latest-scan 2026-03-22T22:22:18.749Z candidates=0 cancelled=0 resolved=0 failed=0\n[Stale Report] recent actions\n  2026-03-21T21:48:29.215Z cancelled rem=1.13 @ $0.140 bid=$0.200 age=477.72m gap=0.060 | Will the highest temperature in Shanghai be 12°C on March 24?\n  2026-03-21T22:38:29.240Z cancelled rem=18.00 @ $0.062 bid=$0.099 age=363.56m gap=0.037 | Will the highest temperature in Chicago be between 66-67°F on March 22?\ncmd_recent:14: command not found: rg\ncmd_recent:20: command not found: rg",
     "sections": {
       "overview": [
         "[botctl] 日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log",
@@ -52,7 +52,7 @@
       "stale": [
         "[Stale Report] auto-cancel=true threshold age>=360m gap>=0.020",
         "[Stale Report] history: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/stale-order-actions.jsonl",
-        "[Stale Report] scans=322 24h-scans=291 24h-with-candidates=1",
+        "[Stale Report] scans=322 24h-scans=290 24h-with-candidates=1",
         "[Stale Report] 24h candidates=1 cancelled=1 resolved=0 failed=0",
         "[Stale Report] latest-scan 2026-03-22T22:22:18.749Z candidates=0 cancelled=0 resolved=0 failed=0",
         "[Stale Report] recent actions",
@@ -286,10 +286,10 @@
     ]
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T22:23:05.036Z",
+    "fetchedAt": "2026-03-22T22:23:38.249Z",
     "balance": {
-      "availableUSDC": 2.5219,
-      "rawMinorUnits": "2521865"
+      "availableUSDC": 2.3599,
+      "rawMinorUnits": "2359865"
     },
     "positions": [
       {
@@ -300,10 +300,10 @@
         "entryPrice": 0.066,
         "notional": 1.122,
         "costBasis": 1.122,
-        "currentPrice": 0.066,
-        "currentValue": 1.122,
-        "pnlAmount": 0,
-        "pnlRate": 0,
+        "currentPrice": 0.0675,
+        "currentValue": 1.1475,
+        "pnlAmount": 0.0255,
+        "pnlRate": 0.0227,
         "status": "open",
         "openedAt": "官方接口未提供",
         "openedAtRaw": null,
@@ -491,6 +491,28 @@
         "date": "2026-03-24"
       },
       {
+        "positionID": "37896566244925378843640761630577854260638272553228211341559678366603092164197",
+        "question": "Will the highest temperature in Toronto be 5°C or higher on March 23?",
+        "side": "YES",
+        "shares": 2,
+        "entryPrice": 0.081,
+        "notional": 0.162,
+        "costBasis": 0.162,
+        "currentPrice": 0.093,
+        "currentValue": 0.186,
+        "pnlAmount": 0.024,
+        "pnlRate": 0.1481,
+        "status": "open",
+        "openedAt": "官方接口未提供",
+        "openedAtRaw": null,
+        "closedAt": null,
+        "closedAtRaw": null,
+        "settlementTime": "03/23 20:00",
+        "settlementRaw": "2026-03-23T12:00:00Z",
+        "city": "toronto",
+        "date": "2026-03-23"
+      },
+      {
         "positionID": "3667046592181456551149773439692756641132494303857685363971089200638931793006",
         "question": "Will the highest temperature in Tokyo be 14°C on March 23?",
         "side": "NO",
@@ -498,10 +520,10 @@
         "entryPrice": 0.18,
         "notional": 1.08,
         "costBasis": 1.08,
-        "currentPrice": 0.375,
-        "currentValue": 2.25,
-        "pnlAmount": 1.17,
-        "pnlRate": 1.0833,
+        "currentPrice": 0.38,
+        "currentValue": 2.28,
+        "pnlAmount": 1.2,
+        "pnlRate": 1.1111,
         "status": "open",
         "openedAt": "官方接口未提供",
         "openedAtRaw": null,
@@ -520,10 +542,10 @@
         "entryPrice": 0.149,
         "notional": 2.384,
         "costBasis": 2.384,
-        "currentPrice": 0.5435,
-        "currentValue": 8.696,
-        "pnlAmount": 6.312,
-        "pnlRate": 2.6477,
+        "currentPrice": 0.5495,
+        "currentValue": 8.792,
+        "pnlAmount": 6.408,
+        "pnlRate": 2.6879,
         "status": "open",
         "openedAt": "官方接口未提供",
         "openedAtRaw": null,
@@ -1049,18 +1071,18 @@
       "openPositionExposure": 7.74
     },
     "pnl": {
-      "asOf": "2026-03-22T22:23:04.950Z",
+      "asOf": "2026-03-22T22:23:38.213Z",
       "realizedPnl": 40.9712,
-      "unrealizedPnl": -27.4583,
-      "totalPnl": 13.5129,
-      "pnlRate": 0.2083,
-      "deployedCapital": 64.8777,
-      "currentPositionValue": 25.4613,
+      "unrealizedPnl": -27.2828,
+      "totalPnl": 13.6884,
+      "pnlRate": 0.2105,
+      "deployedCapital": 65.0397,
+      "currentPositionValue": 25.7988,
       "openOrderValue": 3.965,
-      "availableBalance": 2.5219,
-      "currentTotalValue": 27.9832,
+      "availableBalance": 2.3599,
+      "currentTotalValue": 28.1587,
       "baseBankroll": 20,
-      "openPositionCount": 59,
+      "openPositionCount": 60,
       "closedPositionCount": 10,
       "methodology": "official-wallet-pnl-from-polymarket-data-api",
       "source": "polymarket-data-api",
@@ -14690,6 +14712,15 @@
           "pnlRate": 0.2083,
           "currentTotalValue": 27.9832,
           "status": "official-wallet"
+        },
+        {
+          "index": 1515,
+          "ts": "2026-03-22T22:23:38.213Z",
+          "label": "03/23 06:23",
+          "pnlAmount": 13.6884,
+          "pnlRate": 0.2105,
+          "currentTotalValue": 28.1587,
+          "status": "official-wallet"
         }
       ],
       "curveStartedAt": "2026-03-22T09:01:12.179Z",
@@ -14697,7 +14728,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T22:23:05.960Z",
+    "fetchedAt": "2026-03-22T22:23:39.377Z",
     "stats": {
       "total": 22,
       "open": 0,
