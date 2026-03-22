@@ -431,6 +431,27 @@
         color: var(--accent);
       }
 
+      .trend-pill.ok {
+        background: rgba(17, 122, 101, 0.12);
+        color: var(--ok);
+      }
+
+      .trend-pill.warn {
+        background: rgba(185, 119, 14, 0.12);
+        color: var(--warn);
+      }
+
+      .trend-pill.critical {
+        background: rgba(176, 58, 46, 0.12);
+        color: var(--critical);
+      }
+
+      .blocker-badges {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
       .positive {
         color: var(--ok);
       }
@@ -910,6 +931,74 @@
         return "观察中";
       }
 
+      function blockerBadgeTone(state) {
+        if (state === "accepted") return "ok";
+        if (state === "risk-blocked" || state === "partially-blocked") return "warn";
+        if (state === "no-signal") return "critical";
+        return "";
+      }
+
+      function buildBlockerBadges(recentScans) {
+        const scans = Array.isArray(recentScans) ? recentScans : [];
+        if (scans.length === 0) return [];
+
+        const latest = scans[0];
+        const latestTopBlocker = latest.topBlocker || "无";
+        const latestState = latest.state || "neutral";
+        let blockerStreak = 0;
+        let stateStreak = 0;
+
+        for (const scan of scans) {
+          if ((scan.topBlocker || "无") === latestTopBlocker) blockerStreak += 1;
+          else break;
+        }
+
+        for (const scan of scans) {
+          if ((scan.state || "neutral") === latestState) stateStreak += 1;
+          else break;
+        }
+
+        const riskBlockedCount = scans.filter(scan => scan.state === "risk-blocked").length;
+        const acceptedCount = scans.filter(scan => scan.state === "accepted").length;
+        const noSignalCount = scans.filter(scan => scan.state === "no-signal").length;
+        const badges = [];
+
+        if (latestTopBlocker !== "无") {
+          badges.push({
+            text: `连续 ${blockerStreak} 轮 ${latestTopBlocker}`,
+            tone: latestState === "accepted" ? "" : blockerBadgeTone(latestState),
+          });
+        }
+
+        if (stateStreak >= 2) {
+          badges.push({
+            text: `连续 ${stateStreak} 轮 ${blockerStateLabel(latestState)}`,
+            tone: blockerBadgeTone(latestState),
+          });
+        }
+
+        if (riskBlockedCount > 0) {
+          badges.push({
+            text: `近 5 轮风控挡住 ${riskBlockedCount} 次`,
+            tone: "warn",
+          });
+        }
+
+        if (acceptedCount > 0) {
+          badges.push({
+            text: `近 5 轮有新单 ${acceptedCount} 次`,
+            tone: "ok",
+          });
+        } else if (noSignalCount > 0) {
+          badges.push({
+            text: `近 5 轮无新信号 ${noSignalCount} 次`,
+            tone: "critical",
+          });
+        }
+
+        return badges.slice(0, 4);
+      }
+
       function renderBlockers(blockers) {
         const node = document.getElementById("entry-blockers");
         if (!node) return;
@@ -925,11 +1014,15 @@
         const allowed = blockers.allowedNew || {};
         const topReasons = (blockers.reasonBuckets || []).slice(0, 3);
         const recentScans = (blockers.recentScans || []).slice(0, 5);
+        const badges = buildBlockerBadges(recentScans);
         const skipBase = Math.max(Number(blockers.skippedCount || 0), 1);
 
         node.innerHTML = `
           <div class="blocker-stack">
             <div class="blocker-headline">${escapeHtml(headline)}</div>
+            <div class="blocker-badges">
+              ${badges.map(badge => `<span class="trend-pill ${escapeHtml(badge.tone || "")}">${escapeHtml(badge.text)}</span>`).join("") || `<span class="trend-pill">暂无趋势徽章</span>`}
+            </div>
             <div class="stats-grid blocker-grid">
               <div class="stat-tile">
                 <div class="metric-label">Signals</div>
