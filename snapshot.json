@@ -1,16 +1,16 @@
 {
-  "fetchedAt": "2026-03-22T07:22:04.763Z",
+  "fetchedAt": "2026-03-22T07:22:37.923Z",
   "status": {
-    "raw": "[botctl] 状态: running\n83761 83720 SN   40:00 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log\n[botctl] 日志时间: 2026-03-22 15:17:23",
+    "raw": "[botctl] 状态: running\n83761 83720 SN   40:33 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log\n[botctl] 日志时间: 2026-03-22 15:22:17",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log",
-    "latestLogTime": "2026-03-22 15:17:23",
+    "latestLogTime": "2026-03-22 15:22:17",
     "process": {
       "pid": "83761",
       "ppid": "83720",
       "stat": "SN",
-      "etime": "40:00",
+      "etime": "40:33",
       "command": "node index.mjs auto"
     }
   },
@@ -41,20 +41,20 @@
     ]
   },
   "recent": {
-    "raw": "[botctl] 最近概览\n[botctl] 日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log\n[botctl] 时间: 2026-03-22 15:17:23\n\n[botctl] 最近扫描摘要\n\n[botctl] 最近异常/提示\n\n[botctl] 自动撤单概览\n[Stale Report] auto-cancel=true threshold age>=360m gap>=0.020\n[Stale Report] history: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/stale-order-actions.jsonl\n[Stale Report] scans=139 24h-scans=139 24h-with-candidates=2\n[Stale Report] 24h candidates=2 cancelled=2 resolved=0 failed=0\n[Stale Report] latest-scan 2026-03-22T07:17:15.322Z candidates=0 cancelled=0 resolved=0 failed=0\n[Stale Report] recent actions\n  2026-03-21T21:48:29.215Z cancelled rem=1.13 @ $0.140 bid=$0.200 age=477.72m gap=0.060 | Will the highest temperature in Shanghai be 12°C on March 24?\n  2026-03-21T22:38:29.240Z cancelled rem=18.00 @ $0.062 bid=$0.099 age=363.56m gap=0.037 | Will the highest temperature in Chicago be between 66-67°F on March 22?\ncmd_recent:14: command not found: rg\ncmd_recent:20: command not found: rg",
+    "raw": "[botctl] 最近概览\n[botctl] 日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log\n[botctl] 时间: 2026-03-22 15:22:17\n\n[botctl] 最近扫描摘要\n\n[botctl] 最近异常/提示\n\n[botctl] 自动撤单概览\n[Stale Report] auto-cancel=true threshold age>=360m gap>=0.020\n[Stale Report] history: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/stale-order-actions.jsonl\n[Stale Report] scans=140 24h-scans=140 24h-with-candidates=2\n[Stale Report] 24h candidates=2 cancelled=2 resolved=0 failed=0\n[Stale Report] latest-scan 2026-03-22T07:22:15.254Z candidates=0 cancelled=0 resolved=0 failed=0\n[Stale Report] recent actions\n  2026-03-21T21:48:29.215Z cancelled rem=1.13 @ $0.140 bid=$0.200 age=477.72m gap=0.060 | Will the highest temperature in Shanghai be 12°C on March 24?\n  2026-03-21T22:38:29.240Z cancelled rem=18.00 @ $0.062 bid=$0.099 age=363.56m gap=0.037 | Will the highest temperature in Chicago be between 66-67°F on March 22?\ncmd_recent:14: command not found: rg\ncmd_recent:20: command not found: rg",
     "sections": {
       "overview": [
         "[botctl] 日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log",
-        "[botctl] 时间: 2026-03-22 15:17:23"
+        "[botctl] 时间: 2026-03-22 15:22:17"
       ],
       "scanSummary": [],
       "issues": [],
       "stale": [
         "[Stale Report] auto-cancel=true threshold age>=360m gap>=0.020",
         "[Stale Report] history: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/stale-order-actions.jsonl",
-        "[Stale Report] scans=139 24h-scans=139 24h-with-candidates=2",
+        "[Stale Report] scans=140 24h-scans=140 24h-with-candidates=2",
         "[Stale Report] 24h candidates=2 cancelled=2 resolved=0 failed=0",
-        "[Stale Report] latest-scan 2026-03-22T07:17:15.322Z candidates=0 cancelled=0 resolved=0 failed=0",
+        "[Stale Report] latest-scan 2026-03-22T07:22:15.254Z candidates=0 cancelled=0 resolved=0 failed=0",
         "[Stale Report] recent actions",
         "  2026-03-21T21:48:29.215Z cancelled rem=1.13 @ $0.140 bid=$0.200 age=477.72m gap=0.060 | Will the highest temperature in Shanghai be 12°C on March 24?",
         "  2026-03-21T22:38:29.240Z cancelled rem=18.00 @ $0.062 bid=$0.099 age=363.56m gap=0.037 | Will the highest temperature in Chicago be between 66-67°F on March 22?",
@@ -64,7 +64,7 @@
     }
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T07:22:04.515Z",
+    "fetchedAt": "2026-03-22T07:22:37.113Z",
     "balance": {
       "availableUSDC": 10.2187,
       "rawMinorUnits": "10218655"
@@ -142,15 +142,15 @@
       "openPositionExposure": 1.13
     },
     "pnl": {
-      "realizedPnl": 0,
-      "unrealizedPnl": -1.1852,
-      "totalPnl": -1.1852,
-      "pnlRate": -0.263,
+      "realizedPnl": 0.4809,
+      "unrealizedPnl": -1.46,
+      "totalPnl": -0.9791,
+      "pnlRate": -0.2173,
       "deployedCapital": 4.5058,
-      "currentPositionValue": 2.0606,
+      "currentPositionValue": 0.824,
       "openOrderValue": 3.51,
       "availableBalance": 10.2187,
-      "currentTotalValue": 12.2793,
+      "currentTotalValue": 11.0427,
       "baseBankroll": 20,
       "curve": [
         {
@@ -164,19 +164,19 @@
         },
         {
           "index": 2,
-          "ts": "2026-03-21T19:16:04.376Z",
+          "ts": "2026-03-22T07:22:15.657Z",
           "label": "Will the highest temperature in Shanghai be 12°C on March 24?",
-          "pnlAmount": -0.6252,
-          "pnlRate": -0.2961,
+          "pnlAmount": -0.4191,
+          "pnlRate": -0.1985,
           "costBasis": 2.1118,
-          "status": "closing"
+          "status": "closed"
         },
         {
           "index": 3,
           "ts": "2026-03-22T06:42:06.031Z",
           "label": "Will the highest temperature in Atlanta be between 82-83°F on March 21?",
-          "pnlAmount": -0.6252,
-          "pnlRate": -0.1854,
+          "pnlAmount": -0.4191,
+          "pnlRate": -0.1243,
           "costBasis": 3.3718,
           "status": "closed"
         },
@@ -184,8 +184,8 @@
           "index": 4,
           "ts": "2026-03-22T07:02:16.007Z",
           "label": "Will the highest temperature in Chicago be between 68-69°F on March 22?",
-          "pnlAmount": -1.1852,
-          "pnlRate": -0.263,
+          "pnlAmount": -0.9791,
+          "pnlRate": -0.2173,
           "costBasis": 4.5058,
           "status": "open"
         }
@@ -194,13 +194,13 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T07:22:04.763Z",
+    "fetchedAt": "2026-03-22T07:22:37.923Z",
     "stats": {
-      "total": 6,
+      "total": 7,
       "open": 3,
       "holding": 2,
       "settled": 0,
-      "closed": 1,
+      "closed": 2,
       "pendingSettlement": 0
     },
     "trades": [
@@ -221,6 +221,25 @@
         "orderRef": "0x5615a4958d3a7f004c39a2aa8d73252950b88f2f820ec017ca64cb6866434422",
         "pnlAmount": null,
         "pnlRate": null,
+        "settlementTime": "03/24 20:00"
+      },
+      {
+        "ts": "03/21 21:50",
+        "tsRaw": "2026-03-21T13:50:45.448Z",
+        "question": "Will the highest temperature in Shanghai be 12°C on March 24?",
+        "city": "shanghai",
+        "date": "2026-03-24",
+        "side": "YES",
+        "price": 0.14,
+        "size": 1,
+        "shares": 6.87,
+        "edgePct": 30.4444,
+        "status": "closed",
+        "statusLabel": "已平仓",
+        "statusLevel": "ok",
+        "orderRef": "0x57f03fec7bea4ea6524ebd10e9f8bdd94b59dd00eb466c3d93647f3f17c698c0",
+        "pnlAmount": 0.4809,
+        "pnlRate": 0.5,
         "settlementTime": "03/24 20:00"
       },
       {
