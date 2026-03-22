@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-22T18:53:17.363Z",
+  "fetchedAt": "2026-03-22T18:53:51.120Z",
   "status": {
-    "raw": "[botctl] 状态: running\n26785 26744 SN   01:16:15 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log\n[botctl] 日志时间: 2026-03-23 02:52:42",
+    "raw": "[botctl] 状态: running\n26785 26744 SN   01:16:49 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log\n[botctl] 日志时间: 2026-03-23 02:52:42",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log",
@@ -10,7 +10,7 @@
       "pid": "26785",
       "ppid": "26744",
       "stat": "SN",
-      "etime": "01:16:15",
+      "etime": "01:16:49",
       "command": "node index.mjs auto"
     }
   },
@@ -291,10 +291,10 @@
     ]
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T18:53:15.815Z",
+    "fetchedAt": "2026-03-22T18:53:49.562Z",
     "balance": {
-      "availableUSDC": 2.8073,
-      "rawMinorUnits": "2807265"
+      "availableUSDC": 1.2573,
+      "rawMinorUnits": "1257265"
     },
     "positions": [
       {
@@ -340,6 +340,28 @@
         "settlementRaw": "2026-03-26T12:00:00Z",
         "city": "buenos aires",
         "date": "2026-03-26"
+      },
+      {
+        "positionID": "90244385536683758492946398605581289647753662669023907828921272902903576404373",
+        "question": "Will the highest temperature in Shanghai be 17°C on March 25?",
+        "side": "YES",
+        "shares": 5,
+        "entryPrice": 0.31,
+        "notional": 1.55,
+        "costBasis": 1.55,
+        "currentPrice": 0.31,
+        "currentValue": 1.55,
+        "pnlAmount": 0,
+        "pnlRate": 0,
+        "status": "open",
+        "openedAt": "官方接口未提供",
+        "openedAtRaw": null,
+        "closedAt": null,
+        "closedAtRaw": null,
+        "settlementTime": "03/25 20:00",
+        "settlementRaw": "2026-03-25T12:00:00Z",
+        "city": "shanghai",
+        "date": "2026-03-25"
       },
       {
         "positionID": "59855865462510065469162935796026736664650596352112997654569826582768986970700",
@@ -1082,18 +1104,18 @@
       "openPositionExposure": 7.51
     },
     "pnl": {
-      "asOf": "2026-03-22T18:53:15.787Z",
+      "asOf": "2026-03-22T18:53:49.535Z",
       "realizedPnl": 41.0435,
       "unrealizedPnl": -28.1831,
       "totalPnl": 12.8604,
-      "pnlRate": 0.1976,
-      "deployedCapital": 65.0666,
-      "currentPositionValue": 24.9254,
+      "pnlRate": 0.1931,
+      "deployedCapital": 66.6166,
+      "currentPositionValue": 26.4754,
       "openOrderValue": 6.041,
-      "availableBalance": 2.8073,
+      "availableBalance": 1.2573,
       "currentTotalValue": 27.7327,
       "baseBankroll": 20,
-      "openPositionCount": 59,
+      "openPositionCount": 60,
       "closedPositionCount": 10,
       "methodology": "official-wallet-pnl-from-polymarket-data-api",
       "source": "polymarket-data-api",
@@ -11330,6 +11352,15 @@
           "pnlRate": 0.1976,
           "currentTotalValue": 27.7327,
           "status": "official-wallet"
+        },
+        {
+          "index": 1138,
+          "ts": "2026-03-22T18:53:49.535Z",
+          "label": "03/23 02:53",
+          "pnlAmount": 12.8604,
+          "pnlRate": 0.1931,
+          "currentTotalValue": 27.7327,
+          "status": "official-wallet"
         }
       ],
       "curveStartedAt": "2026-03-22T09:01:12.179Z",
@@ -11337,7 +11368,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T18:53:17.363Z",
+    "fetchedAt": "2026-03-22T18:53:51.120Z",
     "stats": {
       "total": 17,
       "open": 0,
