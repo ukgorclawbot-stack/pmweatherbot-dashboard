@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-22T07:18:15.735Z",
+  "fetchedAt": "2026-03-22T07:18:48.461Z",
   "status": {
-    "raw": "[botctl] 状态: running\n83761 83720 SN   36:11 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log\n[botctl] 日志时间: 2026-03-22 15:17:23",
+    "raw": "[botctl] 状态: running\n83761 83720 SN   36:44 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log\n[botctl] 日志时间: 2026-03-22 15:17:23",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log",
@@ -10,7 +10,7 @@
       "pid": "83761",
       "ppid": "83720",
       "stat": "SN",
-      "etime": "36:11",
+      "etime": "36:44",
       "command": "node index.mjs auto"
     }
   },
@@ -64,7 +64,7 @@
     }
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T07:18:14.995Z",
+    "fetchedAt": "2026-03-22T07:18:48.293Z",
     "balance": {
       "availableUSDC": 8.9587,
       "rawMinorUnits": "8958655"
@@ -143,14 +143,14 @@
     },
     "pnl": {
       "realizedPnl": 0,
-      "unrealizedPnl": -1.2399,
-      "totalPnl": -1.2399,
-      "pnlRate": -0.2752,
+      "unrealizedPnl": -1.1712,
+      "totalPnl": -1.1712,
+      "pnlRate": -0.2599,
       "deployedCapital": 4.5058,
-      "currentPositionValue": 2.0059,
+      "currentPositionValue": 2.0746,
       "openOrderValue": 3.51,
       "availableBalance": 8.9587,
-      "currentTotalValue": 10.9646,
+      "currentTotalValue": 11.0333,
       "baseBankroll": 20,
       "curve": [
         {
@@ -166,8 +166,8 @@
           "index": 2,
           "ts": "2026-03-21T19:16:04.376Z",
           "label": "Will the highest temperature in Shanghai be 12°C on March 24?",
-          "pnlAmount": -0.6939,
-          "pnlRate": -0.3286,
+          "pnlAmount": -0.6252,
+          "pnlRate": -0.2961,
           "costBasis": 2.1118,
           "status": "closing"
         },
@@ -175,8 +175,8 @@
           "index": 3,
           "ts": "2026-03-22T06:42:06.031Z",
           "label": "Will the highest temperature in Atlanta be between 82-83°F on March 21?",
-          "pnlAmount": -0.6939,
-          "pnlRate": -0.2058,
+          "pnlAmount": -0.6252,
+          "pnlRate": -0.1854,
           "costBasis": 3.3718,
           "status": "closed"
         },
@@ -184,8 +184,8 @@
           "index": 4,
           "ts": "2026-03-22T07:02:16.007Z",
           "label": "Will the highest temperature in Chicago be between 68-69°F on March 22?",
-          "pnlAmount": -1.2399,
-          "pnlRate": -0.2752,
+          "pnlAmount": -1.1712,
+          "pnlRate": -0.2599,
           "costBasis": 4.5058,
           "status": "open"
         }
@@ -194,7 +194,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T07:18:15.735Z",
+    "fetchedAt": "2026-03-22T07:18:48.461Z",
     "stats": {
       "total": 6,
       "open": 3,
