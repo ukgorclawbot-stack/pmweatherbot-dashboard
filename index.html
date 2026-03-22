@@ -363,6 +363,10 @@
         padding: 12px 12px 12px 14px;
       }
 
+      .trend-item[open] {
+        box-shadow: inset 0 0 0 1px rgba(15, 118, 110, 0.16);
+      }
+
       .trend-item::before {
         content: "";
         position: absolute;
@@ -394,6 +398,12 @@
         align-items: center;
         gap: 12px;
         margin-bottom: 6px;
+        cursor: pointer;
+        list-style: none;
+      }
+
+      .trend-head::-webkit-details-marker {
+        display: none;
       }
 
       .trend-main {
@@ -450,6 +460,40 @@
         display: flex;
         flex-wrap: wrap;
         gap: 8px;
+      }
+
+      .trend-detail {
+        margin-top: 10px;
+        padding-top: 10px;
+        border-top: 1px dashed rgba(31, 43, 47, 0.12);
+        display: grid;
+        gap: 8px;
+      }
+
+      .trend-detail-grid {
+        display: grid;
+        gap: 8px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .trend-detail-card {
+        border-radius: 12px;
+        background: rgba(15, 118, 110, 0.05);
+        border: 1px solid rgba(15, 118, 110, 0.1);
+        padding: 10px;
+      }
+
+      .trend-detail-card strong {
+        display: block;
+        margin-bottom: 4px;
+        font-size: 12px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      .trend-detail-list {
+        display: grid;
+        gap: 6px;
       }
 
       .positive {
@@ -1057,8 +1101,8 @@
             </div>
             <div class="trend-list">
               ${recentScans.map(item => `
-                <div class="trend-item ${escapeHtml(item.state || "neutral")}">
-                  <div class="trend-head">
+                <details class="trend-item ${escapeHtml(item.state || "neutral")}">
+                  <summary class="trend-head">
                     <div class="trend-main">
                       <div class="trend-title">
                         <strong>${escapeHtml(item.scanTimeLabel || "-")}</strong>
@@ -1071,8 +1115,31 @@
                       </div>
                     </div>
                     <span class="table-chip ${blockerChipClass(item.state)}">${escapeHtml(blockerStateLabel(item.state))}</span>
+                  </summary>
+                  <div class="trend-detail">
+                    <div class="trend-detail-grid">
+                      <div class="trend-detail-card">
+                        <strong>Scan</strong>
+                        <div class="hint">markets ${escapeHtml(String(item.marketsScanned || 0))} · skipped ${escapeHtml(String(item.skippedCount || 0))}</div>
+                      </div>
+                      <div class="trend-detail-card">
+                        <strong>Execution</strong>
+                        <div class="hint">accepted ${escapeHtml(String(item.accepted || 0))} · failed ${escapeHtml(String(item.failed || 0))}</div>
+                      </div>
+                      <div class="trend-detail-card">
+                        <strong>Risk</strong>
+                        <div class="hint">orders ${escapeHtml(String(item.openOrders || 0))} · positions ${escapeHtml(String(item.openPositions || 0))} · exposure $${escapeHtml(Number(item.exposure || 0).toFixed(2))}</div>
+                      </div>
+                      <div class="trend-detail-card">
+                        <strong>Exit</strong>
+                        <div class="hint">exit ${escapeHtml(String(item.exitCount || 0))} · hold ${escapeHtml(String(item.holdCount || 0))}</div>
+                      </div>
+                    </div>
+                    <div class="trend-detail-list">
+                      ${(item.topReasons || []).map(reason => `<div class="hint">${escapeHtml(reason.label)} · ${escapeHtml(String(reason.count || 0))}</div>`).join("") || `<div class="hint">这轮没有额外原始原因明细。</div>`}
+                    </div>
                   </div>
-                </div>
+                </details>
               `).join("") || `<div class="hint">暂无最近扫描趋势。</div>`}
             </div>
             <div class="hint">最近扫描 ${escapeHtml(blockers.scanTimeLabel || "-")} · 已扫描 ${escapeHtml(String(blockers.marketsScanned || 0))} 个市场 · 持仓 ${escapeHtml(String(risk.openPositions || 0))} · 挂单 ${escapeHtml(String(risk.openOrders || 0))}</div>
