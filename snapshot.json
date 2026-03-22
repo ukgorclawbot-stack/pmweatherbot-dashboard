@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-22T09:07:21.702Z",
+  "fetchedAt": "2026-03-22T09:07:57.062Z",
   "status": {
-    "raw": "[botctl] 状态: running\n39362 39320 SN   23:06 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-164414.log\n[botctl] 日志时间: 2026-03-22 17:04:32",
+    "raw": "[botctl] 状态: running\n39362 39320 SN   23:39 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-164414.log\n[botctl] 日志时间: 2026-03-22 17:04:32",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-164414.log",
@@ -10,12 +10,12 @@
       "pid": "39362",
       "ppid": "39320",
       "stat": "SN",
-      "etime": "23:06",
+      "etime": "23:39",
       "command": "node index.mjs auto"
     }
   },
   "health": {
-    "raw": "[Health] CRITICAL\n[ok] process: 运行中 PID=39362\n[warn] signals: 暂无 signals.jsonl 记录\n[critical] trades: 最近交易日志 120 分钟未更新\n[ok] weather-cache: 缓存正常，条目=99，最近更新 8 分钟前",
+    "raw": "[Health] CRITICAL\n[ok] process: 运行中 PID=39362\n[warn] signals: 暂无 signals.jsonl 记录\n[critical] trades: 最近交易日志 121 分钟未更新\n[ok] weather-cache: 缓存正常，条目=99，最近更新 8 分钟前",
     "level": "critical",
     "checks": [
       {
@@ -31,7 +31,7 @@
       {
         "level": "critical",
         "name": "trades",
-        "message": "最近交易日志 120 分钟未更新"
+        "message": "最近交易日志 121 分钟未更新"
       },
       {
         "level": "ok",
@@ -64,7 +64,7 @@
     }
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T09:07:21.698Z",
+    "fetchedAt": "2026-03-22T09:07:54.230Z",
     "balance": {
       "availableUSDC": 13.1353,
       "rawMinorUnits": "13135265"
@@ -230,7 +230,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T09:07:21.702Z",
+    "fetchedAt": "2026-03-22T09:07:57.062Z",
     "stats": {
       "total": 7,
       "open": 1,
