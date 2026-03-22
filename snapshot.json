@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-22T12:03:20.224Z",
+  "fetchedAt": "2026-03-22T12:03:53.609Z",
   "status": {
-    "raw": "[botctl] 状态: running\n39362 39320 SN   03:19:04 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-164414.log\n[botctl] 日志时间: 2026-03-22 19:59:33",
+    "raw": "[botctl] 状态: running\n39362 39320 SN   03:19:37 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-164414.log\n[botctl] 日志时间: 2026-03-22 19:59:33",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-164414.log",
@@ -10,7 +10,7 @@
       "pid": "39362",
       "ppid": "39320",
       "stat": "SN",
-      "etime": "03:19:04",
+      "etime": "03:19:37",
       "command": "node index.mjs auto"
     }
   },
@@ -64,7 +64,7 @@
     }
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T12:03:18.933Z",
+    "fetchedAt": "2026-03-22T12:03:53.134Z",
     "balance": {
       "availableUSDC": 11.9453,
       "rawMinorUnits": "11945265"
@@ -144,10 +144,10 @@
         "entryPrice": 0.0854,
         "notional": 2.22,
         "costBasis": 2.22,
-        "currentPrice": 0.0405,
-        "currentValue": 1.053,
-        "pnlAmount": -1.167,
-        "pnlRate": -0.5257,
+        "currentPrice": 0.0415,
+        "currentValue": 1.079,
+        "pnlAmount": -1.141,
+        "pnlRate": -0.514,
         "status": "open",
         "openedAt": "官方接口未提供",
         "openedAtRaw": null,
@@ -254,10 +254,10 @@
         "entryPrice": 0.07,
         "notional": 1.12,
         "costBasis": 1.12,
-        "currentPrice": 0.035,
-        "currentValue": 0.56,
-        "pnlAmount": -0.56,
-        "pnlRate": -0.5,
+        "currentPrice": 0.0305,
+        "currentValue": 0.488,
+        "pnlAmount": -0.632,
+        "pnlRate": -0.5643,
         "status": "open",
         "openedAt": "官方接口未提供",
         "openedAtRaw": null,
@@ -276,10 +276,10 @@
         "entryPrice": 0.066,
         "notional": 0.924,
         "costBasis": 0.924,
-        "currentPrice": 0.008,
-        "currentValue": 0.112,
-        "pnlAmount": -0.812,
-        "pnlRate": -0.8788,
+        "currentPrice": 0.0065,
+        "currentValue": 0.091,
+        "pnlAmount": -0.833,
+        "pnlRate": -0.9015,
         "status": "open",
         "openedAt": "官方接口未提供",
         "openedAtRaw": null,
@@ -696,16 +696,16 @@
       "openPositionExposure": 3.44
     },
     "pnl": {
-      "asOf": "2026-03-22T12:03:18.921Z",
+      "asOf": "2026-03-22T12:03:53.112Z",
       "realizedPnl": 41.0435,
-      "unrealizedPnl": -27.8206,
-      "totalPnl": 13.2229,
-      "pnlRate": 0.2258,
+      "unrealizedPnl": -27.8876,
+      "totalPnl": 13.1559,
+      "pnlRate": 0.2246,
       "deployedCapital": 58.5686,
-      "currentPositionValue": 18.79,
+      "currentPositionValue": 18.723,
       "openOrderValue": 0,
       "availableBalance": 11.9453,
-      "currentTotalValue": 30.7353,
+      "currentTotalValue": 30.6683,
       "baseBankroll": 20,
       "openPositionCount": 55,
       "closedPositionCount": 10,
@@ -4005,6 +4005,15 @@
           "pnlRate": 0.2258,
           "currentTotalValue": 30.7353,
           "status": "official-wallet"
+        },
+        {
+          "index": 367,
+          "ts": "2026-03-22T12:03:53.112Z",
+          "label": "03/22 20:03",
+          "pnlAmount": 13.1559,
+          "pnlRate": 0.2246,
+          "currentTotalValue": 30.6683,
+          "status": "official-wallet"
         }
       ],
       "curveStartedAt": "2026-03-22T09:01:12.179Z",
@@ -4012,7 +4021,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T12:03:20.224Z",
+    "fetchedAt": "2026-03-22T12:03:53.609Z",
     "stats": {
       "total": 7,
       "open": 0,
@@ -4075,8 +4084,8 @@
         "statusLabel": "已到结算时点",
         "statusLevel": "warn",
         "orderRef": "0x3c7c1930c8a5ccb6debd9202a0830d3e0c9f76ed9d680c94c4719e150d7d38cc",
-        "pnlAmount": -1.106,
-        "pnlRate": -0.9753,
+        "pnlAmount": -1.092,
+        "pnlRate": -0.963,
         "settlementTime": "03/22 20:00"
       },
       {
