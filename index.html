@@ -436,12 +436,17 @@
           <div id="scan-summary" class="mono loading">加载中...</div>
         </article>
 
-        <article class="panel card span-6">
+        <article class="panel card span-4">
+          <h2 class="card-title">Entry Blockers</h2>
+          <div id="entry-blockers" class="mono loading">加载中...</div>
+        </article>
+
+        <article class="panel card span-4">
           <h2 class="card-title">Recent Issues</h2>
           <div id="issues" class="mono loading">加载中...</div>
         </article>
 
-        <article class="panel card span-6">
+        <article class="panel card span-4">
           <h2 class="card-title">Stale Cleanup</h2>
           <div id="stale-summary" class="mono loading">加载中...</div>
         </article>
@@ -834,6 +839,7 @@
           renderPositions(payload.portfolio.positions);
           renderOrders(payload.portfolio.orders);
           renderTrades(payload.history.trades);
+          setPre("entry-blockers", payload.blockers?.summaryLines || ["暂无数据"]);
           setPre("scan-summary", payload.recent.sections.scanSummary);
           setPre("issues", payload.recent.sections.issues);
           setPre("stale-summary", payload.recent.sections.stale);
@@ -843,6 +849,7 @@
           setText("health-state", "error");
           setDot("bot-dot", "critical");
           setDot("health-dot", "critical");
+          setPre("entry-blockers", "读取失败");
           setPre("scan-summary", `dashboard api error\n${error.message}`);
           setPre("issues", "读取失败");
           setPre("stale-summary", "读取失败");
