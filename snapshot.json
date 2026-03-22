@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-22T08:14:42.096Z",
+  "fetchedAt": "2026-03-22T08:15:15.473Z",
   "status": {
-    "raw": "[botctl] 状态: running\n83761 83720 SN   01:32:37 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log\n[botctl] 日志时间: 2026-03-22 16:12:17",
+    "raw": "[botctl] 状态: running\n83761 83720 SN   01:33:10 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log\n[botctl] 日志时间: 2026-03-22 16:12:17",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log",
@@ -10,12 +10,12 @@
       "pid": "83761",
       "ppid": "83720",
       "stat": "SN",
-      "etime": "01:32:37",
+      "etime": "01:33:10",
       "command": "node index.mjs auto"
     }
   },
   "health": {
-    "raw": "[Health] CRITICAL\n[ok] process: 运行中 PID=83761\n[warn] signals: 暂无 signals.jsonl 记录\n[critical] trades: 最近交易日志 67 分钟未更新\n[ok] weather-cache: 缓存正常，条目=99，最近更新 7 分钟前",
+    "raw": "[Health] CRITICAL\n[ok] process: 运行中 PID=83761\n[warn] signals: 暂无 signals.jsonl 记录\n[critical] trades: 最近交易日志 68 分钟未更新\n[ok] weather-cache: 缓存正常，条目=99，最近更新 8 分钟前",
     "level": "critical",
     "checks": [
       {
@@ -31,12 +31,12 @@
       {
         "level": "critical",
         "name": "trades",
-        "message": "最近交易日志 67 分钟未更新"
+        "message": "最近交易日志 68 分钟未更新"
       },
       {
         "level": "ok",
         "name": "weather-cache",
-        "message": "缓存正常，条目=99，最近更新 7 分钟前"
+        "message": "缓存正常，条目=99，最近更新 8 分钟前"
       }
     ]
   },
@@ -64,7 +64,7 @@
     }
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T08:14:40.928Z",
+    "fetchedAt": "2026-03-22T08:15:15.000Z",
     "balance": {
       "availableUSDC": 13.6053,
       "rawMinorUnits": "13605265"
@@ -152,22 +152,22 @@
     },
     "pnl": {
       "realizedPnl": 0.4809,
-      "unrealizedPnl": -1.306,
-      "totalPnl": -0.8251,
-      "pnlRate": -0.1446,
+      "unrealizedPnl": -1.356,
+      "totalPnl": -0.8751,
+      "pnlRate": -0.1534,
       "deployedCapital": 5.7046,
-      "currentPositionValue": 2.1768,
+      "currentPositionValue": 2.1268,
       "openOrderValue": 2.31,
       "availableBalance": 13.6053,
-      "currentTotalValue": 15.7821,
+      "currentTotalValue": 15.7321,
       "baseBankroll": 20,
       "curve": [
         {
           "index": 1,
           "ts": "2026-03-21T16:19:13.789Z",
           "label": "Will the highest temperature in Atlanta be between 68-69°F on March 24?",
-          "pnlAmount": -0.9,
-          "pnlRate": -0.7826,
+          "pnlAmount": -0.95,
+          "pnlRate": -0.8261,
           "costBasis": 1.15,
           "status": "closing"
         },
@@ -175,8 +175,8 @@
           "index": 2,
           "ts": "2026-03-22T07:22:15.657Z",
           "label": "Will the highest temperature in Shanghai be 12°C on March 24?",
-          "pnlAmount": -0.4191,
-          "pnlRate": -0.1985,
+          "pnlAmount": -0.4691,
+          "pnlRate": -0.2221,
           "costBasis": 2.1118,
           "status": "closed"
         },
@@ -184,8 +184,8 @@
           "index": 3,
           "ts": "2026-03-22T06:42:06.031Z",
           "label": "Will the highest temperature in Atlanta be between 82-83°F on March 21?",
-          "pnlAmount": -0.4191,
-          "pnlRate": -0.1243,
+          "pnlAmount": -0.4691,
+          "pnlRate": -0.1391,
           "costBasis": 3.3718,
           "status": "closed"
         },
@@ -193,8 +193,8 @@
           "index": 4,
           "ts": "2026-03-22T07:02:16.007Z",
           "label": "Will the highest temperature in Chicago be between 68-69°F on March 22?",
-          "pnlAmount": -0.8251,
-          "pnlRate": -0.1831,
+          "pnlAmount": -0.8751,
+          "pnlRate": -0.1942,
           "costBasis": 4.5058,
           "status": "open"
         },
@@ -202,8 +202,8 @@
           "index": 5,
           "ts": "2026-03-22T08:14:13.570Z",
           "label": "Will the highest temperature in Los Angeles be between 80-81°F on March 24?",
-          "pnlAmount": -0.8251,
-          "pnlRate": -0.1446,
+          "pnlAmount": -0.8751,
+          "pnlRate": -0.1534,
           "costBasis": 5.7046,
           "status": "open"
         }
@@ -212,7 +212,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T08:14:42.095Z",
+    "fetchedAt": "2026-03-22T08:15:15.473Z",
     "stats": {
       "total": 7,
       "open": 2,
