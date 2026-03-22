@@ -339,15 +339,53 @@
       }
 
       .trend-list {
+        position: relative;
         display: grid;
-        gap: 10px;
+        gap: 12px;
+        padding-left: 22px;
+      }
+
+      .trend-list::before {
+        content: "";
+        position: absolute;
+        left: 8px;
+        top: 4px;
+        bottom: 4px;
+        width: 2px;
+        background: linear-gradient(180deg, rgba(15, 118, 110, 0.22) 0%, rgba(185, 119, 14, 0.22) 100%);
       }
 
       .trend-item {
+        position: relative;
         border-radius: 14px;
         border: 1px solid var(--border);
         background: var(--panel-strong);
-        padding: 12px;
+        padding: 12px 12px 12px 14px;
+      }
+
+      .trend-item::before {
+        content: "";
+        position: absolute;
+        left: -18px;
+        top: 16px;
+        width: 10px;
+        height: 10px;
+        border-radius: 999px;
+        background: var(--muted);
+        box-shadow: 0 0 0 4px rgba(255, 250, 241, 0.95);
+      }
+
+      .trend-item.accepted::before {
+        background: var(--ok);
+      }
+
+      .trend-item.risk-blocked::before,
+      .trend-item.partially-blocked::before {
+        background: var(--warn);
+      }
+
+      .trend-item.no-signal::before {
+        background: var(--critical);
       }
 
       .trend-head {
@@ -358,9 +396,39 @@
         margin-bottom: 6px;
       }
 
+      .trend-main {
+        display: grid;
+        gap: 6px;
+      }
+
+      .trend-title {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+
       .trend-time {
         font-size: 12px;
         color: var(--muted);
+      }
+
+      .trend-meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .trend-pill {
+        display: inline-flex;
+        align-items: center;
+        padding: 4px 8px;
+        border-radius: 999px;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        background: rgba(15, 118, 110, 0.08);
+        color: var(--accent);
       }
 
       .positive {
@@ -896,12 +964,21 @@
             </div>
             <div class="trend-list">
               ${recentScans.map(item => `
-                <div class="trend-item">
+                <div class="trend-item ${escapeHtml(item.state || "neutral")}">
                   <div class="trend-head">
-                    <strong>${escapeHtml(item.scanTimeLabel || "-")}</strong>
+                    <div class="trend-main">
+                      <div class="trend-title">
+                        <strong>${escapeHtml(item.scanTimeLabel || "-")}</strong>
+                        <span class="trend-time">${escapeHtml(item.headline || "-")}</span>
+                      </div>
+                      <div class="trend-meta">
+                        <span class="trend-pill">主因 ${escapeHtml(item.topBlocker || "无")}</span>
+                        <span class="trend-pill">signals ${escapeHtml(String(item.tradeSignals || 0))}</span>
+                        <span class="trend-pill">allowed ${escapeHtml(formatCountRatio(item.allowed, item.total))}</span>
+                      </div>
+                    </div>
                     <span class="table-chip ${blockerChipClass(item.state)}">${escapeHtml(blockerStateLabel(item.state))}</span>
                   </div>
-                  <div class="hint">${escapeHtml(item.topBlocker || "无")} · signals ${item.tradeSignals} · allowed ${formatCountRatio(item.allowed, item.total)}</div>
                 </div>
               `).join("") || `<div class="hint">暂无最近扫描趋势。</div>`}
             </div>
