@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-22T18:16:19.066Z",
+  "fetchedAt": "2026-03-22T18:16:52.671Z",
   "status": {
-    "raw": "[botctl] 状态: running\n26785 26744 SN   39:17 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log\n[botctl] 日志时间: 2026-03-23 02:12:35",
+    "raw": "[botctl] 状态: running\n26785 26744 SN   39:51 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log\n[botctl] 日志时间: 2026-03-23 02:12:35",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log",
@@ -10,7 +10,7 @@
       "pid": "26785",
       "ppid": "26744",
       "stat": "SN",
-      "etime": "39:17",
+      "etime": "39:51",
       "command": "node index.mjs auto"
     }
   },
@@ -286,12 +286,34 @@
     ]
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T18:16:17.417Z",
+    "fetchedAt": "2026-03-22T18:16:51.345Z",
     "balance": {
-      "availableUSDC": 6.7593,
-      "rawMinorUnits": "6759265"
+      "availableUSDC": 5.6373,
+      "rawMinorUnits": "5637265"
     },
     "positions": [
+      {
+        "positionID": "89736449255773343086401326478348188687119605350049524536893300131772660227311",
+        "question": "Will the highest temperature in Tel Aviv be 21°C or higher on March 26?",
+        "side": "YES",
+        "shares": 17,
+        "entryPrice": 0.066,
+        "notional": 1.122,
+        "costBasis": 1.122,
+        "currentPrice": 0.093,
+        "currentValue": 1.581,
+        "pnlAmount": 0.459,
+        "pnlRate": 0.4091,
+        "status": "open",
+        "openedAt": "官方接口未提供",
+        "openedAtRaw": null,
+        "closedAt": null,
+        "closedAtRaw": null,
+        "settlementTime": "03/26 20:00",
+        "settlementRaw": "2026-03-26T12:00:00Z",
+        "city": "tel aviv",
+        "date": "2026-03-26"
+      },
       {
         "positionID": "103511993939925144092348083614695040055492087548955299383298800511542616555808",
         "question": "Will the highest temperature in Buenos Aires be 32°C or higher on March 26?",
@@ -1019,18 +1041,18 @@
       "openPositionExposure": 5.91
     },
     "pnl": {
-      "asOf": "2026-03-22T18:16:17.352Z",
+      "asOf": "2026-03-22T18:16:51.319Z",
       "realizedPnl": 41.0435,
-      "unrealizedPnl": -26.5609,
-      "totalPnl": 14.4826,
-      "pnlRate": 0.2365,
-      "deployedCapital": 61.2446,
-      "currentPositionValue": 22.7256,
+      "unrealizedPnl": -26.1019,
+      "totalPnl": 14.9416,
+      "pnlRate": 0.2396,
+      "deployedCapital": 62.3666,
+      "currentPositionValue": 24.3066,
       "openOrderValue": 4.5,
-      "availableBalance": 6.7593,
-      "currentTotalValue": 29.4849,
+      "availableBalance": 5.6373,
+      "currentTotalValue": 29.9439,
       "baseBankroll": 20,
-      "openPositionCount": 57,
+      "openPositionCount": 58,
       "closedPositionCount": 10,
       "methodology": "official-wallet-pnl-from-polymarket-data-api",
       "source": "polymarket-data-api",
@@ -10673,6 +10695,15 @@
           "pnlRate": 0.2365,
           "currentTotalValue": 29.4849,
           "status": "official-wallet"
+        },
+        {
+          "index": 1072,
+          "ts": "2026-03-22T18:16:51.319Z",
+          "label": "03/23 02:16",
+          "pnlAmount": 14.9416,
+          "pnlRate": 0.2396,
+          "currentTotalValue": 29.9439,
+          "status": "official-wallet"
         }
       ],
       "curveStartedAt": "2026-03-22T09:01:12.179Z",
@@ -10680,7 +10711,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T18:16:19.066Z",
+    "fetchedAt": "2026-03-22T18:16:52.670Z",
     "stats": {
       "total": 13,
       "open": 0,
