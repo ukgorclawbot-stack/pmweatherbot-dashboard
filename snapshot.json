@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-22T19:17:57.484Z",
+  "fetchedAt": "2026-03-22T19:18:31.159Z",
   "status": {
-    "raw": "[botctl] 状态: running\n26785 26744 SN   01:40:56 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log\n[botctl] 日志时间: 2026-03-23 03:17:24",
+    "raw": "[botctl] 状态: running\n26785 26744 SN   01:41:29 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log\n[botctl] 日志时间: 2026-03-23 03:17:24",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log",
@@ -10,12 +10,12 @@
       "pid": "26785",
       "ppid": "26744",
       "stat": "SN",
-      "etime": "01:40:56",
+      "etime": "01:41:29",
       "command": "node index.mjs auto"
     }
   },
   "health": {
-    "raw": "[Health] WARN\n[ok] process: 运行中 PID=26785\n[warn] signals: 暂无 signals.jsonl 记录\n[ok] trades: 最近交易日志 1 分钟前\n[ok] weather-cache: 缓存正常，条目=116，最近更新 5 分钟前",
+    "raw": "[Health] WARN\n[ok] process: 运行中 PID=26785\n[warn] signals: 暂无 signals.jsonl 记录\n[ok] trades: 最近交易日志 1 分钟前\n[ok] weather-cache: 缓存正常，条目=116，最近更新 6 分钟前",
     "level": "warn",
     "checks": [
       {
@@ -36,7 +36,7 @@
       {
         "level": "ok",
         "name": "weather-cache",
-        "message": "缓存正常，条目=116，最近更新 5 分钟前"
+        "message": "缓存正常，条目=116，最近更新 6 分钟前"
       }
     ]
   },
@@ -286,10 +286,10 @@
     ]
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T19:17:56.119Z",
+    "fetchedAt": "2026-03-22T19:18:29.730Z",
     "balance": {
-      "availableUSDC": 1.5423,
-      "rawMinorUnits": "1542265"
+      "availableUSDC": 0.6753,
+      "rawMinorUnits": "675265"
     },
     "positions": [
       {
@@ -582,13 +582,13 @@
         "positionID": "68257392156412892954036161745031228916662124846831250508953460425035557587345",
         "question": "Will the highest temperature in Miami be between 78-79°F on March 23?",
         "side": "YES",
-        "shares": 5,
+        "shares": 22,
         "entryPrice": 0.051,
-        "notional": 0.255,
-        "costBasis": 0.255,
+        "notional": 1.122,
+        "costBasis": 1.122,
         "currentPrice": 0.0525,
-        "currentValue": 0.2625,
-        "pnlAmount": 0.0075,
+        "currentValue": 1.155,
+        "pnlAmount": 0.033,
         "pnlRate": 0.0294,
         "status": "open",
         "openedAt": "官方接口未提供",
@@ -1121,16 +1121,16 @@
       "openPositionExposure": 7.77
     },
     "pnl": {
-      "asOf": "2026-03-22T19:17:56.090Z",
+      "asOf": "2026-03-22T19:18:29.703Z",
       "realizedPnl": 41.1635,
-      "unrealizedPnl": -28.713,
-      "totalPnl": 12.4505,
-      "pnlRate": 0.1874,
-      "deployedCapital": 66.4516,
-      "currentPositionValue": 25.7805,
+      "unrealizedPnl": -28.6875,
+      "totalPnl": 12.476,
+      "pnlRate": 0.1853,
+      "deployedCapital": 67.3186,
+      "currentPositionValue": 26.673,
       "openOrderValue": 5.586,
-      "availableBalance": 1.5423,
-      "currentTotalValue": 27.3228,
+      "availableBalance": 0.6753,
+      "currentTotalValue": 27.3483,
       "baseBankroll": 20,
       "openPositionCount": 61,
       "closedPositionCount": 10,
@@ -11765,6 +11765,15 @@
           "pnlRate": 0.1874,
           "currentTotalValue": 27.3228,
           "status": "official-wallet"
+        },
+        {
+          "index": 1182,
+          "ts": "2026-03-22T19:18:29.703Z",
+          "label": "03/23 03:18",
+          "pnlAmount": 12.476,
+          "pnlRate": 0.1853,
+          "currentTotalValue": 27.3483,
+          "status": "official-wallet"
         }
       ],
       "curveStartedAt": "2026-03-22T09:01:12.179Z",
@@ -11772,7 +11781,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T19:17:57.483Z",
+    "fetchedAt": "2026-03-22T19:18:31.159Z",
     "stats": {
       "total": 19,
       "open": 1,
