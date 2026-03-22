@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-22T12:56:33.395Z",
+  "fetchedAt": "2026-03-22T12:57:06.114Z",
   "status": {
-    "raw": "[botctl] 状态: running\n 4519  4474 SN   12:01 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-204430.log\n[botctl] 日志时间: 2026-03-22 20:54:43",
+    "raw": "[botctl] 状态: running\n 4519  4474 SN   12:34 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-204430.log\n[botctl] 日志时间: 2026-03-22 20:54:43",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-204430.log",
@@ -58,7 +58,7 @@
     }
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T12:56:33.150Z",
+    "fetchedAt": "2026-03-22T12:57:05.950Z",
     "balance": {
       "availableUSDC": 11.9453,
       "rawMinorUnits": "11945265"
@@ -690,7 +690,7 @@
       "openPositionExposure": 3.44
     },
     "pnl": {
-      "asOf": "2026-03-22T12:56:33.125Z",
+      "asOf": "2026-03-22T12:57:05.880Z",
       "realizedPnl": 41.0435,
       "unrealizedPnl": -28.0759,
       "totalPnl": 12.9676,
@@ -4953,6 +4953,24 @@
           "pnlRate": 0.2214,
           "currentTotalValue": 30.48,
           "status": "official-wallet"
+        },
+        {
+          "index": 473,
+          "ts": "2026-03-22T12:56:59.386Z",
+          "label": "03/22 20:56",
+          "pnlAmount": 12.9676,
+          "pnlRate": 0.2214,
+          "currentTotalValue": 30.48,
+          "status": "official-wallet"
+        },
+        {
+          "index": 474,
+          "ts": "2026-03-22T12:57:05.880Z",
+          "label": "03/22 20:57",
+          "pnlAmount": 12.9676,
+          "pnlRate": 0.2214,
+          "currentTotalValue": 30.48,
+          "status": "official-wallet"
         }
       ],
       "curveStartedAt": "2026-03-22T09:01:12.179Z",
@@ -4960,7 +4978,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T12:56:33.395Z",
+    "fetchedAt": "2026-03-22T12:57:06.114Z",
     "stats": {
       "total": 7,
       "open": 0,
