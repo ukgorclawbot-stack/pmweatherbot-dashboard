@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-22T16:32:53.345Z",
+  "fetchedAt": "2026-03-22T16:33:26.310Z",
   "status": {
-    "raw": "[botctl] 状态: running\n 4519  4474 SN   03:48:22 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-204430.log\n[botctl] 日志时间: 2026-03-23 00:29:59",
+    "raw": "[botctl] 状态: running\n 4519  4474 SN   03:48:54 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-204430.log\n[botctl] 日志时间: 2026-03-23 00:29:59",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-204430.log",
@@ -280,7 +280,7 @@
     ]
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T16:32:53.344Z",
+    "fetchedAt": "2026-03-22T16:33:26.309Z",
     "balance": {
       "availableUSDC": 5.1243,
       "rawMinorUnits": "5124265"
@@ -1087,7 +1087,7 @@
       "openPositionExposure": 10.27
     },
     "pnl": {
-      "asOf": "2026-03-22T16:32:53.322Z",
+      "asOf": "2026-03-22T16:33:26.287Z",
       "realizedPnl": 41.0435,
       "unrealizedPnl": -28.6929,
       "totalPnl": 12.3506,
@@ -9022,6 +9022,15 @@
           "pnlRate": 0.1889,
           "currentTotalValue": 29.8629,
           "status": "official-wallet"
+        },
+        {
+          "index": 881,
+          "ts": "2026-03-22T16:33:26.287Z",
+          "label": "03/23 00:33",
+          "pnlAmount": 12.3506,
+          "pnlRate": 0.1889,
+          "currentTotalValue": 29.8629,
+          "status": "official-wallet"
         }
       ],
       "curveStartedAt": "2026-03-22T09:01:12.179Z",
@@ -9029,7 +9038,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T16:32:53.345Z",
+    "fetchedAt": "2026-03-22T16:33:26.310Z",
     "stats": {
       "total": 13,
       "open": 1,
@@ -9111,8 +9120,8 @@
         "statusLabel": "已到结算时点",
         "statusLevel": "warn",
         "orderRef": "0x29bbe4790387ee10b75fc2987170b347ca61ee20509baeb4b5b9d46f694be221",
-        "pnlAmount": -0.798,
-        "pnlRate": -0.6885,
+        "pnlAmount": -0.817,
+        "pnlRate": -0.7049,
         "settlementTime": "03/22 20:00"
       },
       {
@@ -9130,8 +9139,8 @@
         "statusLabel": "已到结算时点",
         "statusLevel": "warn",
         "orderRef": "0x045be9931867acaed45f76451cdcfc5f443b09f4255b79638b7176d885516439",
-        "pnlAmount": 0.2,
-        "pnlRate": 0.1667,
+        "pnlAmount": 0.6,
+        "pnlRate": 0.5,
         "settlementTime": "03/22 20:00"
       },
       {
@@ -9149,8 +9158,8 @@
         "statusLabel": "已到结算时点",
         "statusLevel": "warn",
         "orderRef": "0xeea050e0aad7e4a55ccbfbe2b6e82e8bfbb7306f37b2f35ab694c3fb8adc4ba9",
-        "pnlAmount": -1.162,
-        "pnlRate": -0.9765,
+        "pnlAmount": -1.169,
+        "pnlRate": -0.9824,
         "settlementTime": "03/22 20:00"
       },
       {
