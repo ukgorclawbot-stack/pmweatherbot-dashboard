@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-22T07:13:20.320Z",
+  "fetchedAt": "2026-03-22T07:13:53.332Z",
   "status": {
-    "raw": "[botctl] 状态: running\n83761 83720 SN   31:15 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log\n[botctl] 日志时间: 2026-03-22 15:12:18",
+    "raw": "[botctl] 状态: running\n83761 83720 SN   31:48 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log\n[botctl] 日志时间: 2026-03-22 15:12:18",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log",
@@ -10,12 +10,12 @@
       "pid": "83761",
       "ppid": "83720",
       "stat": "SN",
-      "etime": "31:15",
+      "etime": "31:48",
       "command": "node index.mjs auto"
     }
   },
   "health": {
-    "raw": "[Health] WARN\n[ok] process: 运行中 PID=83761\n[warn] signals: 暂无 signals.jsonl 记录\n[ok] trades: 最近交易日志 6 分钟前\n[ok] weather-cache: 缓存正常，条目=99，最近更新 6 分钟前",
+    "raw": "[Health] WARN\n[ok] process: 运行中 PID=83761\n[warn] signals: 暂无 signals.jsonl 记录\n[ok] trades: 最近交易日志 6 分钟前\n[ok] weather-cache: 缓存正常，条目=99，最近更新 7 分钟前",
     "level": "warn",
     "checks": [
       {
@@ -36,7 +36,7 @@
       {
         "level": "ok",
         "name": "weather-cache",
-        "message": "缓存正常，条目=99，最近更新 6 分钟前"
+        "message": "缓存正常，条目=99，最近更新 7 分钟前"
       }
     ]
   },
@@ -64,7 +64,7 @@
     }
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T07:13:19.695Z",
+    "fetchedAt": "2026-03-22T07:13:53.181Z",
     "balance": {
       "availableUSDC": 8.9587,
       "rawMinorUnits": "8958655"
@@ -78,10 +78,10 @@
         "entryPrice": 0.081,
         "notional": 1.134,
         "costBasis": 1.134,
-        "currentPrice": 0.072,
-        "currentValue": 1.008,
-        "pnlAmount": -0.126,
-        "pnlRate": -0.1111,
+        "currentPrice": 0.057,
+        "currentValue": 0.798,
+        "pnlAmount": -0.336,
+        "pnlRate": -0.2963,
         "status": "open",
         "openedAt": "03/22 15:02",
         "openedAtRaw": "2026-03-22T07:02:16.007Z",
@@ -142,15 +142,15 @@
       "openPositionExposure": 1.13
     },
     "pnl": {
-      "realizedPnl": 5.733,
-      "unrealizedPnl": -0.8199,
-      "totalPnl": 4.9131,
-      "pnlRate": 1.0904,
+      "realizedPnl": 0,
+      "unrealizedPnl": -1.0299,
+      "totalPnl": -1.0299,
+      "pnlRate": -0.2286,
       "deployedCapital": 4.5058,
-      "currentPositionValue": 2.4259,
+      "currentPositionValue": 2.2159,
       "openOrderValue": 3.51,
       "availableBalance": 8.9587,
-      "currentTotalValue": 11.3846,
+      "currentTotalValue": 11.1746,
       "baseBankroll": 20,
       "curve": [
         {
@@ -175,8 +175,8 @@
           "index": 3,
           "ts": "2026-03-22T06:42:06.031Z",
           "label": "Will the highest temperature in Atlanta be between 82-83°F on March 21?",
-          "pnlAmount": 5.0391,
-          "pnlRate": 1.4945,
+          "pnlAmount": -0.6939,
+          "pnlRate": -0.2058,
           "costBasis": 3.3718,
           "status": "closed"
         },
@@ -184,8 +184,8 @@
           "index": 4,
           "ts": "2026-03-22T07:02:16.007Z",
           "label": "Will the highest temperature in Chicago be between 68-69°F on March 22?",
-          "pnlAmount": 4.9131,
-          "pnlRate": 1.0904,
+          "pnlAmount": -1.0299,
+          "pnlRate": -0.2286,
           "costBasis": 4.5058,
           "status": "open"
         }
@@ -194,7 +194,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T07:13:20.320Z",
+    "fetchedAt": "2026-03-22T07:13:53.332Z",
     "stats": {
       "total": 6,
       "open": 3,
@@ -240,7 +240,7 @@
         "orderRef": "0x074a0455253b9c826c7306129b664ba0c547f5c25ac24c9cd30e655c79f97a20",
         "pnlAmount": -1.26,
         "pnlRate": -1,
-        "settlementTime": "03/21 20:00"
+        "settlementTime": "03/22 07:59"
       },
       {
         "ts": "03/22 14:47",
