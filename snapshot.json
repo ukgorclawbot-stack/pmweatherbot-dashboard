@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-22T17:23:35.681Z",
+  "fetchedAt": "2026-03-22T17:24:09.318Z",
   "status": {
-    "raw": "[botctl] 状态: running\n 4519  4474 SN   04:39:03 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-204430.log\n[botctl] 日志时间: 2026-03-23 01:19:59",
+    "raw": "[botctl] 状态: running\n 4519  4474 SN   04:39:37 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-204430.log\n[botctl] 日志时间: 2026-03-23 01:19:59",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-204430.log",
@@ -285,7 +285,7 @@
     ]
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T17:23:34.918Z",
+    "fetchedAt": "2026-03-22T17:24:08.026Z",
     "balance": {
       "availableUSDC": 4.7963,
       "rawMinorUnits": "4796265"
@@ -1078,7 +1078,7 @@
       "openPositionExposure": 10.59
     },
     "pnl": {
-      "asOf": "2026-03-22T17:23:34.886Z",
+      "asOf": "2026-03-22T17:24:08.001Z",
       "realizedPnl": 41.0435,
       "unrealizedPnl": -29.1389,
       "totalPnl": 11.9046,
@@ -9841,6 +9841,15 @@
           "pnlRate": 0.1811,
           "currentTotalValue": 29.417,
           "status": "official-wallet"
+        },
+        {
+          "index": 973,
+          "ts": "2026-03-22T17:24:08.001Z",
+          "label": "03/23 01:24",
+          "pnlAmount": 11.9046,
+          "pnlRate": 0.1811,
+          "currentTotalValue": 29.417,
+          "status": "official-wallet"
         }
       ],
       "curveStartedAt": "2026-03-22T09:01:12.179Z",
@@ -9848,7 +9857,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T17:23:35.681Z",
+    "fetchedAt": "2026-03-22T17:24:09.318Z",
     "stats": {
       "total": 13,
       "open": 0,
