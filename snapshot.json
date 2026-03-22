@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-22T07:27:33.184Z",
+  "fetchedAt": "2026-03-22T07:28:05.615Z",
   "status": {
-    "raw": "[botctl] 状态: running\n83761 83720 SN   45:29 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log\n[botctl] 日志时间: 2026-03-22 15:27:23",
+    "raw": "[botctl] 状态: running\n83761 83720 SN   46:01 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log\n[botctl] 日志时间: 2026-03-22 15:27:23",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log",
@@ -10,12 +10,12 @@
       "pid": "83761",
       "ppid": "83720",
       "stat": "SN",
-      "etime": "45:29",
+      "etime": "46:01",
       "command": "node index.mjs auto"
     }
   },
   "health": {
-    "raw": "[Health] WARN\n[ok] process: 运行中 PID=83761\n[warn] signals: 暂无 signals.jsonl 记录\n[warn] trades: 最近交易日志 20 分钟未更新\n[ok] weather-cache: 缓存正常，条目=99，最近更新 0 分钟前",
+    "raw": "[Health] WARN\n[ok] process: 运行中 PID=83761\n[warn] signals: 暂无 signals.jsonl 记录\n[warn] trades: 最近交易日志 21 分钟未更新\n[ok] weather-cache: 缓存正常，条目=99，最近更新 1 分钟前",
     "level": "warn",
     "checks": [
       {
@@ -31,12 +31,12 @@
       {
         "level": "warn",
         "name": "trades",
-        "message": "最近交易日志 20 分钟未更新"
+        "message": "最近交易日志 21 分钟未更新"
       },
       {
         "level": "ok",
         "name": "weather-cache",
-        "message": "缓存正常，条目=99，最近更新 0 分钟前"
+        "message": "缓存正常，条目=99，最近更新 1 分钟前"
       }
     ]
   },
@@ -64,7 +64,7 @@
     }
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T07:27:32.941Z",
+    "fetchedAt": "2026-03-22T07:28:05.594Z",
     "balance": {
       "availableUSDC": 10.2187,
       "rawMinorUnits": "10218655"
@@ -143,22 +143,22 @@
     },
     "pnl": {
       "realizedPnl": 0.4809,
-      "unrealizedPnl": -1.432,
-      "totalPnl": -0.9511,
-      "pnlRate": -0.2111,
+      "unrealizedPnl": -1.482,
+      "totalPnl": -1.0011,
+      "pnlRate": -0.2222,
       "deployedCapital": 4.5058,
-      "currentPositionValue": 0.852,
+      "currentPositionValue": 0.802,
       "openOrderValue": 3.51,
       "availableBalance": 10.2187,
-      "currentTotalValue": 11.0707,
+      "currentTotalValue": 11.0207,
       "baseBankroll": 20,
       "curve": [
         {
           "index": 1,
           "ts": "2026-03-21T16:19:13.789Z",
           "label": "Will the highest temperature in Atlanta be between 68-69°F on March 24?",
-          "pnlAmount": -0.9,
-          "pnlRate": -0.7826,
+          "pnlAmount": -0.95,
+          "pnlRate": -0.8261,
           "costBasis": 1.15,
           "status": "closing"
         },
@@ -166,8 +166,8 @@
           "index": 2,
           "ts": "2026-03-22T07:22:15.657Z",
           "label": "Will the highest temperature in Shanghai be 12°C on March 24?",
-          "pnlAmount": -0.4191,
-          "pnlRate": -0.1985,
+          "pnlAmount": -0.4691,
+          "pnlRate": -0.2221,
           "costBasis": 2.1118,
           "status": "closed"
         },
@@ -175,8 +175,8 @@
           "index": 3,
           "ts": "2026-03-22T06:42:06.031Z",
           "label": "Will the highest temperature in Atlanta be between 82-83°F on March 21?",
-          "pnlAmount": -0.4191,
-          "pnlRate": -0.1243,
+          "pnlAmount": -0.4691,
+          "pnlRate": -0.1391,
           "costBasis": 3.3718,
           "status": "closed"
         },
@@ -184,8 +184,8 @@
           "index": 4,
           "ts": "2026-03-22T07:02:16.007Z",
           "label": "Will the highest temperature in Chicago be between 68-69°F on March 22?",
-          "pnlAmount": -0.9511,
-          "pnlRate": -0.2111,
+          "pnlAmount": -1.0011,
+          "pnlRate": -0.2222,
           "costBasis": 4.5058,
           "status": "open"
         }
@@ -194,7 +194,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T07:27:33.184Z",
+    "fetchedAt": "2026-03-22T07:28:05.615Z",
     "stats": {
       "total": 7,
       "open": 3,
