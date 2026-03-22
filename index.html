@@ -821,7 +821,7 @@
           setText("balance-available", `$${payload.portfolio.balance.availableUSDC}`);
           setText("open-positions-count", String(payload.portfolio.positions.length));
           setText("open-orders-count", String(payload.portfolio.orders.length));
-          setText("trade-history-meta", `按下单时间排序 | 总数=${payload.history.stats.total} 挂单中=${payload.history.stats.open} 持仓中=${payload.history.stats.holding} 到结算时点=${payload.history.stats.pendingSettlement} 已平仓=${payload.history.stats.closed} 已结算=${payload.history.stats.settled}。已到结算时点的 PnL 为当前估算值。`);
+          setText("trade-history-meta", `按时间倒序 | 总数=${payload.history.stats.total} 挂单中=${payload.history.stats.open} 持仓中=${payload.history.stats.holding} 到结算时点=${payload.history.stats.pendingSettlement} 已平仓=${payload.history.stats.closed} 已结算=${payload.history.stats.settled}。已到结算时点的 PnL 为当前估算值。`);
 
           setDot("bot-dot", payload.status.state === "running" ? "ok" : "critical");
           setDot("health-dot", payload.health.level);
