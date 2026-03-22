@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-22T08:18:35.522Z",
+  "fetchedAt": "2026-03-22T08:19:08.848Z",
   "status": {
-    "raw": "[botctl] 状态: running\n83761 83720 SN   01:36:30 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log\n[botctl] 日志时间: 2026-03-22 16:17:22",
+    "raw": "[botctl] 状态: running\n83761 83720 SN   01:37:03 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log\n[botctl] 日志时间: 2026-03-22 16:17:22",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260322-144203.log",
@@ -10,12 +10,12 @@
       "pid": "83761",
       "ppid": "83720",
       "stat": "SN",
-      "etime": "01:36:30",
+      "etime": "01:37:03",
       "command": "node index.mjs auto"
     }
   },
   "health": {
-    "raw": "[Health] CRITICAL\n[ok] process: 运行中 PID=83761\n[warn] signals: 暂无 signals.jsonl 记录\n[critical] trades: 最近交易日志 71 分钟未更新\n[ok] weather-cache: 缓存正常，条目=99，最近更新 1 分钟前",
+    "raw": "[Health] CRITICAL\n[ok] process: 运行中 PID=83761\n[warn] signals: 暂无 signals.jsonl 记录\n[critical] trades: 最近交易日志 72 分钟未更新\n[ok] weather-cache: 缓存正常，条目=99，最近更新 2 分钟前",
     "level": "critical",
     "checks": [
       {
@@ -31,12 +31,12 @@
       {
         "level": "critical",
         "name": "trades",
-        "message": "最近交易日志 71 分钟未更新"
+        "message": "最近交易日志 72 分钟未更新"
       },
       {
         "level": "ok",
         "name": "weather-cache",
-        "message": "缓存正常，条目=99，最近更新 1 分钟前"
+        "message": "缓存正常，条目=99，最近更新 2 分钟前"
       }
     ]
   },
@@ -64,7 +64,7 @@
     }
   },
   "portfolio": {
-    "fetchedAt": "2026-03-22T08:18:35.121Z",
+    "fetchedAt": "2026-03-22T08:19:07.674Z",
     "balance": {
       "availableUSDC": 12.4853,
       "rawMinorUnits": "12485265"
@@ -212,7 +212,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-22T08:18:35.522Z",
+    "fetchedAt": "2026-03-22T08:19:08.848Z",
     "stats": {
       "total": 7,
       "open": 2,
