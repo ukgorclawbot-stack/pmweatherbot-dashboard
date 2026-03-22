@@ -808,6 +808,7 @@
         if (!node) return;
 
         if (!blockers?.available) {
+          node.className = "mono";
           setPre("entry-blockers", blockers?.summaryLines || ["暂无数据"]);
           return;
         }
