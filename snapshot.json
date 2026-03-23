@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-23T02:40:19.299Z",
+  "fetchedAt": "2026-03-23T02:40:52.774Z",
   "status": {
-    "raw": "[botctl] 状态: running\n26785 26744 SN   09:03:18 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log\n[botctl] 日志时间: 2026-03-23 10:37:23",
+    "raw": "[botctl] 状态: running\n26785 26744 SN   09:03:51 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log\n[botctl] 日志时间: 2026-03-23 10:37:23",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log",
@@ -10,7 +10,7 @@
       "pid": "26785",
       "ppid": "26744",
       "stat": "SN",
-      "etime": "09:03:18",
+      "etime": "09:03:51",
       "command": "node index.mjs auto"
     }
   },
@@ -286,7 +286,7 @@
     ]
   },
   "portfolio": {
-    "fetchedAt": "2026-03-23T02:40:18.763Z",
+    "fetchedAt": "2026-03-23T02:40:52.277Z",
     "balance": {
       "availableUSDC": 2.9423,
       "rawMinorUnits": "2942265"
@@ -1028,7 +1028,7 @@
       "openPositionExposure": 6.8
     },
     "pnl": {
-      "asOf": "2026-03-23T02:40:18.687Z",
+      "asOf": "2026-03-23T02:40:52.222Z",
       "realizedPnl": 40.9835,
       "unrealizedPnl": -29.5431,
       "totalPnl": 11.4404,
@@ -18809,6 +18809,15 @@
           "pnlRate": 0.1762,
           "currentTotalValue": 26.3607,
           "status": "official-wallet"
+        },
+        {
+          "index": 1975,
+          "ts": "2026-03-23T02:40:52.222Z",
+          "label": "03/23 10:40",
+          "pnlAmount": 11.4404,
+          "pnlRate": 0.1762,
+          "currentTotalValue": 26.3607,
+          "status": "official-wallet"
         }
       ],
       "curveStartedAt": "2026-03-22T09:01:12.179Z",
@@ -18816,7 +18825,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-23T02:40:19.299Z",
+    "fetchedAt": "2026-03-23T02:40:52.774Z",
     "stats": {
       "total": 24,
       "open": 0,
