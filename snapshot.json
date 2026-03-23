@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-23T08:31:37.669Z",
+  "fetchedAt": "2026-03-23T08:32:11.277Z",
   "status": {
-    "raw": "[botctl] 状态: running\n26785 26744 SN   14:54:36 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log\n[botctl] 日志时间: 2026-03-23 16:27:23",
+    "raw": "[botctl] 状态: running\n26785 26744 SN   14:55:10 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log\n[botctl] 日志时间: 2026-03-23 16:27:23",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log",
@@ -10,12 +10,12 @@
       "pid": "26785",
       "ppid": "26744",
       "stat": "SN",
-      "etime": "14:54:36",
+      "etime": "14:55:10",
       "command": "node index.mjs auto"
     }
   },
   "health": {
-    "raw": "[Health] WARN\n[ok] process: 运行中 PID=26785\n[warn] signals: 暂无 signals.jsonl 记录\n[warn] trades: 最近交易日志 249 分钟未更新\n[ok] weather-cache: 缓存正常，条目=120，最近更新 9 分钟前",
+    "raw": "[Health] WARN\n[ok] process: 运行中 PID=26785\n[warn] signals: 暂无 signals.jsonl 记录\n[warn] trades: 最近交易日志 250 分钟未更新\n[ok] weather-cache: 缓存正常，条目=120，最近更新 10 分钟前",
     "level": "warn",
     "checks": [
       {
@@ -31,12 +31,12 @@
       {
         "level": "warn",
         "name": "trades",
-        "message": "最近交易日志 249 分钟未更新"
+        "message": "最近交易日志 250 分钟未更新"
       },
       {
         "level": "ok",
         "name": "weather-cache",
-        "message": "缓存正常，条目=120，最近更新 9 分钟前"
+        "message": "缓存正常，条目=120，最近更新 10 分钟前"
       }
     ]
   },
@@ -286,10 +286,10 @@
     ]
   },
   "portfolio": {
-    "fetchedAt": "2026-03-23T08:31:37.009Z",
+    "fetchedAt": "2026-03-23T08:32:10.369Z",
     "balance": {
-      "availableUSDC": 0.2171,
-      "rawMinorUnits": "217134"
+      "availableUSDC": 2.5571,
+      "rawMinorUnits": "2557134"
     },
     "positions": [
       {
@@ -516,14 +516,14 @@
         "positionID": "49285480455483418446375190228548503427075462140180447252688343095990172292710",
         "question": "Will the highest temperature in Los Angeles be between 80-81°F on March 24?",
         "side": "YES",
-        "shares": 41.98,
+        "shares": 0.98,
         "entryPrice": 0.0548,
-        "notional": 2.2988,
-        "costBasis": 2.2988,
+        "notional": 0.0537,
+        "costBasis": 0.0537,
         "currentPrice": 0.015,
-        "currentValue": 0.6297,
-        "pnlAmount": -1.6691,
-        "pnlRate": -0.7261,
+        "currentValue": 0.0147,
+        "pnlAmount": 0.0559,
+        "pnlRate": 1.041,
         "status": "open",
         "openedAt": "官方接口未提供",
         "openedAtRaw": null,
@@ -1072,16 +1072,16 @@
       "openPositionExposure": 6.72
     },
     "pnl": {
-      "asOf": "2026-03-23T08:31:36.942Z",
-      "realizedPnl": 41.5035,
-      "unrealizedPnl": -48.2118,
-      "totalPnl": -6.7083,
-      "pnlRate": -0.0974,
-      "deployedCapital": 68.9046,
-      "currentPositionValue": 8.7348,
+      "asOf": "2026-03-23T08:32:10.277Z",
+      "realizedPnl": 41.5984,
+      "unrealizedPnl": -46.5817,
+      "totalPnl": -4.9833,
+      "pnlRate": -0.0748,
+      "deployedCapital": 66.6595,
+      "currentPositionValue": 8.1198,
       "openOrderValue": 0,
-      "availableBalance": 0.2171,
-      "currentTotalValue": 8.9519,
+      "availableBalance": 2.5571,
+      "currentTotalValue": 10.6769,
       "baseBankroll": 20,
       "openPositionCount": 62,
       "closedPositionCount": 10,
@@ -24505,6 +24505,15 @@
           "pnlRate": -0.0974,
           "currentTotalValue": 8.9519,
           "status": "official-wallet"
+        },
+        {
+          "index": 2603,
+          "ts": "2026-03-23T08:32:10.277Z",
+          "label": "03/23 16:32",
+          "pnlAmount": -4.9833,
+          "pnlRate": -0.0748,
+          "currentTotalValue": 10.6769,
+          "status": "official-wallet"
         }
       ],
       "curveStartedAt": "2026-03-22T09:01:12.179Z",
@@ -24512,7 +24521,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-23T08:31:37.669Z",
+    "fetchedAt": "2026-03-23T08:32:11.277Z",
     "stats": {
       "total": 27,
       "open": 0,
