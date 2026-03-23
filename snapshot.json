@@ -1,21 +1,21 @@
 {
-  "fetchedAt": "2026-03-23T08:06:55.934Z",
+  "fetchedAt": "2026-03-23T08:07:29.675Z",
   "status": {
-    "raw": "[botctl] 状态: running\n26785 26744 SN   14:29:54 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log\n[botctl] 日志时间: 2026-03-23 16:02:35",
+    "raw": "[botctl] 状态: running\n26785 26744 SN   14:30:28 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log\n[botctl] 日志时间: 2026-03-23 16:07:23",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log",
-    "latestLogTime": "2026-03-23 16:02:35",
+    "latestLogTime": "2026-03-23 16:07:23",
     "process": {
       "pid": "26785",
       "ppid": "26744",
       "stat": "SN",
-      "etime": "14:29:54",
+      "etime": "14:30:28",
       "command": "node index.mjs auto"
     }
   },
   "health": {
-    "raw": "[Health] WARN\n[ok] process: 运行中 PID=26785\n[warn] signals: 暂无 signals.jsonl 记录\n[warn] trades: 最近交易日志 224 分钟未更新\n[ok] weather-cache: 缓存正常，条目=120，最近更新 4 分钟前",
+    "raw": "[Health] WARN\n[ok] process: 运行中 PID=26785\n[warn] signals: 暂无 signals.jsonl 记录\n[warn] trades: 最近交易日志 225 分钟未更新\n[ok] weather-cache: 缓存正常，条目=120，最近更新 5 分钟前",
     "level": "warn",
     "checks": [
       {
@@ -31,30 +31,30 @@
       {
         "level": "warn",
         "name": "trades",
-        "message": "最近交易日志 224 分钟未更新"
+        "message": "最近交易日志 225 分钟未更新"
       },
       {
         "level": "ok",
         "name": "weather-cache",
-        "message": "缓存正常，条目=120，最近更新 4 分钟前"
+        "message": "缓存正常，条目=120，最近更新 5 分钟前"
       }
     ]
   },
   "recent": {
-    "raw": "[botctl] 最近概览\n[botctl] 日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log\n[botctl] 时间: 2026-03-23 16:02:35\n\n[botctl] 最近扫描摘要\n\n[botctl] 最近异常/提示\n\n[botctl] 自动撤单概览\n[Stale Report] auto-cancel=true threshold age>=360m gap>=0.020\n[Stale Report] history: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/stale-order-actions.jsonl\n[Stale Report] scans=438 24h-scans=290 24h-with-candidates=0\n[Stale Report] 24h candidates=0 cancelled=0 resolved=0 failed=0\n[Stale Report] latest-scan 2026-03-23T08:02:19.222Z candidates=0 cancelled=0 resolved=0 failed=0\n[Stale Report] recent actions\n  2026-03-21T21:48:29.215Z cancelled rem=1.13 @ $0.140 bid=$0.200 age=477.72m gap=0.060 | Will the highest temperature in Shanghai be 12°C on March 24?\n  2026-03-21T22:38:29.240Z cancelled rem=18.00 @ $0.062 bid=$0.099 age=363.56m gap=0.037 | Will the highest temperature in Chicago be between 66-67°F on March 22?\ncmd_recent:14: command not found: rg\ncmd_recent:20: command not found: rg",
+    "raw": "[botctl] 最近概览\n[botctl] 日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log\n[botctl] 时间: 2026-03-23 16:07:23\n\n[botctl] 最近扫描摘要\n\n[botctl] 最近异常/提示\n\n[botctl] 自动撤单概览\n[Stale Report] auto-cancel=true threshold age>=360m gap>=0.020\n[Stale Report] history: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/stale-order-actions.jsonl\n[Stale Report] scans=439 24h-scans=290 24h-with-candidates=0\n[Stale Report] 24h candidates=0 cancelled=0 resolved=0 failed=0\n[Stale Report] latest-scan 2026-03-23T08:07:19.554Z candidates=0 cancelled=0 resolved=0 failed=0\n[Stale Report] recent actions\n  2026-03-21T21:48:29.215Z cancelled rem=1.13 @ $0.140 bid=$0.200 age=477.72m gap=0.060 | Will the highest temperature in Shanghai be 12°C on March 24?\n  2026-03-21T22:38:29.240Z cancelled rem=18.00 @ $0.062 bid=$0.099 age=363.56m gap=0.037 | Will the highest temperature in Chicago be between 66-67°F on March 22?\ncmd_recent:14: command not found: rg\ncmd_recent:20: command not found: rg",
     "sections": {
       "overview": [
         "[botctl] 日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log",
-        "[botctl] 时间: 2026-03-23 16:02:35"
+        "[botctl] 时间: 2026-03-23 16:07:23"
       ],
       "scanSummary": [],
       "issues": [],
       "stale": [
         "[Stale Report] auto-cancel=true threshold age>=360m gap>=0.020",
         "[Stale Report] history: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/stale-order-actions.jsonl",
-        "[Stale Report] scans=438 24h-scans=290 24h-with-candidates=0",
+        "[Stale Report] scans=439 24h-scans=290 24h-with-candidates=0",
         "[Stale Report] 24h candidates=0 cancelled=0 resolved=0 failed=0",
-        "[Stale Report] latest-scan 2026-03-23T08:02:19.222Z candidates=0 cancelled=0 resolved=0 failed=0",
+        "[Stale Report] latest-scan 2026-03-23T08:07:19.554Z candidates=0 cancelled=0 resolved=0 failed=0",
         "[Stale Report] recent actions",
         "  2026-03-21T21:48:29.215Z cancelled rem=1.13 @ $0.140 bid=$0.200 age=477.72m gap=0.060 | Will the highest temperature in Shanghai be 12°C on March 24?",
         "  2026-03-21T22:38:29.240Z cancelled rem=18.00 @ $0.062 bid=$0.099 age=363.56m gap=0.037 | Will the highest temperature in Chicago be between 66-67°F on March 22?",
@@ -65,14 +65,14 @@
   },
   "blockers": {
     "available": true,
-    "scanTime": "2026-03-23T08:02:35.679Z",
-    "scanTimeLabel": "03/23 16:02",
+    "scanTime": "2026-03-23T08:07:23.980Z",
+    "scanTimeLabel": "03/23 16:07",
     "marketsScanned": 24,
-    "tradeSignals": 0,
-    "skippedCount": 24,
+    "tradeSignals": 1,
+    "skippedCount": 23,
     "allowedNew": {
       "allowed": 0,
-      "total": 0
+      "total": 1
     },
     "risk": {
       "openOrders": 0,
@@ -92,24 +92,20 @@
     "reasonBuckets": [
       {
         "label": "Edge 不足",
-        "count": 20
+        "count": 16
       },
       {
         "label": "价格超出范围",
-        "count": 4
+        "count": 7
       }
     ],
     "topReasons": [
       {
+        "label": "Edge 2.0% < 12%",
+        "count": 3
+      },
+      {
         "label": "Edge 2.9% < 12%",
-        "count": 5
-      },
-      {
-        "label": "Edge 2.1% < 12%",
-        "count": 2
-      },
-      {
-        "label": "Edge 2.8% < 12%",
         "count": 2
       },
       {
@@ -117,11 +113,44 @@
         "count": 1
       },
       {
-        "label": "价格 $0.017 超出范围",
+        "label": "价格 $0.023 超出范围",
+        "count": 1
+      },
+      {
+        "label": "价格 $0.030 超出范围",
         "count": 1
       }
     ],
     "recentScans": [
+      {
+        "scanTime": "2026-03-23T08:07:23.980Z",
+        "scanTimeLabel": "03/23 16:07",
+        "headline": "结论: 本轮有 1 个交易信号，但风控放行 0/1，当前是被风控挡住。",
+        "topBlocker": "Edge 不足",
+        "tradeSignals": 1,
+        "allowed": 0,
+        "total": 1,
+        "accepted": 0,
+        "failed": 0,
+        "marketsScanned": 24,
+        "skippedCount": 23,
+        "openOrders": 0,
+        "openPositions": 6,
+        "exposure": 6.72,
+        "exitCount": 0,
+        "holdCount": 6,
+        "topReasons": [
+          {
+            "label": "Edge 2.0% < 12%",
+            "count": 3
+          },
+          {
+            "label": "Edge 2.9% < 12%",
+            "count": 2
+          }
+        ],
+        "state": "risk-blocked"
+      },
       {
         "scanTime": "2026-03-23T08:02:35.679Z",
         "scanTimeLabel": "03/23 16:02",
@@ -237,56 +266,27 @@
           }
         ],
         "state": "risk-blocked"
-      },
-      {
-        "scanTime": "2026-03-23T07:42:33.589Z",
-        "scanTimeLabel": "03/23 15:42",
-        "headline": "结论: 本轮有 1 个交易信号，但风控放行 0/1，当前是被风控挡住。",
-        "topBlocker": "Edge 不足",
-        "tradeSignals": 1,
-        "allowed": 0,
-        "total": 1,
-        "accepted": 0,
-        "failed": 0,
-        "marketsScanned": 25,
-        "skippedCount": 24,
-        "openOrders": 0,
-        "openPositions": 6,
-        "exposure": 6.72,
-        "exitCount": 0,
-        "holdCount": 6,
-        "topReasons": [
-          {
-            "label": "Edge 2.9% < 12%",
-            "count": 5
-          },
-          {
-            "label": "Edge 1.4% < 12%",
-            "count": 3
-          }
-        ],
-        "state": "risk-blocked"
       }
     ],
     "summaryLines": [
-      "本轮扫描: 03/23 16:02 | 市场=24",
-      "结论: 本轮没有合格新信号，主因是“Edge 不足”。",
-      "交易信号=0 | 风控放行=0/0 | 执行 accepted=0 failed=0",
+      "本轮扫描: 03/23 16:07 | 市场=24",
+      "结论: 本轮有 1 个交易信号，但风控放行 0/1，当前是被风控挡住。",
+      "交易信号=1 | 风控放行=0/1 | 执行 accepted=0 failed=0",
       "风险占用: 挂单=0 | 持仓=6 | exposure=$6.72",
       "退出判断: exit=0 | hold=6 | positions=6",
       "",
       "跳过主因:",
-      "- Edge 不足: 20",
-      "- 价格超出范围: 4",
+      "- Edge 不足: 16",
+      "- 价格超出范围: 7",
       "",
       "高频原始原因:",
-      "- Edge 2.9% < 12%: 5",
-      "- Edge 2.1% < 12%: 2",
-      "- Edge 2.8% < 12%: 2"
+      "- Edge 2.0% < 12%: 3",
+      "- Edge 2.9% < 12%: 2",
+      "- 价格 $0.001 超出范围: 1"
     ]
   },
   "portfolio": {
-    "fetchedAt": "2026-03-23T08:06:54.607Z",
+    "fetchedAt": "2026-03-23T08:07:28.313Z",
     "balance": {
       "availableUSDC": 0.2171,
       "rawMinorUnits": "217134"
@@ -432,10 +432,10 @@
         "entryPrice": 0.051,
         "notional": 0.867,
         "costBasis": 0.867,
-        "currentPrice": 0.0465,
-        "currentValue": 0.7905,
-        "pnlAmount": -0.0765,
-        "pnlRate": -0.0882,
+        "currentPrice": 0.046,
+        "currentValue": 0.782,
+        "pnlAmount": -0.085,
+        "pnlRate": -0.098,
         "status": "open",
         "openedAt": "官方接口未提供",
         "openedAtRaw": null,
@@ -476,10 +476,10 @@
         "entryPrice": 0.0854,
         "notional": 2.22,
         "costBasis": 2.22,
-        "currentPrice": 0.022,
-        "currentValue": 0.572,
-        "pnlAmount": -1.648,
-        "pnlRate": -0.7423,
+        "currentPrice": 0.0205,
+        "currentValue": 0.533,
+        "pnlAmount": -1.687,
+        "pnlRate": -0.7599,
         "status": "open",
         "openedAt": "官方接口未提供",
         "openedAtRaw": null,
@@ -586,10 +586,10 @@
         "entryPrice": 0.1359,
         "notional": 6.3239,
         "costBasis": 6.3239,
-        "currentPrice": 0.0075,
-        "currentValue": 0.3491,
-        "pnlAmount": -5.9749,
-        "pnlRate": -0.9448,
+        "currentPrice": 0.0085,
+        "currentValue": 0.3956,
+        "pnlAmount": -5.9283,
+        "pnlRate": -0.9374,
         "status": "open",
         "openedAt": "官方接口未提供",
         "openedAtRaw": null,
@@ -630,10 +630,10 @@
         "entryPrice": 0.051,
         "notional": 0.612,
         "costBasis": 0.612,
-        "currentPrice": 0.072,
-        "currentValue": 0.864,
-        "pnlAmount": 0.192,
-        "pnlRate": 0.3137,
+        "currentPrice": 0.074,
+        "currentValue": 0.888,
+        "pnlAmount": 0.216,
+        "pnlRate": 0.3529,
         "status": "open",
         "openedAt": "官方接口未提供",
         "openedAtRaw": null,
@@ -652,10 +652,10 @@
         "entryPrice": 0.06,
         "notional": 1.2,
         "costBasis": 1.2,
-        "currentPrice": 0.055,
-        "currentValue": 1.1,
-        "pnlAmount": -0.1,
-        "pnlRate": -0.0833,
+        "currentPrice": 0.045,
+        "currentValue": 0.9,
+        "pnlAmount": -0.3,
+        "pnlRate": -0.25,
         "status": "open",
         "openedAt": "官方接口未提供",
         "openedAtRaw": null,
@@ -1072,16 +1072,16 @@
       "openPositionExposure": 6.72
     },
     "pnl": {
-      "asOf": "2026-03-23T08:06:54.546Z",
+      "asOf": "2026-03-23T08:07:28.226Z",
       "realizedPnl": 41.5035,
-      "unrealizedPnl": -47.4737,
-      "totalPnl": -5.9702,
-      "pnlRate": -0.0866,
+      "unrealizedPnl": -47.6507,
+      "totalPnl": -6.1472,
+      "pnlRate": -0.0892,
       "deployedCapital": 68.9046,
-      "currentPositionValue": 9.4728,
+      "currentPositionValue": 9.2959,
       "openOrderValue": 0,
       "availableBalance": 0.2171,
-      "currentTotalValue": 9.6899,
+      "currentTotalValue": 9.513,
       "baseBankroll": 20,
       "openPositionCount": 62,
       "closedPositionCount": 10,
@@ -24109,6 +24109,15 @@
           "pnlRate": -0.0866,
           "currentTotalValue": 9.6899,
           "status": "official-wallet"
+        },
+        {
+          "index": 2559,
+          "ts": "2026-03-23T08:07:28.226Z",
+          "label": "03/23 16:07",
+          "pnlAmount": -6.1472,
+          "pnlRate": -0.0892,
+          "currentTotalValue": 9.513,
+          "status": "official-wallet"
         }
       ],
       "curveStartedAt": "2026-03-22T09:01:12.179Z",
@@ -24116,7 +24125,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-23T08:06:55.934Z",
+    "fetchedAt": "2026-03-23T08:07:29.675Z",
     "stats": {
       "total": 27,
       "open": 0,
