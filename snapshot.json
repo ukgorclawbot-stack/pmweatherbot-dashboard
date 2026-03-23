@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-23T11:00:43.661Z",
+  "fetchedAt": "2026-03-23T11:01:17.303Z",
   "status": {
-    "raw": "[botctl] 状态: running\n26785 26744 SN   17:23:43 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log\n[botctl] 日志时间: 2026-03-23 18:57:24",
+    "raw": "[botctl] 状态: running\n26785 26744 SN   17:24:16 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log\n[botctl] 日志时间: 2026-03-23 18:57:24",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log",
@@ -10,12 +10,12 @@
       "pid": "26785",
       "ppid": "26744",
       "stat": "SN",
-      "etime": "17:23:43",
+      "etime": "17:24:16",
       "command": "node index.mjs auto"
     }
   },
   "health": {
-    "raw": "[Health] WARN\n[ok] process: 运行中 PID=26785\n[warn] signals: 暂无 signals.jsonl 记录\n[warn] trades: 最近交易日志 43 分钟未更新\n[ok] weather-cache: 缓存正常，条目=124，最近更新 8 分钟前",
+    "raw": "[Health] WARN\n[ok] process: 运行中 PID=26785\n[warn] signals: 暂无 signals.jsonl 记录\n[warn] trades: 最近交易日志 44 分钟未更新\n[ok] weather-cache: 缓存正常，条目=124，最近更新 9 分钟前",
     "level": "warn",
     "checks": [
       {
@@ -31,12 +31,12 @@
       {
         "level": "warn",
         "name": "trades",
-        "message": "最近交易日志 43 分钟未更新"
+        "message": "最近交易日志 44 分钟未更新"
       },
       {
         "level": "ok",
         "name": "weather-cache",
-        "message": "缓存正常，条目=124，最近更新 8 分钟前"
+        "message": "缓存正常，条目=124，最近更新 9 分钟前"
       }
     ]
   },
@@ -286,7 +286,7 @@
     ]
   },
   "portfolio": {
-    "fetchedAt": "2026-03-23T11:00:43.658Z",
+    "fetchedAt": "2026-03-23T11:01:17.300Z",
     "balance": {
       "availableUSDC": 0.9639,
       "rawMinorUnits": "963934"
@@ -1109,7 +1109,7 @@
       "openPositionExposure": 6.72
     },
     "pnl": {
-      "asOf": "2026-03-23T11:00:43.589Z",
+      "asOf": "2026-03-23T11:01:17.228Z",
       "realizedPnl": 41.599,
       "unrealizedPnl": -49.9777,
       "totalPnl": -8.3787,
@@ -26936,6 +26936,15 @@
           "pnlRate": -0.1228,
           "currentTotalValue": 7.2814,
           "status": "official-wallet"
+        },
+        {
+          "index": 2869,
+          "ts": "2026-03-23T11:01:17.228Z",
+          "label": "03/23 19:01",
+          "pnlAmount": -8.3787,
+          "pnlRate": -0.1228,
+          "currentTotalValue": 7.2814,
+          "status": "official-wallet"
         }
       ],
       "curveStartedAt": "2026-03-22T09:01:12.179Z",
@@ -26943,7 +26952,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-23T11:00:43.661Z",
+    "fetchedAt": "2026-03-23T11:01:17.303Z",
     "stats": {
       "total": 29,
       "open": 0,
