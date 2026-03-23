@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-03-23T10:50:49.304Z",
+  "fetchedAt": "2026-03-23T10:51:22.990Z",
   "status": {
-    "raw": "[botctl] 状态: running\n26785 26744 SN   17:13:49 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log\n[botctl] 日志时间: 2026-03-23 18:47:23",
+    "raw": "[botctl] 状态: running\n26785 26744 SN   17:14:21 node index.mjs auto\n[botctl] watchdog cron: enabled\n[botctl] 最新日志: /Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log\n[botctl] 日志时间: 2026-03-23 18:47:23",
     "state": "running",
     "cron": "enabled",
     "latestLog": "/Users/ukgorclawbot/Desktop/ClaudeCode-Strategies/Polymarket/pmweatherbot/logs/auto-20260323-013659.log",
@@ -10,12 +10,12 @@
       "pid": "26785",
       "ppid": "26744",
       "stat": "SN",
-      "etime": "17:13:49",
+      "etime": "17:14:21",
       "command": "node index.mjs auto"
     }
   },
   "health": {
-    "raw": "[Health] WARN\n[ok] process: 运行中 PID=26785\n[warn] signals: 暂无 signals.jsonl 记录\n[warn] trades: 最近交易日志 33 分钟未更新\n[ok] weather-cache: 缓存正常，条目=123，最近更新 8 分钟前",
+    "raw": "[Health] WARN\n[ok] process: 运行中 PID=26785\n[warn] signals: 暂无 signals.jsonl 记录\n[warn] trades: 最近交易日志 34 分钟未更新\n[ok] weather-cache: 缓存正常，条目=123，最近更新 9 分钟前",
     "level": "warn",
     "checks": [
       {
@@ -31,12 +31,12 @@
       {
         "level": "warn",
         "name": "trades",
-        "message": "最近交易日志 33 分钟未更新"
+        "message": "最近交易日志 34 分钟未更新"
       },
       {
         "level": "ok",
         "name": "weather-cache",
-        "message": "缓存正常，条目=123，最近更新 8 分钟前"
+        "message": "缓存正常，条目=123，最近更新 9 分钟前"
       }
     ]
   },
@@ -286,7 +286,7 @@
     ]
   },
   "portfolio": {
-    "fetchedAt": "2026-03-23T10:50:49.185Z",
+    "fetchedAt": "2026-03-23T10:51:22.988Z",
     "balance": {
       "availableUSDC": 0.9639,
       "rawMinorUnits": "963934"
@@ -582,14 +582,14 @@
         "positionID": "53836874202052190369879817265907473882559937925431917921231653664377427682877",
         "question": "Will the highest temperature in Toronto be 2°C on March 23?",
         "side": "NO",
-        "shares": 5,
+        "shares": 4.94,
         "entryPrice": 0.27,
-        "notional": 1.35,
-        "costBasis": 1.35,
+        "notional": 1.3338,
+        "costBasis": 1.3338,
         "currentPrice": 0.25,
-        "currentValue": 1.25,
-        "pnlAmount": -0.1,
-        "pnlRate": -0.0741,
+        "currentValue": 1.235,
+        "pnlAmount": -0.0982,
+        "pnlRate": -0.0736,
         "status": "open",
         "openedAt": "官方接口未提供",
         "openedAtRaw": null,
@@ -1109,16 +1109,16 @@
       "openPositionExposure": 6.72
     },
     "pnl": {
-      "asOf": "2026-03-23T10:50:49.111Z",
-      "realizedPnl": 41.5984,
-      "unrealizedPnl": -49.7589,
-      "totalPnl": -8.1605,
+      "asOf": "2026-03-23T10:51:22.892Z",
+      "realizedPnl": 41.599,
+      "unrealizedPnl": -49.7577,
+      "totalPnl": -8.1587,
       "pnlRate": -0.1195,
-      "deployedCapital": 68.2695,
-      "currentPositionValue": 6.5526,
+      "deployedCapital": 68.2533,
+      "currentPositionValue": 6.5376,
       "openOrderValue": 1.125,
       "availableBalance": 0.9639,
-      "currentTotalValue": 7.5165,
+      "currentTotalValue": 7.5015,
       "baseBankroll": 20,
       "openPositionCount": 63,
       "closedPositionCount": 10,
@@ -26774,6 +26774,15 @@
           "pnlRate": -0.1195,
           "currentTotalValue": 7.5165,
           "status": "official-wallet"
+        },
+        {
+          "index": 2851,
+          "ts": "2026-03-23T10:51:22.892Z",
+          "label": "03/23 18:51",
+          "pnlAmount": -8.1587,
+          "pnlRate": -0.1195,
+          "currentTotalValue": 7.5015,
+          "status": "official-wallet"
         }
       ],
       "curveStartedAt": "2026-03-22T09:01:12.179Z",
@@ -26781,7 +26790,7 @@
     }
   },
   "history": {
-    "fetchedAt": "2026-03-23T10:50:49.304Z",
+    "fetchedAt": "2026-03-23T10:51:22.990Z",
     "stats": {
       "total": 29,
       "open": 0,
