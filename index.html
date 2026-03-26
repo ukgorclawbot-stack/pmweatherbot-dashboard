@@ -662,6 +662,11 @@
         </article>
 
         <article class="panel card span-4">
+          <h2 class="card-title">Strategy Profiles</h2>
+          <div id="strategy-profiles" class="mono loading">加载中...</div>
+        </article>
+
+        <article class="panel card span-4">
           <h2 class="card-title">Recent Issues</h2>
           <div id="issues" class="mono loading">加载中...</div>
         </article>
@@ -1148,6 +1153,36 @@
         node.classList.remove("mono", "loading");
       }
 
+      function renderStrategyProfiles(summary) {
+        const node = document.getElementById("strategy-profiles");
+        if (!node) return;
+
+        const profiles = (summary?.profiles || []).slice(0, 6);
+        if (profiles.length === 0) {
+          node.className = "mono";
+          setPre("strategy-profiles", ["暂无 profile 统计"]);
+          return;
+        }
+
+        node.innerHTML = `
+          <div class="reason-list">
+            ${profiles.map(profile => `
+              <div class="reason-item">
+                <div class="reason-row">
+                  <strong>${escapeHtml(profile.label || profile.key || "-")}</strong>
+                  <span>${escapeHtml(`24h ${profile.recentAccepted || 0}/${profile.recentRejected || 0}`)}</span>
+                </div>
+                <div class="hint">挂单 ${escapeHtml(String(profile.openOrders || 0))} · 持仓 ${escapeHtml(String(profile.openPositions || 0))}</div>
+                <div class="hint">挂单价值 ${escapeHtml(formatMoney(profile.openOrderValue || 0))} · 持仓成本 ${escapeHtml(formatMoney(profile.openPositionValue || 0))}</div>
+                <div class="hint">最近成交/拒单 ${escapeHtml(profile.lastTradeAtLabel || "-")}</div>
+              </div>
+            `).join("")}
+            <div class="hint">窗口期 ${escapeHtml(String(summary?.windowHours || 24))}h。格式为 accepted/rejected。</div>
+          </div>
+        `;
+        node.classList.remove("mono", "loading");
+      }
+
       function setSignedMetric(id, value, formatter) {
         const node = document.getElementById(id);
         if (!node) return;
@@ -1253,6 +1288,7 @@
           renderOrders(payload.portfolio.orders);
           renderTrades(payload.history.trades);
           renderBlockers(payload.blockers);
+          renderStrategyProfiles(payload.history.profiles);
           setPre("scan-summary", payload.recent.sections.scanSummary);
           setPre("issues", payload.recent.sections.issues);
           setPre("stale-summary", payload.recent.sections.stale);
@@ -1265,6 +1301,9 @@
           const blockerNode = document.getElementById("entry-blockers");
           if (blockerNode) blockerNode.className = "mono";
           setPre("entry-blockers", "读取失败");
+          const profileNode = document.getElementById("strategy-profiles");
+          if (profileNode) profileNode.className = "mono";
+          setPre("strategy-profiles", "读取失败");
           setPre("scan-summary", `dashboard api error\n${error.message}`);
           setPre("issues", "读取失败");
           setPre("stale-summary", "读取失败");
