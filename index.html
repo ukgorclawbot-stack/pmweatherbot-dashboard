@@ -1179,6 +1179,7 @@
               </div>
             `).join("")}
             <div class="hint">窗口期 ${escapeHtml(String(summary?.windowHours || 24))}h 的成交/拒单统计；${escapeHtml(summary?.pnlScopeLabel || "PnL 仅统计 tracker 可归因仓位。")}</div>
+            <div class="hint">${escapeHtml(summary?.classificationNote || "缺少 profile 的记录会按 Legacy/Unclassified 规则归类。")}</div>
           </div>
         `;
         node.classList.remove("mono", "loading");
