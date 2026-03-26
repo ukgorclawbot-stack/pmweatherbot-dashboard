@@ -1172,7 +1172,7 @@
                   <strong>${escapeHtml(profile.label || profile.key || "-")}</strong>
                   <span>${escapeHtml(formatMoney(profile.totalPnl || 0))}</span>
                 </div>
-                <div class="hint">已实现 ${escapeHtml(formatMoney(profile.realizedPnl || 0))} · 浮动 ${escapeHtml(formatMoney(profile.unrealizedPnl || 0))} · 回报 ${escapeHtml(formatPercent(profile.pnlRate || 0))}</div>
+                <div class="hint">已实现 ${escapeHtml(formatMoney(profile.realizedPnl || 0))} · 浮动 ${escapeHtml(formatMoney(profile.unrealizedPnl || 0))} · 回报 ${escapeHtml(profile.pnlRate == null ? "-" : formatPercent(profile.pnlRate))}</div>
                 <div class="hint">24h accepted/rejected ${escapeHtml(`${profile.recentAccepted || 0}/${profile.recentRejected || 0}`)} · 最近成交 ${escapeHtml(profile.lastTradeAtLabel || "-")}</div>
                 <div class="hint">挂单 ${escapeHtml(String(profile.openOrders || 0))} · 持仓 ${escapeHtml(String(profile.openPositions || 0))} · 退出中 ${escapeHtml(String(profile.closingPositions || 0))} · 已平 ${escapeHtml(String(profile.closedPositions || 0))}</div>
                 <div class="hint">挂单价值 ${escapeHtml(formatMoney(profile.openOrderValue || 0).replace("+", ""))} · 持仓成本 ${escapeHtml(formatMoney(profile.openPositionValue || 0).replace("+", ""))} · 累计投入 ${escapeHtml(formatMoney(profile.deployedCapital || 0).replace("+", ""))}</div>
